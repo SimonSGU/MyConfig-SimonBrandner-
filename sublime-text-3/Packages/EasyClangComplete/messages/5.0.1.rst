@@ -1,0 +1,16 @@
+Version 5.0.1
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Info popup also shows links to argument types, thanks @kjteske
+- Show ERROR/WARNING prefix when showing all errors
+- Fix the margin around the new popups
+- Fix reloading the plugin
+
+Show your support!
+------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Thanks for all your contributions since the last version!

@@ -1,0 +1,17 @@
+Version 5.0.2
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Fix errors opening files with unicode characters, thanks @kjteske
+- Allow using the plugin with cuda-c++ syntax
+- Allow using with Apple Clang 9.1 (XCode 9.3)
+- Override default std flag with one generated from flags source if needed
+
+Thanks for your support!
+------------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Don't hesitate to tell me where and how you use it!
+

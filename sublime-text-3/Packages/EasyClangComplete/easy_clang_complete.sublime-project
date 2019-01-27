@@ -1,0 +1,45 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"easy_clang_complete_verbose": true,
+		"ecc_flags_sources":
+		[
+			{
+				"file": "CMakeLists.txt",
+				"flags":
+				[
+					"-DCMAKE_BUILD_TYPE=Release",
+					"-D XXXX=ON"
+				],
+				"prefix_paths":
+				[
+					"/opt/ros/indigo",
+					"~/Code/catkin_ws/devel",
+					"$project_base_path/catkin_ws/devel"
+				]
+			},
+			{
+				"file": "Makefile"
+			},
+			{
+				"file": ".clang_complete"
+			}
+		],
+		"ecc_use_libclang": true
+	}
+}

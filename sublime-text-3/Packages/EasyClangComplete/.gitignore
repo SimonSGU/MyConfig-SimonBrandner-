@@ -1,0 +1,26 @@
+
+# added by GitSavvy
+/easy_clang_complete.sublime-workspace
+
+# added by GitSavvy
+/test.c
+
+# added by GitSavvy
+/test.cpp
+
+# added by GitSavvy
+/easy_auto_complete.sublime-workspace
+
+# added by GitSavvy
+/tests/cmake_tests/.clang_complete
+
+/plugin/utils/__pycache__/
+
+*__pycache__/
+EasyClangComplete.sublime-workspace
+
+*.pyc
+
+/docs/.sass-cache/
+
+/site/

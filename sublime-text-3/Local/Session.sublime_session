@@ -1,0 +1,650 @@
+{
+	"folder_history":
+	[
+		"/etc/i3"
+	],
+	"last_version": 3176,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ma",
+						"main\tmain()"
+					],
+					[
+						"d",
+						"double"
+					],
+					[
+						"in",
+						"include"
+					],
+					[
+						"i",
+						"i"
+					],
+					[
+						"st",
+						"std"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 243.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 417.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/simon/rofi/themes/Arc-Dark.rasi",
+				"/home/simon/MEGA/FactorioSERVER/startserver.sh",
+				"/usr/bin/rofi-theme-selector",
+				"/home/simon/.Xresources",
+				"/home/simon/.config/rofi",
+				"/home/simon/.config/i3blocks.conf",
+				"/home/simon/Downloads/polybar/build/CMakeFiles/CMakeOutput.log",
+				"/home/simon/.config/compton/compton.conf",
+				"/home/simon/Downloads/polybar/README.md",
+				"/home/simon/Downloads/polybar/read",
+				"/etc/i3/config",
+				"/home/simon/PortableApps/TeamViewer/teamviewer.desktop",
+				"/home/simon/MEGA/Qt/CPPMUI/LinuxCommandExample1.cpp",
+				"/home/simon/Downloads/timeshift-v19.01-amd64.run",
+				"/home/simon/PortableApps/UnrealEngine-release/LICENSE.md",
+				"/home/simon/.cache/kioexec/krun/3350_0/README.md",
+				"/home/simon/PortableApps/Discord/discord.desktop",
+				"/home/simon/MEGA/NeuralNet/FirstExperiment/Neuron.hpp",
+				"/home/simon/MEGA/NeuralNet/FirstExperiment/Main.cpp",
+				"/home/simon/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/simon/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/simon/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+				"/home/simon/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 28.9132602193
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"batt",
+					"mode",
+					"menu",
+					"powermen",
+					"module",
+					"date",
+					"%",
+					"cpu",
+					"ips",
+					"ip",
+					"valume",
+					"opoc",
+					"dmen"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 28.9132602193
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 130.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+			"replace":
+			{
+				"height": 53.8384845464
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 156.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ma",
+						"main\tmain()"
+					],
+					[
+						"d",
+						"double"
+					],
+					[
+						"in",
+						"include"
+					],
+					[
+						"i",
+						"i"
+					],
+					[
+						"st",
+						"std"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/simon/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 7078,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/simon/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 8567,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/simon/.config/polybar/launch.sh",
+					"settings":
+					{
+						"buffer_size": 257,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/C++/C++ Single File.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 243.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 417.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/etc/i3"
+			],
+			"file_history":
+			[
+				"/home/simon/.config/termite/config",
+				"/home/simon/.Xresources",
+				"/usr/share/rofi/themes/sidebar.rasi",
+				"/home/simon/rofi/themes/Arc-Dark.rasi",
+				"/home/simon/MEGA/FactorioSERVER/startserver.sh",
+				"/usr/bin/rofi-theme-selector",
+				"/home/simon/.config/rofi",
+				"/home/simon/.config/i3blocks.conf",
+				"/home/simon/Downloads/polybar/build/CMakeFiles/CMakeOutput.log",
+				"/home/simon/.config/compton/compton.conf",
+				"/home/simon/Downloads/polybar/README.md",
+				"/home/simon/Downloads/polybar/read",
+				"/etc/i3/config",
+				"/home/simon/PortableApps/TeamViewer/teamviewer.desktop",
+				"/home/simon/MEGA/Qt/CPPMUI/LinuxCommandExample1.cpp",
+				"/home/simon/Downloads/timeshift-v19.01-amd64.run",
+				"/home/simon/PortableApps/UnrealEngine-release/LICENSE.md",
+				"/home/simon/.cache/kioexec/krun/3350_0/README.md",
+				"/home/simon/PortableApps/Discord/discord.desktop",
+				"/home/simon/MEGA/NeuralNet/FirstExperiment/Neuron.hpp",
+				"/home/simon/MEGA/NeuralNet/FirstExperiment/Main.cpp",
+				"/home/simon/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/simon/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/simon/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+				"/home/simon/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.8833499501
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"border",
+					"hide",
+					"$mod+shift+",
+					"$mod+shift+s",
+					"$mod+shift+l",
+					"batt",
+					"mode",
+					"menu",
+					"powermen",
+					"module",
+					"date",
+					"%",
+					"cpu",
+					"ips",
+					"ip",
+					"valume",
+					"opoc",
+					"dmen"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/etc/i3"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/simon/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7078,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										226,
+										226
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 58.8235294118,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/simon/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8567,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6834,
+										6834
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1119.64107677,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/simon/.config/polybar/launch.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 257,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										211,
+										211
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.9132602193
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 130.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+			"position": "0,0,0,0,0,804,40,1582,454,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 53.8384845464
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 156.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/simon/MEGA/NeuralNet/FirstExperiment/ProjectFile.sublime-workspace"
+		]
+	}
+}

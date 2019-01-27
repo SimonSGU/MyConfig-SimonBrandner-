@@ -1,0 +1,188 @@
+Version 4.0.1
+=============
+
+Fixes and improvements:
+-------------
+- fixed an issue when completions were not shown in if statements by adding
+  '[' and '(' to valid completion triggers.
+- @darwinyip has added tab as a trigger for those who indent with tabs
+
+Version 4.0.2
+=============
+
+Fixes and improvements:
+-------------
+- better parsing of ``compilation_database.json``
+- now also databases generated with Bear are supported.
+- tooltips now also show information about macro declaration.
+- better parsing of Doxygen comments for tooltips. Now also works without an
+  explicit brief tag.
+
+Version 4.0.3
+=============
+
+Fixes and improvements:
+-------------
+- the settings are loaded lazily now, which guarantees that they always will
+  be valid in case they get invalidated or not fully loaded (e.g. while the
+  plugin is loading for the first time).
+- clean install of the plugin and updates should work properly without
+  restarting sublime text now.
+- disabling/enabling the plugin should not crash it anymore.
+- on some systems, libclang reported the file name as encoded string which
+  resulted in unnecessary re-parsing of the translation unit. This is fixed
+  now.
+
+Version 4.0.4
+=============
+
+Fixes and improvements:
+-------------
+- allow disabling status animation
+- remove annoying error for invalid views from the console output
+- allow people to use new clang 5.0 if they really feel they want to.
+  (*WARNING*: please use clang 4.0 until clang 5.0 is officially out)
+
+Version 4.0.5
+=============
+
+Fixes and improvements:
+-------------
+- a change to any ``*.sublime-ptoject`` file now leads to a reload of settings
+- this allows quick editing of settings without reloading the plugin
+
+Version 4.1.0
+=============
+
+Fixes and improvements:
+-------------
+- removed a couple of threads related memoty leaks
+- change debug and info logging style
+- disambiguate between apple clang and general clang (@rwols)
+- allow using all variables of sublime's window in settings (@rwols)
+- fix disappearing param tag in Doxygen comments (@papadokolos)
+
+Version 4.1.1
+=============
+
+Urgent bug fix:
+---------------
+- allowing all sublime variables in plugin settings broke proper variable
+  expansion. Revert this commit.
+
+Version 4.1.2
+=============
+
+Improvement:
+---------------
+- Allow using C++ (Colorcode) syntax with this plugin.
+
+Version 4.2.0
+=============
+
+New features and fixes:
+-----------------------
+- Add ``*`` symbol that can be put at the end of each path.
+  - It expands the path to all its children:
+
+      <path>/* --> [<path>/folder_1, <path>/folder_2, ...]
+
+- Allow using this plugin with Apple Clang 9.0
+- Minor bug fixes and stability improvements
+
+Version 4.2.1
+=============
+
+Bug fixes and improvements:
+---------------------------
+- Fix accidentally broken variable expansion in settings.
+- Allow using all variables defined in sublime text.
+
+Version 4.2.2
+=============
+
+Bug fixes and improvements:
+---------------------------
+- Allow using with recently released clang 5.0.
+- Add fallback option to use clang 6.0 for those on the bleeding edge.
+- Fix not reading ``directory`` in the compilation database. Thanks @tillt.
+
+Version 4.2.3
+=============
+
+Bug fixes and improvements:
+---------------------------
+- Minor fixes to the new clang 5.0 bindings.
+
+Version 4.2.4
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Allow peeking full macro definition, thanks @dibalavs.
+- Remove lag when selecting text.
+
+Version 4.2.5
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Goto declaration with Shift + F12, thanks @dibalavs
+- Allow using read-only CMakeLists.txt files, thanks @mrockey28
+- Allow non-unicode symbols in info msg, thanks @kjteske
+- Allow using cusom cmake binary
+
+Version 4.2.6
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Fix a bug in settings introduced in last release.
+
+Version 4.2.7
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Add gutter icon with two styles, thanks @detly
+- Show full type declaration on mouse hover, thanks @dibalavs
+
+
+Version 4.3.0
+=============
+
+Improvements and bug fixes:
+---------------------------
+- There was a delay when browsing files with Ctrl+P. Fixed now.
+- Async jobs are properly cancelled now when needed.
+- Better cleanup of old TUs.
+- New setting "header_to_source_mapping" to better handle header files inside of
+  a compilation database. Thanks @mhoeher.
+- Press Ctrl+Shift+E when seeing errors in a file to show a list of them.
+
+Version 5.0.0
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Implement clever headers location lookup, thanks @mhoeher for the PR
+- Support VS config files, thanks @mclayton7 for the PR
+- Move the popups to use mdpopups to have them in a consistent style
+- Remove use of phantoms
+- Fix a bug with duplicating the cache, thanks @braindevices for reporting
+- Fix a bug where types in global namespace could not be completed
+
+Settings deprecation:
+---------------------
+- "errors_style" -> "show_errors" as we do not support phantoms any more
+
+New settings:
+-------------
+- "header_to_source_mapping": a mapping of where to search for source files that
+  correspond to a header. This is useful when using a compilation database as it
+  does not contain header files, but the correct compilation parameters can be
+  read from a corresponding source file
+- "use_target_compiler_built_in_flags": defines if we use the built in includes
+  that come along with the compiler
+- "target_LANGUAGE_compiler": define the target compiler of your toolchain here
+- Check for more details in the default settings file

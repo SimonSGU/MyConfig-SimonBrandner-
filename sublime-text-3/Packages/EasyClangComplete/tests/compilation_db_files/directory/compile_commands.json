@@ -1,0 +1,15 @@
+[
+{
+  "arguments": [
+    "/usr/bin/c++",
+    "-I/usr/local/foo",
+    "-I./include",
+    "-I../../include",
+    "-isystem",
+    "../matilda",
+    "test.cpp"
+    ],
+  "directory": "/foo/bar/test",
+  "file": "test.cpp"
+}
+]

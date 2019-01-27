@@ -1,0 +1,46 @@
+Version 2.0.0
+=============
+
+New features:
+-------------
+
+- **BIG CHANGE**: if your build system is `CMake` the plugin will generate a
+  compilation database and then a file `.clang_complete` near an appropriate
+  `CMakeLists.txt` with the flags needed for your project. It will regenerate
+  this file if you change anything in `CMakeLists.txt`. The process should be
+  completely automatic, but this behavior is still in beta. You can always
+  disable it either from settings or when prompted via a dialog.
+- Lots of small improvements and bug fixes.
+- fix regression in loading relative paths from `.clang_complete` file.
+- support libclang with clang-3.8 on Ubuntu 16.04 with error linting and
+  completions
+- initial support for libclang with clang-3.9
+- fix completions of arrays shown wrongly with binary comletion mode
+- thanks to @rchl:
+    + fix hiding default completions when plugin completions were not generated
+    + fix completions not working on active view after starting Sublime Text
+- fix for usage with OS X El Captain
+- since Sublime Text version 3123 libclang method should work on Windows with
+  clang-3.9. Check it out!
+- when using libclang translation units are cleared based on timer to avoid
+  taking all your memory in case you have many tabs open.
+- thanks to @rchl you don't need to restart Sublime Text in case you changed
+  any settings.
+- thanks to @Mischa-Alff std flags are not separated anymore and the popup
+  words don't break after every word on some systems
+- detection of cmake projects is now case insensitive as should be
+- NO MORE `include_dirs`, `std_flag_c`, `std_flag_cpp` SETTINGS!
+    + use `common_flags`, `c_flags` and `cpp_flags` instead
+    + to specify include paths, use `-I<include_path>` in `common_flags`
+    + specify `-std=*` flags in `c_flags` and/or `cpp_flags`
+    + see updated default settings for an example
+- `libclang` way should be working on Windows with `clang` version >= 3.9
+- override any plugin setting from project-specific settings
+- completions can be triggered from any place (e.g. in the middle of words)
+  with default sublime auto completion keyboard shortcut
+- completions will not be shown if you continue on typing for those rare slow
+  completion requests.
+- new wildcard for `common_flags`: `$clang_version`. Allows for generic include
+  folder for any version of clang
+- fixed a bunch of crashes and deadlocks, improved overall concurrency support
+- overall code base improvements and many-many bug fixes

@@ -1,0 +1,107 @@
+Version 4.0.0
+=============
+
+New features:
+-------------
+
+Version 3.0.1:
+- Use '~' in every path variable in settings to mark your user home directory.
+Version 3.0.2:
+- Fix some flags being split against their will, issue #161.
+- We now handle separable flags and take care of not splitting them.
+Version 3.0.3:
+- Fix regression in completion of class names on `::`, issue 164
+Version 3.0.4:
+- Fix issue with relative paths in compilation databases. Issue #167
+Version 3.1.0:
+- Use `Makefile.cmake` file to detect if cmake needs to be rerun.
+- Add quick command to clean cmake build directory for current view:
+    + Name of command: `EasyClangComplete: Clean current CMake cache`
+- Add support for flags passing to cmake:
+    + A new subsetting `"flags"` under cmake entry in `"flags_sources"`.
+    + See default settings for info.
+- fix `$project_name` variable in settings.
+- completion triggers settings are much better now.
+- fix indentation for example project-specific settings.
+Version 3.1.1:
+- fix wrong completion representation for variadic templates when
+  `use_libclang` is `false`.
+Version 3.2.0:
+- added support for environmental variables in settings.
+- fix `plugin_host` failing when renaming an opened file. Thanks @simia and
+  @silva6 for reporting and help in fixing this.
+- fix for not finding `libclang` when using MSYS2 on Windows. Thanks @DJViolin
+  for help.
+- better error handling overall.
+Version 3.3.0:
+- @simia added function and variable definition popup on mouse hover.
+- Just hover your mouse over a function to see its signature + short comments
+  if present. Only works with when `use_libclang` = "true".
+Version 3.3.1:
+- Version 3.3.0 introduced a crash for those who don't use libclang.
+- This update fixes the issue
+- Core organization improvements
+Version 3.3.2:
+- Make every action of the plugin use a custom thread pool. Before some parts
+  would use the sublime text internal worker thread. Now everything spawns a
+  separate thread from a pool. Please report if you see regressions.
+- Fix blocking other plugins when running long cmake operation.
+Version 3.3.3:
+- hide `#pragme once in main file` warning
+- thanks to @cpagravel we now find a better libclang library in Linux
+- allow using clang 4.0
+- allow using apple-clang 8.1 and 8.2
+- better error message when using unsupported apple-clang version
+Version 3.3.4:
+- fix regression for apple-clang 8.0.0, issue #217
+Version 3.4.0:
+- add progress indicator to show that the plugin is working
+- fix losing translation unit on file save. This reduces processing time when
+  the file is saved by more than 2x. You should feel a speedup! 🏃💨
+- install message is now written in reStructuredText and not in Markdown.
+  This message too.
+Version 3.4.1
+- add "ready" status message
+- set ECC status message to appear on the left
+- catch a rare crash when removing progress animation thread
+Version 3.4.2
+- fix progress animation thread breaking sublime text
+Version 3.5.0
+- fix bug in clang 4.0 python bindings so you can use it now 🍾🎉🎉🎉🍾.
+- progress indicator is now neater and smaller and will not be shown for the
+  files that this plugin does not run on.
+- introduced an optional new setting: ``libclang_path``.
+  - you don't need this if everything is working for you already.
+  - otherwise, if you know where your libclang library lies, you can set it.
+Version 3.5.1
+- new setting: ``progress_style`` allows user to pick progress style from:
+  - "ColorSublime"
+  - "Moon"
+Version 3.5.2
+- ``use_libclang_caching`` - now you can decide if you want to use libclang
+  caching. Using cache is a lot faster, but can produce wrong completions in
+  rare cases. See issue #228 on GitHub for discussions.
+- Thanks @simia for a pull request on this! 👍
+Version 3.5.3
+- Fix a bug with clang 4.0 on Windows. You can use it now!
+- Since clang 4.0 STL headers should be found out of the box on Windows.
+Version 3.5.4
+- Last bugfix release broke compatibility with older clang versions on
+  Windows. This is fixed here.
+Version 3.5.5
+- Hovering over declaration shows type information (also "auto")
+- There should be no need to restart the plugin upon update anymore
+Version 3.5.6
+- Better style of info popup.
+- Full Doxygen comment is shown alongside short one now.
+- Errors and warnings now have colored popup with better style.
+Version 4.0.0
+- **BREAKING CHANGE**:
+  - New setting        : "errors_style".
+  - Deprecated setting : "errors_on_save"
+- The new setting "error_style" allows for a choice between popups and
+  phantoms to show the compilation errors. See settings for more info.
+- Support for Objective C and Objective C++ (only tested on OSX)
+- Seems that the plugin is fast enough, so we have added " " (space) as a
+  trigger for completion.
+- Doxygen comment parsing has gotten slightly better.

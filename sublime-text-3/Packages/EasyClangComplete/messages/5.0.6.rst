@@ -1,0 +1,18 @@
+Version 5.0.6
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Fix issues with having spaces in paths to clang, libclang etc.
+- Fix seldomly occurring error at plugin startup
+- Better objective C info popups, thanks @kjteske
+- Allow using plugin with deviot syntax
+
+Support the development!
+------------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Thanks to all the awesome contributors!
+If you add bounties to Bountysource you can support them too!
+https://www.bountysource.com/teams/easyclangcomplete

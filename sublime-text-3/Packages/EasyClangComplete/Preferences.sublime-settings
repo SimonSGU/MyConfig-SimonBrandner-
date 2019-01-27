@@ -1,0 +1,28 @@
+{
+  // DO NOT MODIFY!
+  // Your changes will be overwritten upon plugin update.
+  // To change the triggers, copy these lines to your user preferences.
+  "auto_complete_triggers":
+  [
+    {
+      "selector": "source.c++ - string - comment - constant.numeric",
+      "characters": ".>:",
+    },
+    {
+      "selector": "source.c - string - comment - constant.numeric",
+      "characters": ".>:",
+    },
+    {
+      "selector": "source.objc++ - string - comment - constant.numeric",
+      "characters": ".>: ",
+    },
+    {
+      "selector": "source.objc - string - comment - constant.numeric",
+      "characters": ".>: ",
+    },
+    {
+      "selector": "source.cuda-c++ - string - comment - constant.numeric",
+      "characters": ".>: ",
+    },
+  ],
+}

@@ -1,0 +1,32 @@
+Version 5.3.0
+=============
+
+Improvements and bug fixes:
+---------------------------
+Fellow roboticists, your catkin projects now can be automatically configured!
+
+If you're using sublime projects for your catkin projects you no longer need to
+manually configure the settings. These settings should now be automatically
+generated based on your workspace and the available ROS version on your system.
+Sorry, but Linux only for now. If you want this functionality on other systems -
+feel free to contribute!
+
+Support the development!
+------------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Thanks to all the awesome contributors!
+If you add bounties to Bountysource you can support them too!
+https://www.bountysource.com/teams/easyclangcomplete
+
+Become a backer on Open Collective!
+https://opencollective.com/EasyClangComplete#backers
+
+I you use this plugin in a company, push to become a sponsor!
+https://opencollective.com/EasyClangComplete#sponsor
+
+This plugin took a significant amount of effort. It is available and will always
+be available for free, both as freedom and as beer.
+
+If you appreciate it - support it. How much would you say it is worth to you?

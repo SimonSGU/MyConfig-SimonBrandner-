@@ -1,0 +1,19 @@
+Version 5.0.4
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Escape declaration text for markdown popups, thanks @mheinzler
+- Remove indentation when showing the body of a type, thanks @mheinzler
+- Show parameters for more kinds of functions, thanks @mheinzler
+- Fix parsing unsaved files using old libclang, thanks @mhoeher
+- Hide popups on movin mouse away, thanks @papadokolos
+- Log error with std flags instead of bugging the user
+
+Thanks for your support!
+------------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Thanks to all the awesome contributors!
+If you add bounties to Bountysource you can support them too!

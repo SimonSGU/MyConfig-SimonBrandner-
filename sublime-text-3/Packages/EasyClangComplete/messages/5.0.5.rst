@@ -1,0 +1,17 @@
+Version 5.0.5
+=============
+
+Improvements and bug fixes:
+---------------------------
+- Escape errors and warnings for markdown popups, thanks @mheinzler
+- Fix wrong size used by libclang with multi-byte chars, thanks @mheinzler
+- Better Objective-C popups, thanks @kjteske
+- Map Apple clang 7.0 to LLVM clang 3.8
+
+Support the development!
+------------------------
+💜 this plugin? Please consider buying me a 🍵
+https://github.com/niosus/EasyClangComplete#support-it
+
+Thanks to all the awesome contributors!
+If you add bounties to Bountysource you can support them too!
