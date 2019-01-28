@@ -1,11 +1,14 @@
+# Basic
+###############################
+
 # Set's mod key
 set $mod Mod4 
 
-# Font for window titles
-font pango:monospace 10 
-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod 
+
+#####################################
+# Basic
 
 # Start a terminal
 bindsym $mod+Return exec termite 
@@ -48,19 +51,6 @@ bindsym $mod+Shift+space floating toggle
 # Change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle 
 
-# Define names of workspaces
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
-# Define names of workspaces
-
 # Switch to workspace
 bindsym $mod+plus workspace $ws1
 bindsym $mod+ecaron workspace $ws2
@@ -91,24 +81,10 @@ bindsym $mod+Shift+eacute move container to workspace $ws10
 bindsym $mod+Shift+r restart
 
 # Logoff, Shutdown, Reboot, Lock
-bindsym $mod+shift+x exec /home/simon/GIT/MyConfig-SimonBrandner-/i3PowerMenu/i3PowerMenu
+bindsym $mod+shift+x exec /home/simon/GIT/i3PowerMenu/i3PowerMenu
 
-
-
-# Logoff, Shutdown, Reboot, Lock
-
-
-# resize window (you can also use the mouse for that)
+# Resize mode (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
         bindsym uring resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
@@ -123,7 +99,78 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+# Resize
 bindsym $mod+r mode "resize"
+
+# Start rofi (a program launcher)
+bindsym $mod+d exec rofi -show run -theme /home/simon/GIT/MyConfig-SimonBrandner-/Rofi/Themes/Arc-Dark.rasi -fullscreen -font serif\ 16  
+
+# Light control
+bindsym $mod+F8 exec "light -U 10"
+bindsym $mod+F9 exec "light -A 10"
+# Light control
+
+#########################################
+# Keys
+
+# Startup
+##########################################
+
+#SettingResolution
+exec_always --no-startup-id "xrandr --newmode 1920x1080_60.00  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync"
+exec_always --no-startup-id "xrandr --addmode VGA-1 1920x1080_60.00"
+exec_always --no-startup-id "xrandr --output VGA-1 --mode 1920x1080_60.00"
+
+exec_always --no-startup-id xrandr --newmode 1600x900_60.00  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+exec_always --no-startup-id xrandr --addmode LVDS-1  1600x900_60.00
+exec_always --no-startup-id xrandr --output LVDS-1 --mode 1600x900_60.00
+#SettingResolution
+
+
+# Start Compton
+exec_always --no-startup-id compton
+
+#Nitrogen background
+exec_always --no-startup-id nitrogen --restore 
+
+# Start nm applet
+exec_always --no-startup-id nm-applet 
+
+# Cache betterlockscreen
+exec_always "betterlockscreen -u /home/simon/Pictures/Wallpaper.jpg"
+
+
+# Polybar
+exec_always $HOME/.config/polybar/launch.sh
+
+# Power
+exec --no-startup-id xfce4-power-manager 
+
+# Keyboard layout
+exec_always "setxkbmap -layout cz,us"
+exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
+
+##########################################
+# Startup
+
+# Look and feel
+################################
+
+# Font for window titles
+font pango:monospace 10 
+
+# Define names of workspaces
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+# Define names of workspaces
 
 set $bg-color            #2f343f
 set $inactive-bg-color   #2f343f
@@ -138,48 +185,15 @@ set $urgent-bg-color     #E53935
 #client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
 #client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
-# start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run -theme /home/simon/GIT/MyConfig-SimonBrandner-/Rofi/Themes/Arc-Dark.rasi -fullscreen -font serif\ 16  
-
-#SettingResolution
-exec_always --no-startup-id "xrandr --newmode 1920x1080_60.00  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync"
-exec_always --no-startup-id "xrandr --addmode VGA-1 1920x1080_60.00"
-exec_always --no-startup-id "xrandr --output VGA-1 --mode 1920x1080_60.00"
-
-exec_always --no-startup-id xrandr --newmode 1600x900_60.00  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
-exec_always --no-startup-id xrandr --addmode LVDS-1  1600x900_60.00
-exec_always --no-startup-id xrandr --output LVDS-1 --mode 1600x900_60.00
-#SettingResolution
-
-
-
-exec_always --no-startup-id compton
-
-#Nitrogen background
-exec_always --no-startup-id nitrogen --restore 
-
-# nm applet
-exec_always --no-startup-id nm-applet 
-
-exec_always "betterlockscreen -u /home/simon/Pictures/Wallpaper.jpg"
-
-
-#Polybar
-exec_always $HOME/.config/polybar/launch.sh
-
-#Power
-exec --no-startup-id xfce4-power-manager 
-
-# Keyboard layout
-exec_always "setxkbmap -layout cz,us"
-exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
-
 new_window 1pixel
 
-default_border pixel 3
+default_border pixel 5
 
 gaps inner 8
 gaps outer 4
+
+################################
+# Look and feel
 
 #Audio
 ###########################################################################################################################
