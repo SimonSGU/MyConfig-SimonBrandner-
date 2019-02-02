@@ -109,6 +109,9 @@ bindsym $mod+F8 exec "light -U 10"
 bindsym $mod+F9 exec "light -A 10"
 # Light control
 
+# Lock
+bindsym $mod+l exec betterlockscreen -l
+
 #########################################
 # Keys
 
