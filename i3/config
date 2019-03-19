@@ -11,7 +11,7 @@ floating_modifier $mod
 # Basic
 
 # Start a terminal
-bindsym $mod+Return exec termite 
+bindsym $mod+Return exec konsole
 
 # Kill focused window
 bindsym $mod+Shift+q kill 
@@ -28,7 +28,7 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-# Move focused window
+# Move focused windowDiccionario
 
 # Split in horizontal orientation
 bindsym $mod+h split h 
@@ -78,9 +78,11 @@ bindsym $mod+Shift+eacute move container to workspace $ws10
 # Move focused container to workspace
 
 # Restart i3
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec "i3-msg restart"
+bindsym $mod+Shift+t exec "kquitapp5 plasmashell && kstart5 plasmashell"
+
 # Some startup stuff
-bindsym $mod+Shift+x exec sh /home/simon/GIT/i3SystemTrayPowerMenu/launch.sh
+# bindsym $mod+Shift+x exec sh /home/simon/GIT/i3SystemTrayPowerMenu/launch.sh
 
 # Resize mode (you can also use the mouse for that)
 mode "resize" {
@@ -101,16 +103,6 @@ mode "resize" {
 # Resize
 bindsym $mod+r mode "resize"
 
-# Start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run -theme /home/simon/GIT/MyConfig-SimonBrandner-/Rofi/Themes/Arc-Dark.rasi -fullscreen -font serif\ 16  
-
-# Light control
-bindsym $mod+F8 exec "light -U 10"
-bindsym $mod+F9 exec "light -A 10"
-# Light control
-
-# Lock
-bindsym $mod+l exec betterlockscreen -l
 
 #########################################
 # Keys
@@ -119,18 +111,7 @@ bindsym $mod+l exec betterlockscreen -l
 ##########################################
 
 # SettingResolution
-
 exec_always xrandr --output VGA-1 --off --output LVDS-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-3 --off --output HDMI-2 --off --output HDMI-1 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off
-
-# exec_always --no-startup-id "xrandr --newmode 1920x1080_60.00  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync"
-# exec_always --no-startup-id "xrandr --addmode VGA-1 1920x1080_60.00"
-# exec_always --no-startup-id "xrandr --output VGA-1 --mode 1920x1080_60.00"
-
-# exec_always --no-startup-id xrandr --newmode 1600x900_60.00  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
-# exec_always --no-startup-id xrandr --addmode LVDS-1  1600x900_60.00
-# exec_always --no-startup-id xrandr --output LVDS-1 --mode 1600x900_60.00
-# SettingResolution
-
 
 # Start Compton
 exec_always --no-startup-id compton
@@ -138,36 +119,12 @@ exec_always --no-startup-id compton
 #Nitrogen background
 exec_always --no-startup-id nitrogen --restore 
 
-# Start nm applet
-exec_always --no-startup-id nm-applet 
-
-# Cache betterlockscreen
-exec_always "betterlockscreen -u /home/simon/Pictures/Wallpaper.jpg"
-
-# Polybar
-exec_always $HOME/.config/polybar/launch.sh
-
-# Power
-exec --no-startup-id xfce4-power-manager 
-
-# Keyboard layout
-exec_always "setxkbmap -layout cz,us"
-exec_always "setxkbmap -option 'grp:alt_shift_toggle'"
-
-# Volume icon
-exec_always --no-startup-id $HOME/.config/volumeicon/launch.sh
-
-# Start Team Viewer
-exec --no-startup-id $HOME/PortableApps/TeamViewer/teamviewer
 
 ##########################################
 # Startup
 
 # Look and feel
 ################################
-
-# Font for window titles
-font pango:monospace 10
 
 # Define names of workspaces
 set $ws1 "1"
@@ -182,18 +139,21 @@ set $ws9 "9"
 set $ws10 "10"
 # Define names of workspaces
 
-set $bg-color            #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+# Set colors
+set $focused_border_color #1E5D5E
+set $unfocused_border_color #212325  
+set $unfocused_switch_to_color #29363C 
+set $urgent_border_color #854044
+set $indicator_color #7E8488
+# Set colors
 
-# window colors
-#                        border              background         text                 indicator
-#client.focused          #00ff00             $bg-color          $text-color          #00ff00
-#client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-#client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-#client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+# Window colors
+#                       background         border                     text                 indicator
+client.focused          $inactive-bg-color $focused_border_color      $text-color          $indicator_color
+client.unfocused        $inactive-bg-color $unfocused_border_color    $inactive-text-color $indicator_color
+client.focused_inactive $inactive-bg-color $unfocused_switch_to_color $inactive-text-color $indicator_color
+client.urgent           $urgent-bg-color   $urgent_border_color       $text-color          $indicator_color
+# Window colors
 
 new_window 1pixel
 
@@ -201,29 +161,41 @@ default_border pixel 5
 
 default_floating_border pixel 5
 
-gaps inner 8
-gaps outer 4
+gaps inner 16
+gaps outer 16
 
 ################################
 # Look and feel
 
-# Pulse audio
-######################################
 
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
-# Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+# Plasma Integration
+#####################################
 
-# Touchpad controls
-bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+no_focus [class=”plasmashell”]
 
-# Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+# Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
+exec --no-startup-id wmctrl -c Plasma
+for_window [title="Desktop - Plasma"] kill; floating enable; border none
+
+# Avoid tiling popups, dropdown windows from plasma
+for_window [class="plasmashell"] floating enable
+for_window [class="Plasma"] floating enable
+for_window [class="krunner"] floating enable
+for_window [class="Kmix"] floating enable
+for_window [class="Klipper"] floating enable
+for_window [class="Plasmoidviewer"] floating enable
+
+# >>> Window Rules <<<
+
+# >>> Avoid tiling for non-Plasma stuff <<<
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_role="About"] floating enable 
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+
+############################################
+# Plasma Integration
