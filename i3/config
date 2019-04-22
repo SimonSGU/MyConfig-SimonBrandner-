@@ -81,8 +81,44 @@ bindsym $mod+Shift+eacute move container to workspace $ws10
 bindsym $mod+Shift+r exec "i3-msg restart"
 bindsym $mod+Shift+t exec "kquitapp5 plasmashell && kstart5 plasmashell"
 
-# Some startup stuff
-# bindsym $mod+Shift+x exec sh /home/simon/GIT/i3SystemTrayPowerMenu/launch.sh
+# Gaps shortcut
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+ 
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+ 
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+ 
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+ 
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+ 
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+ 
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
 
 # Resize mode (you can also use the mouse for that)
 mode "resize" {
@@ -110,11 +146,9 @@ bindsym $mod+r mode "resize"
 # Startup
 ##########################################
 
-# SettingResolution
-exec_always xrandr --output VGA-1 --off --output LVDS-1 --primary --mode 1600x900 --pos 0x0 --rotate normal --output HDMI-3 --off --output HDMI-2 --off --output HDMI-1 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off
 
 # Start Compton
-exec_always --no-startup-id compton
+exec --no-startup-id "compton --blur-method kawase --blur-strength 15"
 
 #Nitrogen background
 exec_always --no-startup-id nitrogen --restore 
@@ -175,7 +209,7 @@ gaps outer 16
 no_focus [class=”plasmashell”]
 
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
-exec --no-startup-id wmctrl -c Plasma
+exec_always "wmctrl -c plasma"
 for_window [title="Desktop - Plasma"] kill; floating enable; border none
 
 # Avoid tiling popups, dropdown windows from plasma
