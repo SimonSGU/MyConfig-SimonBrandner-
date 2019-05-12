@@ -51,6 +51,8 @@ bindsym $mod+Shift+space floating toggle
 # Change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle 
 
+
+
 # Switch to workspace
 bindsym $mod+plus workspace $ws1
 bindsym $mod+ecaron workspace $ws2
@@ -153,6 +155,8 @@ exec --no-startup-id "compton --blur-method kawase --blur-strength 15"
 #Nitrogen background
 exec_always --no-startup-id nitrogen --restore 
 
+# Start devilspie
+exec "devilspie"
 
 ##########################################
 # Startup
@@ -161,17 +165,30 @@ exec_always --no-startup-id nitrogen --restore
 ################################
 
 # Define names of workspaces
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
+set $ws1 "1" 
+set $ws2 "2" 
+set $ws3 "3" 
+set $ws4 "4" 
+set $ws5 "5" 
+set $ws6 "6" 
+set $ws7 "7" 
+set $ws8 "8" 
+set $ws9 "9" 
 set $ws10 "10"
 # Define names of workspaces
+
+
+workspace 1 output HDMI-0
+workspace 2 output HDMI-0
+workspace 3 output HDMI-0
+workspace 4 output HDMI-0
+workspace 5 output HDMI-0
+workspace 6 output DP-0
+workspace 7 output DP-0
+workspace 8 output DP-0
+workspace 9 output DP-0
+workspace 10 output DP-0
+
 
 # Set colors
 set $focused_border_color #1E5D5E
@@ -208,8 +225,8 @@ gaps outer 16
 
 no_focus [class=”plasmashell”]
 
-# Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
-exec_always "wmctrl -c plasma"
+# Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everything)
+exec_always "/home/simon/.config/i3/desktop.sh"
 for_window [title="Desktop - Plasma"] kill; floating enable; border none
 
 # Avoid tiling popups, dropdown windows from plasma
@@ -230,6 +247,7 @@ for_window [window_role="Preferences"] floating enable
 for_window [window_role="About"] floating enable 
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
+
 
 ############################################
 # Plasma Integration
