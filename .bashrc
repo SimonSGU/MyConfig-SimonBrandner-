@@ -431,7 +431,7 @@ bash_prompt() {
 
 	# Generate promt and remove format from the rest                         
 	############################################################################
-	PS1="$TITLEBAR\n${PROMT_TIME}${SEPARATOR_1}${PROMT_USER}${SEPARATOR_2}${PROMT_HOST}${SEPARATOR_3}${PROMT_PWD}${SEPARATOR_4}${PROMT_INPUT}"
+	PS1="$TITLEBAR${PROMT_TIME}${SEPARATOR_1}${PROMT_USER}${SEPARATOR_2}${PROMT_HOST}${SEPARATOR_3}${PROMT_PWD}${SEPARATOR_4}${PROMT_INPUT}"
 	############################################################################
 	# Generate promt and remove format from the rest                         
 
@@ -461,6 +461,9 @@ PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
 
+
+export EDITOR=emacsclient
+export VISUAL=emacsclient
 
 
 ### EOF ###
