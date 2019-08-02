@@ -431,7 +431,7 @@ bash_prompt() {
 
 	# Generate promt and remove format from the rest                         
 	############################################################################
-	PS1="$TITLEBAR${PROMT_TIME}${SEPARATOR_1}${PROMT_USER}${SEPARATOR_2}${PROMT_HOST}${SEPARATOR_3}${PROMT_PWD}${SEPARATOR_4}${PROMT_INPUT}"
+	PS1="$TITLEBAR${PROMT_USER}${SEPARATOR_2}${PROMT_HOST}${SEPARATOR_3}${PROMT_PWD}${SEPARATOR_4}${PROMT_INPUT}"
 	############################################################################
 	# Generate promt and remove format from the rest                         
 
@@ -462,8 +462,20 @@ bash_prompt
 unset bash_prompt
 
 
-export EDITOR=emacsclient
-export VISUAL=emacsclient
+#export EDITOR=emacsclient
+#export VISUAL=emacsclient
+export EDITOR=/home/simon/GITLink/dotfiles/emacsclient.sh
+export VISUAL=/home/simon/GITLink/dotfiles/emacsclient.sh
+
+
+if [[ $(ps --no-header -p $PPID -o comm) =~ yakuake|emacs|emacs25 ]]; then for wid in $(xdotool search --pid $PPID); do xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done fi
+
+
+
+# -----------
+export TERM=xterm-256color
+export TERMCAP=
+# ------------
 
 
 ### EOF ###

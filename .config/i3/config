@@ -52,6 +52,7 @@ bindsym $mod+space focus mode_toggle
 
 
 # Switch to workspace
+bindsym $mod+semicolon workspace $ws0
 bindsym $mod+plus workspace $ws1
 bindsym $mod+ecaron workspace $ws2
 bindsym $mod+scaron workspace $ws3
@@ -65,6 +66,7 @@ bindsym $mod+eacute workspace $ws10
 # Switch to workspace
 
 # Move focused container to workspace
+bindsym $mod+Shift+semicolon move container to workspace $ws0
 bindsym $mod+Shift+plus move container to workspace $ws1
 bindsym $mod+Shift+ecaron move container to workspace $ws2
 bindsym $mod+Shift+scaron move container to workspace $ws3
@@ -121,7 +123,7 @@ mode "$mode_gaps_outer" {
 
 # Resize mode (you can also use the mouse for that)
 mode "resize" {
-        bindsym uring resize grow width 10 px or 10 ppt
+        bindsym using resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -138,27 +140,37 @@ mode "resize" {
 # Resize
 bindsym $mod+r mode "resize"
 
-
 #########################################
 # Keys
 
-# Startup
+# Exec always
 ##########################################
-
-
-# Start Compton
-exec --no-startup-id "compton --blur-method kawase --blur-strength 15"
-
-#Nitrogen background
-exec_always --no-startup-id nitrogen --restore
-
+exec_always --no-startup-id nitrogen --restore # Nitrogen background
 ##########################################
-# Startup
+# Exec always
 
-# Look and feel
-################################
+# Exec
+############################################
+exec --no-startup-id "glava --desktop" # Start GLava
+exec --no-startup-id "compton --blur-method kawase --blur-strength 15" # Start Compton
+exec --no-startup-id "chromium" # Start Chromium
+exec --no-startup-id "discord" # Start Discord
+exec --no-startup-id "megasync" # Start MEGASync
+exec --no-startup-id "thunderbird" # Start Thunderbird
+exec --no-startup-id "/opt/viber/Viber %u" # Start Viber
+exec --no-startup-id "/home/simon/.config/i3/conky.sh" # Start Conky
+exec --no-startup-id "LD_PRELOAD=/usr/lib/libcurl.so.3:/media/Linux-HDD-Data/PortableApps/spotifywm/spotifywm.so /snap/bin/spotify"
+# exec --no-startup-id "barrier" # Start Barrier
+############################################
+# Exec
+
+
+
+# Workspaces
+#############################################
 
 # Define names of workspaces
+set $ws0 "0"
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -171,7 +183,8 @@ set $ws9 "9"
 set $ws10 "10"
 # Define names of workspaces
 
-
+# Workspaces to displays
+workspace 0 output HDMI-0 
 workspace 1 output HDMI-0
 workspace 2 output HDMI-0
 workspace 3 output HDMI-0
@@ -182,7 +195,15 @@ workspace 7 output DP-0
 workspace 8 output DP-0
 workspace 9 output DP-0
 workspace 10 output DP-0
+# Workspace to display
 
+####################################################
+# Workspaces
+
+
+
+# Look and feel
+################################
 
 # Set colors
 set $focused_border_color #1E5D5E
@@ -202,21 +223,40 @@ client.urgent           $urgent-bg-color   $urgent_border_color       $text-colo
 
 new_window 1pixel
 
-default_border pixel 5
+default_border pixel 3
 
-default_floating_border pixel 5
+default_floating_border pixel 3
 
-gaps inner 16
-gaps outer 16
+gaps inner 8
+gaps outer 8
+
+smart_gaps on
 
 ################################
 # Look and feel
 
 
 
-# Plasma Integration
-#####################################
+# Assign programs to workspaces
+########################################################################
+assign [class="ViberPC"] 0
+assign [class="Discord"] 0
+assign [class="Spotify"] 0
+assign [class="Thunderbird"] 0
+assign [class="Chromium"] 1
+########################################################################
+# Assign programs to workspaces
 
+
+
+# Set layout for workspace 0
+exec_always "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'"
+# Set layout for workspace 0
+
+
+
+# Plasma Integration
+###############################################################
 no_focus [class=”plasmashell”]
 
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everything)
@@ -232,9 +272,8 @@ for_window [class="Klipper"] floating enable
 for_window [class="Plasmoidviewer"] floating enable
 
 # >>> Window Rules <<<
-
 # >>> Avoid tiling for non-Plasma stuff <<<
-for_window [window_role="pop-up"] floating enable
+for_window [window_role="pop-up"] floating enable 
 for_window [window_role="bubble"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [window_role="Preferences"] floating enable
@@ -243,5 +282,5 @@ for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
 
 
-############################################
+############################################################
 # Plasma Integration
