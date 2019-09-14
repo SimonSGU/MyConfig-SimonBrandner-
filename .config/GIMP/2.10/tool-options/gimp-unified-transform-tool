@@ -2,5 +2,6 @@
 
 (background (color-rgb 0.000000 0.000000 0.000000))
 (interpolation linear)
+(cornersnap yes)
 
 # end of gimp-unified-transform-tool options

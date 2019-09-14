@@ -151,15 +151,17 @@ exec_always --no-startup-id nitrogen --restore # Nitrogen background
 
 # Exec
 ############################################
+exec --no-startup-id "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'" # Set layout for workspace 0
 exec --no-startup-id "glava --desktop" # Start GLava
 exec --no-startup-id "compton --blur-method kawase --blur-strength 15" # Start Compton
-exec --no-startup-id "chromium" # Start Chromium
+exec --no-startup-id "chromium" # Start Firefox
 exec --no-startup-id "discord" # Start Discord
 exec --no-startup-id "megasync" # Start MEGASync
 exec --no-startup-id "thunderbird" # Start Thunderbird
-exec --no-startup-id "/opt/viber/Viber %u" # Start Viber
+exec --no-startup-id "/opt/viber/Viber %u" # Start Riot
 exec --no-startup-id "/home/simon/.config/i3/conky.sh" # Start Conky
-exec --no-startup-id "LD_PRELOAD=/usr/lib/libcurl.so.3:/media/Linux-HDD-Data/PortableApps/spotifywm/spotifywm.so /snap/bin/spotify"
+exec --no-startup-id "spotify" # Start Spotify
+exec --no-startup-id "davmail" # Start Davmail
 # exec --no-startup-id "barrier" # Start Barrier
 ############################################
 # Exec
@@ -202,6 +204,18 @@ workspace 10 output DP-0
 
 
 
+# Assign programs to workspaces
+########################################################################
+assign [class="ViberPC"] 0
+assign [class="Discord"] 0
+assign [class="Spotify"] 0
+assign [class="Thunderbird"] 0
+assign [class="Chromium"] 1
+########################################################################
+# Assign programs to workspaces
+
+
+
 # Look and feel
 ################################
 
@@ -237,24 +251,6 @@ smart_gaps on
 
 
 
-# Assign programs to workspaces
-########################################################################
-assign [class="ViberPC"] 0
-assign [class="Discord"] 0
-assign [class="Spotify"] 0
-assign [class="Thunderbird"] 0
-assign [class="Chromium"] 1
-########################################################################
-# Assign programs to workspaces
-
-
-
-# Set layout for workspace 0
-exec_always "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'"
-# Set layout for workspace 0
-
-
-
 # Plasma Integration
 ###############################################################
 no_focus [class=”plasmashell”]
@@ -284,3 +280,5 @@ for_window [window_type="menu"] floating enable
 
 ############################################################
 # Plasma Integration
+
+# LocalWords:  viber davmail

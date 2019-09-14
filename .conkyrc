@@ -28,11 +28,11 @@ conky.config = {
 }
  
 conky.text = [[
-${font Terminus:size=14}${color #756969}$nodename ${hr 2} ${alignr}${font}$color
+${font Terminus:size=14}$nodename ${hr 2} ${alignr}${font}
  
 ${offset 20}Kernel:$alignr${kernel}
  
-${font Terminus:size=12}${color #756969}CPU ${hr 2} ${alignr}${font}$color
+${font Terminus:size=12}CPU ${hr 2} ${alignr}${font}
  
 ${offset 20}Average (${cpu cpu0}%)
 ${offset 20}${cpugraph cpu0}
@@ -46,12 +46,12 @@ ${offset 20}${cpugraph cpu3}
 ${offset 20}Core 4 (${cpu cpu4}%) 
 ${offset 20}${cpugraph cpu4}
 
-${font Terminus:size=12}${color #756969}Memory ${hr 2} ${alignr}${font}$color
+${font Terminus:size=12}RAM ${hr 2} ${alignr}${font}
  
 ${offset 20}$mem / $memmax $alignr $memperc%
 ${offset 20}$membar
 
-${font Terminus:size=12}${color #756969}Storage ${hr 2} ${alignr}${font}$color
+${font Terminus:size=12}Storage ${hr 2} ${alignr}${font}
  
 ${offset 20}/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
 ${offset 20}${fs_bar /}
@@ -59,5 +59,5 @@ ${offset 20}${fs_bar /}
 ${offset 20}Linux-HDD-Data $alignc ${fs_used /home/simon/mediaLink/Linux-HDD-Data} / ${fs_size /home/simon/mediaLink/Linux-HDD-Data} $alignr ${fs_used_perc /home/simon/mediaLink/Linux-HDD-Data}%
 ${offset 20}${fs_bar /home/simon/mediaLink/Linux-HDD-Data/}
  
-${font Terminus:size=12}${color #756969}Úkoly ${hr 2} ${alignr}${font}$color
+${font Terminus:size=12}Úkoly ${hr 2} ${alignr}${font}
 ]]

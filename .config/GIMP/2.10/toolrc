@@ -5,7 +5,7 @@
     (visible yes))
 (GimpToolInfo "gimp-move-tool"
     (icon-name "gimp-tool-move")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-rect-select-tool"
     (icon-name "gimp-tool-rect-select")
     (visible yes))
@@ -44,7 +44,7 @@
     (visible no))
 (GimpToolInfo "gimp-scale-tool"
     (icon-name "gimp-tool-scale")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-shear-tool"
     (icon-name "gimp-tool-shear")
     (visible no))
@@ -113,24 +113,24 @@
     (visible yes))
 (GimpToolInfo "gimp-mypaint-brush-tool"
     (icon-name "gimp-tool-mypaint-brush")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-brightness-contrast-tool"
     (icon-name "gimp-tool-brightness-contrast")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-threshold-tool"
     (icon-name "gimp-tool-threshold")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-levels-tool"
     (icon-name "gimp-tool-levels")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-curves-tool"
     (icon-name "gimp-tool-curves")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-operation-tool"
     (icon-name "gimp-gegl")
     (visible no))
 (GimpToolInfo "gimp-gegl-tool"
     (icon-name "gimp-gegl")
-    (visible no))
+    (visible yes))
 
 # end of toolrc

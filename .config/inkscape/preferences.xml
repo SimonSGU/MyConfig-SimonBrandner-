@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="648.571"
-         height="525.714"
+         width="545.482"
+         height="975.807"
          rx="0"
          ry="0" />
       <eventcontext
@@ -170,7 +170,9 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         rx="225.264"
+         ry="240.416" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -324,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -427,7 +429,7 @@
        precision="2"
        scale="100"
        offset="5"
-       unit="px"
+       unit="mm"
        measure-start="0,0"
        measure-end="0,0" />
   </group>
@@ -1016,10 +1018,10 @@
      id="desktop"
      style="line-height:1.25;fill:#00ff00">
     <group
-       width="1846"
-       height="976"
-       x="32"
-       y="62"
+       width="910"
+       height="980"
+       x="968"
+       y="58"
        fullscreen="0"
        id="geometry"
        maximized="0" />

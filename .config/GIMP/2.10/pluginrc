@@ -3635,6 +3635,8 @@
         (proc-arg 4 "filename" "The name of the file to load")
         (proc-arg 4 "raw-filename" "The name entered")
         (proc-arg 13 "image" "Output image")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-darktable/file-darktable" 1545661022
+    (has-init))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/file-csource/file-csource" 1545661022
     (proc-def "file-csource-save" 1
          "Dump image data in RGB(A) format for C source"
@@ -4487,6 +4489,47 @@
          ""
          1
         (menu-path "<Image>/File/Create/Acquire/XSane/Device dialog...")
+        (icon icon-name -1 "")
+         ""
+         1 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/iscan" 1417585776
+    (proc-def "Image Scan! for Linux" 2
+         "Front-end to the SANE interface"
+         "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
+         "AVASYS CORPORATION"
+         "SEIKO EPSON CORPORATION"
+         "2009"
+         ""
+         1
+        (menu-path "<Image>/File/Create/Acquire/Scanning (iscan)...")
+        (icon icon-name -1 "")
+         ""
+         1 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/xscanimage" 1541457305
+    (proc-def "xscanimage" 2
+         "Front-end to the SANE interface"
+         "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
+         "Andy Beck, Tristan Tarrant, and David Mosberger"
+         "Andy Beck, Tristan Tarrant, and David Mosberger"
+         "8th June 1997"
+         ""
+         1
+        (menu-path "<Image>/File/Create/Acquire/xscanimage/Device dialog...")
+        (icon icon-name -1 "")
+         ""
+         1 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive"))
+    (proc-def "xscanimage-hpaio-3a--2f-net-2f-deskjet-5f-3830-5f-series-3f-ip-3d-10-2e-0-2e-0-2e-33-26-queue-3d-false" 2
+         "Front-end to the SANE interface"
+         "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
+         "Andy Beck, Tristan Tarrant, and David Mosberger"
+         "Andy Beck, Tristan Tarrant, and David Mosberger"
+         "8th June 1997"
+         ""
+         1
+        (menu-path "<Image>/File/Create/Acquire/xscanimage/hpaio:'net'deskjet_3830_series?ip=10.0.0.33&queue=false")
         (icon icon-name -1 "")
          ""
          1 0

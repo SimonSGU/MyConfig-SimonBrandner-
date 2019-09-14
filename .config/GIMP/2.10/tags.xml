@@ -418,7 +418,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="4a878c6cfae0b0e03c0834723daadf92">
+  <resource identifier="gimp-gradient-custom" checksum="e080bb03017ad8c6df92b2cd38c981b9">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
@@ -434,6 +434,9 @@
   </resource>
 
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
+  </resource>
+
+  <resource identifier="${gimp_dir}/gradients/Untitled.ggr" checksum="ddc8841f60246138068a49dc22875804">
   </resource>
 
   <resource identifier="${gimp_data_dir}/gradients/Abstract_1.ggr" checksum="edaa7d1fc882ab813b75b49ee9272913">
@@ -646,7 +649,10 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="69e48a30d4d7111a9612e2193924e536">
+  <resource identifier="gimp-palette-color-history" checksum="ec27afdd3a3344d0080dd8fee086c7b8">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/Untitled.gpl" checksum="a30853b0cf22a3560598be3559031284">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -769,6 +775,30 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
+  <resource identifier="all-the-icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Andale Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Black," checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="AvantGarde LT Medium, Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Bitstream Charter" checksum="(null)">
   </resource>
 
@@ -823,6 +853,45 @@
   <resource identifier="Caladea Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Calibri" checksum="(null)">
+  </resource>
+
+  <resource identifier="Calibri Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Calibri Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Calibri Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cambria" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cambria Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cambria Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cambria Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cambria Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Candara" checksum="(null)">
+  </resource>
+
+  <resource identifier="Candara Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Candara Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Candara Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Carlito" checksum="(null)">
   </resource>
 
@@ -859,6 +928,48 @@
   <resource identifier="cmsy10" checksum="(null)">
   </resource>
 
+  <resource identifier="Comic Sans MS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Comic Sans MS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Consolas" checksum="(null)">
+  </resource>
+
+  <resource identifier="Consolas Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Consolas Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Consolas Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Constantia" checksum="(null)">
+  </resource>
+
+  <resource identifier="Constantia Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Constantia Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Constantia Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Corbel" checksum="(null)">
+  </resource>
+
+  <resource identifier="Corbel Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Corbel Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Corbel Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Courier" checksum="(null)">
   </resource>
 
@@ -869,6 +980,18 @@
   </resource>
 
   <resource identifier="Courier Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Courier 10 Pitch" checksum="(null)">
@@ -961,6 +1084,9 @@
   <resource identifier="eufm10" checksum="(null)">
   </resource>
 
+  <resource identifier="file-icons" checksum="(null)">
+  </resource>
+
   <resource identifier="FontAwesome" checksum="(null)">
   </resource>
 
@@ -1000,6 +1126,9 @@
   <resource identifier="FreeSerif Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="GE Inspira" checksum="(null)">
+  </resource>
+
   <resource identifier="Gentium" checksum="(null)">
   </resource>
 
@@ -1036,10 +1165,28 @@
   <resource identifier="Gentium Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Georgia" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="GFS Baskerville" checksum="(null)">
   </resource>
 
   <resource identifier="GFS Porson" checksum="(null)">
+  </resource>
+
+  <resource identifier="github-octicons" checksum="(null)">
+  </resource>
+
+  <resource identifier="GLYPHICONS Halflings" checksum="(null)">
   </resource>
 
   <resource identifier="Hack" checksum="(null)">
@@ -1052,6 +1199,9 @@
   </resource>
 
   <resource identifier="Hack Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Impact Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Latin Modern Math" checksum="(null)">
@@ -1375,12 +1525,6 @@
   <resource identifier="Liberation Serif Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Lightworks Symbols" checksum="(null)">
-  </resource>
-
-  <resource identifier="Lightworks Symbols 3," checksum="(null)">
-  </resource>
-
   <resource identifier="Linux Biolinum Keyboard O Bold" checksum="(null)">
   </resource>
 
@@ -1418,6 +1562,9 @@
   </resource>
 
   <resource identifier="Linux Libertine O Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Material Icons" checksum="(null)">
   </resource>
 
   <resource identifier="MathJax_AMS" checksum="(null)">
@@ -7246,6 +7393,60 @@
   <resource identifier="Quicksand Medium, Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Roboto" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed," checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Condensed, Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto Medium Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Roboto Slab" checksum="(null)">
   </resource>
 
@@ -7256,6 +7457,12 @@
   </resource>
 
   <resource identifier="Roboto Slab weight=255" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto weight=255" checksum="(null)">
+  </resource>
+
+  <resource identifier="Roboto weight=255 Italic" checksum="(null)">
   </resource>
 
   <resource identifier="rsfs10 Italic" checksum="(null)">
@@ -7283,6 +7490,48 @@
   </resource>
 
   <resource identifier="Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Source Code Pro Ultra-Light Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Standard Symbols L" checksum="(null)">
@@ -7405,6 +7654,33 @@
   <resource identifier="TeX Gyre Termes Math" checksum="(null)">
   </resource>
 
+  <resource identifier="Times New Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Ubuntu" checksum="(null)">
+  </resource>
+
   <resource identifier="URW Bookman L" checksum="(null)">
   </resource>
 
@@ -7456,7 +7732,25 @@
   <resource identifier="Utopia Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Verdana" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="wasy10" checksum="(null)">
+  </resource>
+
+  <resource identifier="Weather Icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Webdings" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/tool-presets/Paint/Airbrush.gtp" checksum="(null)">

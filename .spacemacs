@@ -7,6 +7,7 @@
                                           all-the-icons
                                           ecb
                                           flymd
+                                          iflipb
                                           )
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; additional packages
@@ -41,16 +42,12 @@
              ac-flyspell-workaround t
              )
 
-
-
          latex
          (latex :variables
              latex-build-command "LaTeX"
              latex-enable-auto-fill t
              TeX-view-program-selection '((output-pdf "PDF Tools"))
              )
-
-
 
          shell
          (shell :variables
@@ -59,23 +56,21 @@
              shell-default-shell 'multi-term
              )
 
-
-
          spell-checking
          (spell-checking :variables
              spell-checking-enable-auto-dictionary t
              enable-flyspell-auto-completion t)
 
-
-
          c-c++
          (c-c++ :variables
              c-c++-enable-clang-support t)
 
-         markdown
-         ;;(markdown :variables
-         ;;    markdown-live-preview-engine 'vmd)
+         javascript
+         (javascript :variables
+             javascript-disable-tern-port-files nil
+             )
 
+         markdown
          helm
          games
          csharp
@@ -88,8 +83,8 @@
          version-control
          html
          pdf-tools
-         javascript
          spacemacs-layouts
+         tabbar
          ;;semantic
          )
     ;; configuration layers
@@ -387,6 +382,7 @@
 
     (setq evil-emacs-state-cursor '("chartreuse3" (bar . 2))) ;; Set cursor shape
 
+    (setq-default omnisharp-server-executable-path "/media/Linux-HDD-Data/PortableApps/Omnisharp-server/run")
 
     (delete-selection-mode) ;; Overwrite selected text
 
@@ -395,6 +391,12 @@
     (windmove-default-keybindings 'meta) ;; Switching windows with arrows
 
     (put 'web-mode 'flyspell-mode-predicate 'web-mode-flyspefll-verify)
+
+    (add-to-list 'auto-mode-alist '("\\.cshtml$" . web-mode))
+
+    (setq auto-window-vscroll nil)
+
+
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; setq
@@ -423,6 +425,10 @@
     (add-hook 'doc-view-mode-hook
         'auto-revert-mode
         )
+
+    (add-hook 'csharp-mode-hook
+        #'flycheck-mode
+        )
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; add-hook
 
@@ -449,22 +455,27 @@
     (defun FunctionKey7 ()
         'neotree
         'flycheck-list-errors
-         )
+        )
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;; defun
 
-
-
 		;; Keybindings
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    (global-unset-key (kbd "C-z"))
+    (global-unset-key (kbd"C-q"))
+
 		(global-set-key [f7] 'neotree) ;; Set Neotree toggle key to F7
 		(global-set-key [f8] 'save-buffers-kill-terminal) ;; Exit Emacs
 		(global-set-key [f9] 'restart-emacs) ;; Restart Emacs
-		(global-set-key (kbd "C-RET") 'term)
-		(global-set-key (kbd "C-<return>") 'term)
+		(global-set-key (kbd "C-RET") 'term) ;; Open terminal
+		(global-set-key (kbd "C-<return>") 'term) ;; Open terminal
+    (global-set-key (kbd "C-z") 'undo-tree-undo) ;; Undo
+    (global-set-key (kbd "C-S-z") 'undo-tree-redo) ;; Redo
+    (global-set-key (kbd "C-q") 'kill-buffer) ;; Kill buffer
+    (global-set-key (kbd "<C-tab>") 'tabbar-forward) ;; Next tab
+    (global-set-key (if (featurep 'xemacs) (kbd "<C-iso-left-tab>") (kbd "<C-S-iso-lefttab>")) 'tabbar-backward) ;; Previous tab
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;; Keybindings
-
     )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; User config
@@ -481,31 +492,32 @@
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#080808" "#d70000" "#67b11d" "#875f00" "#268bd2" "#af00df" "#00ffff" "#b2b2b2"])
- '(custom-safe-themes
-   (quote
-    ("04589c18c2087cd6f12c01807eed0bdaa63983787025c209b89c779c61c3a4c4" "d74fe1508cff43708fa2f97c4bf58d19f0e002b2e0c92bf958bf483113b7d89d" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "b44f201f67425ece29e34972be12917189cac2bac90e3e35d3160bce211d3199" "47ec21abaa6642fefec1b7ace282221574c2dd7ef7715c099af5629926eb4fd7" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "8a97050c9dd0af1cd8c3290b061f4b6032ccf2044ddc4d3c2c39e516239b2463" "72085337718a3a9b4a7d8857079aa1144ea42d07a4a7696f86627e46ac52f50b" "8dce5b23232d0a490f16d62112d3abff6babeef86ae3853241a85856f9b0a6e7" "450f3382907de50be905ae8a242ecede05ea9b858a8ed3cc8d1fbdf2d57090af" "4138944fbed88c047c9973f68908b36b4153646a045648a22083bd622d1e636d" "1dd7b369ab51f00e91b6a990634017916e7bdeb64002b4dda0d7a618785725ac" "621595cbf6c622556432e881945dda779528e48bb57107b65d428e61a8bb7955" "cd7ffd461946d2a644af8013d529870ea0761dccec33ac5c51a7aaeadec861c2" "54f2d1fcc9bcadedd50398697618f7c34aceb9966a6cbaa99829eb64c0c1f3ca" "2642a1b7f53b9bb34c7f1e032d2098c852811ec2881eec2dc8cc07be004e45a0" "bf5bdab33a008333648512df0d2b9d9710bdfba12f6a768c7d2c438e1092b633" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
- '(ecb-options-version "2.50")
- '(evil-want-Y-yank-to-eol nil)
- '(package-selected-packages
-   (quote
-    (flymd vmd-mode ecb tabbar web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc company-tern tern coffee-mode flyspell-popup gotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme rebecca-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme exotica-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme vscode-icon dakrmine-theme all-the-icons memoize commander omnisharp csharp-mode stickyfunc-enhance srefactor typit mmt sudoku pacmacs dash-functional 2048-game window-numbering org-ref pdf-tools key-chord ivy tablist helm-bibtex parsebib biblio biblio-core company-auctex auctex company-quickhelp web-mode tagedit slim-mode scss-mode sass-mode pug-mode helm-css-scss haml-mode emmet-mode company-web web-completion-data smeargle orgit org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download magit-gitflow magit-popup htmlize helm-gitignore gnuplot gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit transient el-autoyas yasnippet-snippets auto-complete-clang auto-complete-c-headers auto-complete-auctex xterm-color unfill shell-pop mwim multi-term mmm-mode markdown-toc markdown-mode helm-company helm-c-yasnippet git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-commit with-editor git-gutter gh-md fuzzy flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck eshell-z eshell-prompt-extras esh-help diff-hl company-statistics company-c-headers company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete atom-dark-theme atom-one-dark-theme disaster cmake-mode clang-format ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint indent-guide hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
- '(safe-local-variable-values
-   (quote
-    ((projectile-project-compilation-cmd . "make")
-     (projectile-project-test-cmd . "make && ./output")
-     (projectile-project-run-cmd . "./output"))))
- '(tabbar-separator (quote (0.5))))
+    ;; custom-set-variables was added by Custom.
+    ;; If you edit it by hand, you could mess it up, so be careful.
+    ;; Your init file should contain only one such instance.
+    ;; If there is more than one, they won't work right.
+    '( evil-toggle-key "C-`")
+    '(ansi-color-names-vector
+         ["#080808" "#d70000" "#67b11d" "#875f00" "#268bd2" "#af00df" "#00ffff" "#b2b2b2"])
+    '(custom-safe-themes
+         (quote
+             ("04589c18c2087cd6f12c01807eed0bdaa63983787025c209b89c779c61c3a4c4" "d74fe1508cff43708fa2f97c4bf58d19f0e002b2e0c92bf958bf483113b7d89d" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "b44f201f67425ece29e34972be12917189cac2bac90e3e35d3160bce211d3199" "47ec21abaa6642fefec1b7ace282221574c2dd7ef7715c099af5629926eb4fd7" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "8a97050c9dd0af1cd8c3290b061f4b6032ccf2044ddc4d3c2c39e516239b2463" "72085337718a3a9b4a7d8857079aa1144ea42d07a4a7696f86627e46ac52f50b" "8dce5b23232d0a490f16d62112d3abff6babeef86ae3853241a85856f9b0a6e7" "450f3382907de50be905ae8a242ecede05ea9b858a8ed3cc8d1fbdf2d57090af" "4138944fbed88c047c9973f68908b36b4153646a045648a22083bd622d1e636d" "1dd7b369ab51f00e91b6a990634017916e7bdeb64002b4dda0d7a618785725ac" "621595cbf6c622556432e881945dda779528e48bb57107b65d428e61a8bb7955" "cd7ffd461946d2a644af8013d529870ea0761dccec33ac5c51a7aaeadec861c2" "54f2d1fcc9bcadedd50398697618f7c34aceb9966a6cbaa99829eb64c0c1f3ca" "2642a1b7f53b9bb34c7f1e032d2098c852811ec2881eec2dc8cc07be004e45a0" "bf5bdab33a008333648512df0d2b9d9710bdfba12f6a768c7d2c438e1092b633" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+    '(ecb-options-version "2.50")
+    '(evil-want-Y-yank-to-eol nil)
+    '(package-selected-packages
+         (quote
+             (iflipb flymd vmd-mode ecb tabbar web-beautify livid-mode skewer-mode simple-httpd json-mode json-snatcher json-reformat js2-refactor multiple-cursors js2-mode js-doc company-tern tern coffee-mode flyspell-popup gotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme rebecca-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme exotica-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme vscode-icon dakrmine-theme all-the-icons memoize commander omnisharp csharp-mode stickyfunc-enhance srefactor typit mmt sudoku pacmacs dash-functional 2048-game window-numbering org-ref pdf-tools key-chord ivy tablist helm-bibtex parsebib biblio biblio-core company-auctex auctex company-quickhelp web-mode tagedit slim-mode scss-mode sass-mode pug-mode helm-css-scss haml-mode emmet-mode company-web web-completion-data smeargle orgit org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download magit-gitflow magit-popup htmlize helm-gitignore gnuplot gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit transient el-autoyas yasnippet-snippets auto-complete-clang auto-complete-c-headers auto-complete-auctex xterm-color unfill shell-pop mwim multi-term mmm-mode markdown-toc markdown-mode helm-company helm-c-yasnippet git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-commit with-editor git-gutter gh-md fuzzy flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck eshell-z eshell-prompt-extras esh-help diff-hl company-statistics company-c-headers company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete atom-dark-theme atom-one-dark-theme disaster cmake-mode clang-format ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint indent-guide hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
+    '(safe-local-variable-values
+         (quote
+             ((projectile-project-compilation-cmd . "make")
+                 (projectile-project-test-cmd . "make && ./output")
+                 (projectile-project-run-cmd . "./output"))))
+    '(tabbar-separator (quote (0.5))))
 
 
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+    ;; custom-set-faces was added by Custom.
+    ;; If you edit it by hand, you could mess it up, so be careful.
+    ;; Your init file should contain only one such instance.
+    ;; If there is more than one, they won't work right.
+    )
