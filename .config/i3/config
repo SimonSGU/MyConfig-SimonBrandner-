@@ -140,6 +140,29 @@ mode "resize" {
 # Resize
 bindsym $mod+r mode "resize"
 
+
+bindsym $mod+x exec "qmenu_hud"
+
+# Start programs
+bindsym $mod+d exec rofi -modi drun -show drun -show-icons -opacity 10 -theme Arc-Dark-Mine # Start Rofi (drun)
+bindsym $mod+shift+d exec rofi -modi calc -show calc -theme Arc-Dark-Mine # Start Rofi (calc)
+bindsym $mod+a exec atom # Start Atom
+bindsym $mod+q exec qtcreator # Start Qt Creator
+bindsym $mod+k exec krusader # Start Krusader
+bindsym $mod+c exec code # Start Code
+bindsym $mod+i exec chromium # Start Browser
+bindsym $mod+e exec emacsclient -c # Start Emacs
+bindsym $mod+l exec i3lock -i /home/simon/GITLink/dotfiles/Wallpaper/SPACE/9.png # Lock Screen
+bindsym $mod+s exec /home/simon/.config/rofi/power.sh # Power menu
+# Start programs
+
+# Volume controls
+bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
+bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
+# Volume controls
+
+bindsym XF86AudioPlay exec playerctl play-pause # Play pause playback
 #########################################
 # Keys
 
@@ -151,15 +174,16 @@ exec_always --no-startup-id nitrogen --restore # Nitrogen background
 
 # Exec
 ############################################
-exec --no-startup-id "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'" # Set layout for workspace 0
+exec --no-startup-id "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'" # Set layout workspace
 exec --no-startup-id "glava --desktop" # Start GLava
-exec --no-startup-id "compton --blur-method kawase --blur-strength 15" # Start Compton
+exec --no-startup-id "polybar example" # Start Polybar
+exec --no-startup-id "compton --blur-method kawase --blur-strength 15 --unredir-if-possible" # Start Compton
 exec --no-startup-id "chromium" # Start Firefox
 exec --no-startup-id "discord" # Start Discord
 exec --no-startup-id "megasync" # Start MEGASync
 exec --no-startup-id "thunderbird" # Start Thunderbird
 exec --no-startup-id "/opt/viber/Viber %u" # Start Riot
-exec --no-startup-id "/home/simon/.config/i3/conky.sh" # Start Conky
+exec --no-startup-id "/home/simon/.config/i3/conky.sh" # Start Conky1
 exec --no-startup-id "spotify" # Start Spotify
 exec --no-startup-id "davmail" # Start Davmail
 # exec --no-startup-id "barrier" # Start Barrier
@@ -221,7 +245,7 @@ assign [class="Chromium"] 1
 
 # Set colors
 set $focused_border_color #1E5D5E
-set $unfocused_border_color #212325
+set $unfocused_border_color  #212325
 set $unfocused_switch_to_color #29363C
 set $urgent_border_color #854044
 set $indicator_color #7E8488
@@ -235,16 +259,19 @@ client.focused_inactive $inactive-bg-color $unfocused_switch_to_color $inactive-
 client.urgent           $urgent-bg-color   $urgent_border_color       $text-color          $indicator_color
 # Window colors
 
-new_window 1pixel
 
-default_border pixel 3
+default_border pixel 5
 
-default_floating_border pixel 3
+border_radius 5
+
+default_floating_border pixel 5
 
 gaps inner 8
 gaps outer 8
 
 smart_gaps on
+
+# smart_borders no_gaps # Activate smart borders (only when there are effectively no gaps)
 
 ################################
 # Look and feel
@@ -266,6 +293,7 @@ for_window [class="krunner"] floating enable
 for_window [class="Kmix"] floating enable
 for_window [class="Klipper"] floating enable
 for_window [class="Plasmoidviewer"] floating enable
+for_window [class="latte-dock"] floating enable
 
 # >>> Window Rules <<<
 # >>> Avoid tiling for non-Plasma stuff <<<
@@ -276,6 +304,7 @@ for_window [window_role="Preferences"] floating enable
 for_window [window_role="About"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
+
 
 
 ############################################################
