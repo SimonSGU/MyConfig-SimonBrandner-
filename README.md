@@ -13,3 +13,4 @@
     + GTK theme(s): Breeze Dark
 + Compositor: compton-kawase-blur
 + Terminal: Konsole
++ Bar: Polybar
