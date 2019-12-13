@@ -129,6 +129,8 @@ alias poweroff='/sbin/poweroff'
 export EDITOR=/home/simon/GITLink/dotfiles/emacsclient.sh
 export VISUAL=/home/simon/GITLink/dotfiles/emacsclient.sh
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
 # Export
 
 # Colors

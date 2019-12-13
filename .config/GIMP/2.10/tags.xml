@@ -157,31 +157,31 @@
   <resource identifier="${gimp_data_dir}/brushes/Fun/pepper.gbr" checksum="de818baf36685bdd260055a3e0204d57">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="b22c1fec1056f979b1d17e4cc80e9112">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/1-pixel.vbr" checksum="c84494b4a904a7c1a3548e564b073ca3">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-01.vbr" checksum="0c11d7446cf257c986434b8037b53c10">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-01.vbr" checksum="11dc53930c1fb124f5502d3e2dba4c8e">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-02.vbr" checksum="a6ab0bd0159ddcde4405e9cf0d3a07fc">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-02.vbr" checksum="23b547a4b3ac156c4efba20bbb91a662">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-03.vbr" checksum="496ee7e87ff7fa78888717784a4fc6b0">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Block-03.vbr" checksum="678860176ea362c2d3db787b8b0710fa">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-025.vbr" checksum="0e82572c8b71c4155e7364d66bc0ffce">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-025.vbr" checksum="24f599a94c72395b1733a8cf64bf4527">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-050.vbr" checksum="1203f10747c787a9345529a4b5150a5e">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-050.vbr" checksum="22550538bb856626930902cb0c398f74">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-075.vbr" checksum="eaf8d3adf6df55c97dd30aee0a1bba22">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-075.vbr" checksum="c196ef1b139d8f2744e6519c7a220cf1">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-100.vbr" checksum="c67eef177816d6ef25cc790cb54ab9e3">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Hardness-100.vbr" checksum="22b8f688f7cd7d6139c56dfc33b14bfd">
   </resource>
 
-  <resource identifier="${gimp_data_dir}/brushes/Basic/Star.vbr" checksum="9f799f34788daa90ffb9cf981226a120">
+  <resource identifier="${gimp_data_dir}/brushes/Basic/Star.vbr" checksum="fdd1163d5fdf7371df2dd7896e79231a">
   </resource>
 
   <resource identifier="${gimp_data_dir}/dynamics/Basic-Dynamics.gdyn" checksum="(null)">
@@ -418,7 +418,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="e080bb03017ad8c6df92b2cd38c981b9">
+  <resource identifier="gimp-gradient-custom" checksum="c88e15cfec13722f47eac5fde891647e">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
@@ -436,7 +436,10 @@
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
   </resource>
 
-  <resource identifier="${gimp_dir}/gradients/Untitled.ggr" checksum="ddc8841f60246138068a49dc22875804">
+  <resource identifier="${gimp_dir}/gradients/Untitled.ggr" checksum="2f058c0d91996c718a716bdea8098f6c">
+  </resource>
+
+  <resource identifier="${gimp_dir}/gradients/Untitled-#1.ggr" checksum="ddc8841f60246138068a49dc22875804">
   </resource>
 
   <resource identifier="${gimp_data_dir}/gradients/Abstract_1.ggr" checksum="edaa7d1fc882ab813b75b49ee9272913">
@@ -649,7 +652,10 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="ec27afdd3a3344d0080dd8fee086c7b8">
+  <resource identifier="gimp-palette-color-history" checksum="722d5ff9cf75eba9f3945a2c212a0058">
+  </resource>
+
+  <resource identifier="${gimp_dir}/palettes/Test.gpl" checksum="5cba3bf1ecda4862716cfde5d0a405ec">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/Untitled.gpl" checksum="a30853b0cf22a3560598be3559031284">
@@ -796,7 +802,31 @@
   <resource identifier="Arial Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="AR PL KaitiM Big5" checksum="(null)">
+  </resource>
+
+  <resource identifier="AR PL KaitiM GB" checksum="(null)">
+  </resource>
+
+  <resource identifier="AR PL Mingti2L Big5" checksum="(null)">
+  </resource>
+
+  <resource identifier="AR PL SungtiL GB" checksum="(null)">
+  </resource>
+
   <resource identifier="AvantGarde LT Medium, Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baekmuk Batang" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baekmuk Dotum" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baekmuk Gulim" checksum="(null)">
+  </resource>
+
+  <resource identifier="Baekmuk Headline" checksum="(null)">
   </resource>
 
   <resource identifier="Bitstream Charter" checksum="(null)">
@@ -1006,6 +1036,24 @@
   <resource identifier="Courier 10 Pitch Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="C059" checksum="(null)">
+  </resource>
+
+  <resource identifier="C059 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="C059 Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="C059 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="C059 Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="C059 Medium Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
   </resource>
 
@@ -1078,6 +1126,9 @@
   <resource identifier="Droid Sans Fallback" checksum="(null)">
   </resource>
 
+  <resource identifier="D050000L" checksum="(null)">
+  </resource>
+
   <resource identifier="esint10" checksum="(null)">
   </resource>
 
@@ -1124,6 +1175,18 @@
   </resource>
 
   <resource identifier="FreeSerif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Garuda" checksum="(null)">
+  </resource>
+
+  <resource identifier="Garuda Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Garuda Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Garuda Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="GE Inspira" checksum="(null)">
@@ -1186,9 +1249,6 @@
   <resource identifier="github-octicons" checksum="(null)">
   </resource>
 
-  <resource identifier="GLYPHICONS Halflings" checksum="(null)">
-  </resource>
-
   <resource identifier="Hack" checksum="(null)">
   </resource>
 
@@ -1202,6 +1262,54 @@
   </resource>
 
   <resource identifier="Impact Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAexGothic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAexMincho" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAGothic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAMincho" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAPGothic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IPAPMincho" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Kinnari Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Laksaman" checksum="(null)">
+  </resource>
+
+  <resource identifier="Laksaman Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Laksaman Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Laksaman Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Latin Modern Math" checksum="(null)">
@@ -1564,6 +1672,18 @@
   <resource identifier="Linux Libertine O Semi-Bold Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Loma" checksum="(null)">
+  </resource>
+
+  <resource identifier="Loma Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Loma Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Loma Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Material Icons" checksum="(null)">
   </resource>
 
@@ -1669,6 +1789,30 @@
   <resource identifier="Nimbus Mono L Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="Nimbus Mono PS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Mono PS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Mono PS Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Mono PS Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Roman, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Roman, Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Nimbus Roman No9 L" checksum="(null)">
   </resource>
 
@@ -1679,6 +1823,18 @@
   </resource>
 
   <resource identifier="Nimbus Roman No9 L Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Sans L" checksum="(null)">
@@ -1703,6 +1859,48 @@
   </resource>
 
   <resource identifier="Nimbus Sans L Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Bold Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Nimbus Sans Narrow Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Norasi Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Color Emoji" checksum="(null)">
@@ -2227,6 +2425,27 @@
   <resource identifier="Noto Sans Caucasian Albanian" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans CJK HK" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Semi-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans CJK HK Thin" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans CJK JP" checksum="(null)">
   </resource>
 
@@ -2245,7 +2464,7 @@
   <resource identifier="Noto Sans CJK JP Semi-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans CJK JP weight=255" checksum="(null)">
+  <resource identifier="Noto Sans CJK JP Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans CJK KR" checksum="(null)">
@@ -2266,7 +2485,7 @@
   <resource identifier="Noto Sans CJK KR Semi-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans CJK KR weight=255" checksum="(null)">
+  <resource identifier="Noto Sans CJK KR Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans CJK SC" checksum="(null)">
@@ -2287,7 +2506,7 @@
   <resource identifier="Noto Sans CJK SC Semi-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans CJK SC weight=255" checksum="(null)">
+  <resource identifier="Noto Sans CJK SC Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans CJK TC" checksum="(null)">
@@ -2308,7 +2527,7 @@
   <resource identifier="Noto Sans CJK TC Semi-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans CJK TC weight=255" checksum="(null)">
+  <resource identifier="Noto Sans CJK TC Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Condensed" checksum="(null)">
@@ -4235,6 +4454,12 @@
   </resource>
 
   <resource identifier="Noto Sans Mono Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK HK" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mono CJK HK Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono CJK JP" checksum="(null)">
@@ -7378,7 +7603,46 @@
   <resource identifier="OpenSymbol" checksum="(null)">
   </resource>
 
+  <resource identifier="Padauk" checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Book," checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Book, Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="PowerlineSymbols Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Purisa" checksum="(null)">
+  </resource>
+
+  <resource identifier="Purisa Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Purisa Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Purisa Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="P052" checksum="(null)">
+  </resource>
+
+  <resource identifier="P052 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="P052 Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="P052 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="P052 Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Quicksand" checksum="(null)">
@@ -7480,6 +7744,18 @@
   <resource identifier="Sans-serif Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Sawasdee" checksum="(null)">
+  </resource>
+
+  <resource identifier="Sawasdee Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Sawasdee Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Sawasdee Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Serif" checksum="(null)">
   </resource>
 
@@ -7535,6 +7811,9 @@
   </resource>
 
   <resource identifier="Standard Symbols L" checksum="(null)">
+  </resource>
+
+  <resource identifier="Standard Symbols PS" checksum="(null)">
   </resource>
 
   <resource identifier="stmary10" checksum="(null)">
@@ -7666,6 +7945,54 @@
   <resource identifier="Times New Roman, Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Tlwg Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typewriter" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typewriter Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typewriter Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typewriter Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typist" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typist Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typist Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typist Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typo" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typo Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Tlwg Typo Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="Trebuchet MS" checksum="(null)">
   </resource>
 
@@ -7681,6 +8008,93 @@
   <resource identifier="Ubuntu" checksum="(null)">
   </resource>
 
+  <resource identifier="Umpush" checksum="(null)">
+  </resource>
+
+  <resource identifier="Umpush Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Umpush Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Umpush Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Umpush Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Umpush Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnBatang" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnBatang Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnDinaru" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnDinaru Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnDinaru Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnDotum" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnDotum Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnGraphic" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnGraphic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnGungseo" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnJamoBatang" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnJamoDotum" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnJamoNovel" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnJamoSora" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnPen" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnPenheulim" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnPilgi" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnPilgia" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnPilgi Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnShinmun" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnTaza" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnVada" checksum="(null)">
+  </resource>
+
+  <resource identifier="UnYetgul Bold" checksum="(null)">
+  </resource>
+
   <resource identifier="URW Bookman L" checksum="(null)">
   </resource>
 
@@ -7690,7 +8104,28 @@
   <resource identifier="URW Bookman L Bold Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="URW Bookman Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Bookman Light Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="URW Bookman L Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Bookman Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Bookman Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic Book" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic Book Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="URW Gothic L Book" checksum="(null)">
@@ -7703,6 +8138,15 @@
   </resource>
 
   <resource identifier="URW Gothic L Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
   </resource>
 
   <resource identifier="URW Chancery L Medium Italic" checksum="(null)">
@@ -7744,6 +8188,18 @@
   <resource identifier="Verdana Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Waree" checksum="(null)">
+  </resource>
+
+  <resource identifier="Waree Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Waree Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Waree Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="wasy10" checksum="(null)">
   </resource>
 
@@ -7751,6 +8207,9 @@
   </resource>
 
   <resource identifier="Webdings" checksum="(null)">
+  </resource>
+
+  <resource identifier="Z003 Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="${gimp_data_dir}/tool-presets/Paint/Airbrush.gtp" checksum="(null)">

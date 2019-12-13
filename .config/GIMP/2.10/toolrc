@@ -20,7 +20,7 @@
     (visible yes))
 (GimpToolInfo "gimp-by-color-select-tool"
     (icon-name "gimp-tool-by-color-select")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-iscissors-tool"
     (icon-name "gimp-tool-iscissors")
     (visible yes))
@@ -132,5 +132,8 @@
 (GimpToolInfo "gimp-gegl-tool"
     (icon-name "gimp-gegl")
     (visible yes))
+(GimpToolInfo "gimp-offset-tool"
+    (icon-name "gimp-tool-offset")
+    (visible no))
 
 # end of toolrc

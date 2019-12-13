@@ -1,10 +1,3 @@
-Rozšíření "Dia Input" se nepodařilo nahrát kvůli závislost nebyla splněna.
-Závislost:
-  typ: executable
-  umístění: křivka
-  řetězec: dia
-  popis: In order to import Dia files, Dia itself must be installed.  You can get Dia at http://live.gnome.org/Dia
-
 Rozšíření "Win32 Vector Print" se nepodařilo nahrát kvůli toto rozšíření je vytvořeno jen pro Windows.  Toto je způsobeno nesprávným souborem .inx pro toto rozšíření. Nesprávný soubor .inx může být způsoben špatnou instalací Inkscape.
 Rozšíření "Sketch Input" se nepodařilo nahrát kvůli závislost nebyla splněna.
 Závislost:

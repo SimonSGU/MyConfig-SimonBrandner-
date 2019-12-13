@@ -152,8 +152,8 @@ bindsym $mod+k exec krusader # Start Krusader
 bindsym $mod+c exec code # Start Code
 bindsym $mod+i exec chromium # Start Browser
 bindsym $mod+e exec emacsclient -c # Start Emacs
-bindsym $mod+l exec i3lock -i /home/simon/GITLink/dotfiles/Wallpaper/SPACE/9.png # Lock Screen
 bindsym $mod+s exec /home/simon/.config/rofi/power.sh # Power menu
+bindsym $mod+l exec "i3lock -i /home/simon/GITLink/dotfiles/Wallpaper/SPACE/9.png"
 # Start programs
 
 # Volume controls
@@ -162,7 +162,6 @@ bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
 bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
 # Volume controls
 
-bindsym XF86AudioPlay exec playerctl play-pause # Play pause playback
 #########################################
 # Keys
 
@@ -174,23 +173,23 @@ exec_always --no-startup-id nitrogen --restore # Nitrogen background
 
 # Exec
 ############################################
-exec --no-startup-id "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'" # Set layout workspace
-exec --no-startup-id "glava --desktop" # Start GLava
-exec --no-startup-id "polybar example" # Start Polybar
-exec --no-startup-id "compton --blur-method kawase --blur-strength 15 --unredir-if-possible" # Start Compton
+exec --no-startup-id "i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json'" # Set layout workspace 0
+# exec --no-startup-id "glava --desktop" # Start GLava
+exec --no-startup-id "compton --blur-method kawase --blur-strength 15 --backend glx" # Start Compton
 exec --no-startup-id "chromium" # Start Firefox
 exec --no-startup-id "discord" # Start Discord
-exec --no-startup-id "megasync" # Start MEGASync
 exec --no-startup-id "thunderbird" # Start Thunderbird
-exec --no-startup-id "/opt/viber/Viber %u" # Start Riot
+exec --no-startup-id "/opt/viber/Viber %u" # Start Viber
 exec --no-startup-id "/home/simon/.config/i3/conky.sh" # Start Conky1
 exec --no-startup-id "spotify" # Start Spotify
 exec --no-startup-id "davmail" # Start Davmail
+exec --no-startup-id "megasync" # Start MEGASync
+exec --no-startup-id "whatsdesk" # Start WhatsDesk
+exec --no-startup-id "/home/simon/MediaLink/Linux-HDD-Data/PortableApps/Todoist/todoist" # Start Todoist
+exec --no-startup-id "/home/simon/.config/i3/davmail.sh" # Remove ~/davmail.log*
 # exec --no-startup-id "barrier" # Start Barrier
 ############################################
 # Exec
-
-
 
 # Workspaces
 #############################################
@@ -210,7 +209,7 @@ set $ws10 "10"
 # Define names of workspaces
 
 # Workspaces to displays
-workspace 0 output HDMI-0 
+workspace 0 output HDMI-0
 workspace 1 output HDMI-0
 workspace 2 output HDMI-0
 workspace 3 output HDMI-0
@@ -294,10 +293,11 @@ for_window [class="Kmix"] floating enable
 for_window [class="Klipper"] floating enable
 for_window [class="Plasmoidviewer"] floating enable
 for_window [class="latte-dock"] floating enable
+for_window [class="lattedock"] floating enable
 
 # >>> Window Rules <<<
 # >>> Avoid tiling for non-Plasma stuff <<<
-for_window [window_role="pop-up"] floating enable 
+for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [window_role="Preferences"] floating enable
@@ -309,5 +309,3 @@ for_window [window_type="menu"] floating enable
 
 ############################################################
 # Plasma Integration
-
-# LocalWords:  viber davmail

@@ -1,6 +1,6 @@
 
 /* Vertical scale, larger values will amplify output */
-#define VSCALE 300
+#define VSCALE 256
 /* Rendering direction, either -1 (outwards) or 1 (inwards). */
 #define DIRECTION 1
 
@@ -8,7 +8,7 @@
 #define GRADIENT 75
 /* Color definition. By default this is a gradient formed by mixing two colors.
    `pos` represents the pixel position relative to the visualizer baseline. */
-#define COLOR @fg:mix(#802A2A, #4F4F92, clamp(pos / GRADIENT, 0, 1))
+#define COLOR @fg:mix(#3F4551, #3F4551, clamp(pos / GRADIENT, 0, 1))
 /* 1 to draw outline, 0 to disable */
 #define DRAW_OUTLINE 0
 /* 1 to draw edge highlight, 0 to disable */
@@ -20,7 +20,7 @@
 /* outline color */
 #define OUTLINE @bg:#262626
 /* 1 to join the two channels together in the middle, 0 to clamp both down to zero */
-#define JOIN_CHANNELS 0
+#define JOIN_CHANNELS 1
 /* 1 to invert (vertically), 0 otherwise */
 #define INVERT 0
 

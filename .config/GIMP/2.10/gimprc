@@ -61,12 +61,17 @@
 (icon-theme "Color")
 (user-manual-online yes)
 (image-convert-precision-text-layer-dither-method floyd-steinberg)
+(layer-new-name "TopBar")
 (fill-options
     (style solid)
-    (antialias yes))
+    (antialias yes)
+    (feather no)
+    (feather-radius 10.000000))
 (stroke-options
     (style solid)
     (antialias yes)
+    (feather no)
+    (feather-radius 10.000000)
     (method line)
     (width 6.000000)
     (unit pixels)

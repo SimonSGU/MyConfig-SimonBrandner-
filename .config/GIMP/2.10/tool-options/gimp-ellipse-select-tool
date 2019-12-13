@@ -2,6 +2,7 @@
 
 (desired-fixed-size-height 43.000000)
 (desired-fixed-size-width 43.000000)
+(fixed-rule-active yes)
 (overridden-fixed-size yes)
 
 # end of gimp-ellipse-select-tool options

@@ -356,8 +356,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="387.486"
+       y="429.497"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -701,7 +701,7 @@
        panel_border="0"
        x="0"
        y="0"
-       w="227"
+       w="234"
        h="182"
        visible="1"
        state="2"
@@ -1018,10 +1018,10 @@
      id="desktop"
      style="line-height:1.25;fill:#00ff00">
     <group
-       width="910"
-       height="980"
-       x="968"
-       y="58"
+       width="1910"
+       height="1044"
+       x="0"
+       y="26"
        fullscreen="0"
        id="geometry"
        maximized="0" />

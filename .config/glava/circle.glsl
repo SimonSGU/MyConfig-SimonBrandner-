@@ -5,7 +5,7 @@
 /* outline color */
 #define OUTLINE @fg:#2F343F
 /* Amplify magnitude of the results each bar displays */
-#define AMPLIFY 150
+#define AMPLIFY 500
 /* Angle (in radians) for how much to rotate the visualizer */
 #define ROTATE (PI / 2)
 /* Whether to switch left/right audio buffers */

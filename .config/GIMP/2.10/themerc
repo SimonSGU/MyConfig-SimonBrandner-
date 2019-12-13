@@ -5,6 +5,7 @@
 # gtkrc file instead (/home/simon/.config/GIMP/2.10/gtkrc).
 
 include "/home/simon/.config/GIMP/2.10/themes/PsIcons/gtkrc"
+include "/etc/gimp/2.0/gtkrc"
 include "/home/simon/.config/GIMP/2.10/gtkrc"
 
 # end of themerc

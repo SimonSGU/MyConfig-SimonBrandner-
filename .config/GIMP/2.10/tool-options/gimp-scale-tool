@@ -1,6 +1,6 @@
 # GIMP gimp-scale-tool options
 
-(background (color-rgb 0.000000 0.000000 0.000000))
+(background (color-rgb 0.184314 0.203922 0.247059))
 (interpolation linear)
 (constrain-move yes)
 (constrain-rotate yes)

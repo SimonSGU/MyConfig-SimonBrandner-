@@ -56,8 +56,7 @@ ${font Terminus:size=12}Storage ${hr 2} ${alignr}${font}
 ${offset 20}/ $alignc ${fs_used /} / ${fs_size /} $alignr ${fs_used_perc /}%
 ${offset 20}${fs_bar /}
 
-${offset 20}Linux-HDD-Data $alignc ${fs_used /home/simon/mediaLink/Linux-HDD-Data} / ${fs_size /home/simon/mediaLink/Linux-HDD-Data} $alignr ${fs_used_perc /home/simon/mediaLink/Linux-HDD-Data}%
-${offset 20}${fs_bar /home/simon/mediaLink/Linux-HDD-Data/}
+${offset 20}Linux-HDD-Data $alignc ${fs_used /home/simon/MediaLink/Linux-HDD-Data} / ${fs_size /home/simon/MediaLink/Linux-HDD-Data} $alignr ${fs_used_perc /home/simon/MediaLink/Linux-HDD-Data}%
+${offset 20}${fs_bar /home/simon/MediaLink/Linux-HDD-Data/}
  
-${font Terminus:size=12}Úkoly ${hr 2} ${alignr}${font}
 ]]
