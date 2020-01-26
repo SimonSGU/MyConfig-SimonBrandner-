@@ -1,0 +1,149 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+p",
+        "command": "-keybindings.editor.toggleSortByPrecedence",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.problems.focus"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.openNextRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "-workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "alt+0",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+shift+numpad_add",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+shift+numpad_subtract",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+numpad_add",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+shift+insert",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.debug.action.toggleRepl"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-workbench.debug.action.toggleRepl"
+    },
+    {
+        "key": "alt+d alt+b",
+        "command": "workbench.debug.action.focusBreakpointsView"
+    },
+    {
+        "key": "alt+d alt+t",
+        "command": "workbench.debug.action.focusRepl"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "alt+d alt+c",
+        "command": "workbench.debug.action.focusCallStackView"
+    },
+    {
+        "key": "alt+d alt+v",
+        "command": "workbench.debug.action.focusVariablesView"
+    },
+    {
+        "key": "alt+d alt+w",
+        "command": "workbench.debug.action.focusWatchView"
+    },
+    {
+        "key": "alt+d alt+s",
+        "command": "workbench.debug.startView.focus"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    }
+]
