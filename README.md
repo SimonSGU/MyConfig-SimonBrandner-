@@ -1,6 +1,6 @@
 <h1>MyConfig(SimonBrandner)</h1>
 
-+ Distro: Debian 10 Buster
++ Distro: Debian 11 Bullseye
 + Window Manager: Rounded i3-gaps
 + Workspace Theme:
     + Look And Feel: Arc Dark
@@ -13,4 +13,4 @@
     + GTK theme(s): Breeze Dark
 + Compositor: compton-kawase-blur
 + Terminal: Konsole
-+ Bar: Polybar
++ App launcher: rofi

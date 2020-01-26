@@ -1,0 +1,94 @@
+configuration {
+	display-drun: "Activate";
+	display-run:  "Execute";
+	show-icons:   true;	
+    sidebar-mode: true;
+}
+* {
+    // normal
+    arclight:         rgba(51,56,66,0.5);
+    foreground:       #e4e4e4;
+    // normal
+
+    // indicator
+    lightred:         #cc5533;
+    blue:             #6495ed;
+    lightblue:        #87ceeb;
+    // indicator
+
+    // settings
+    highlight:        underline bold #ffffff;
+    transparent:      rgba(0,0,0,0);
+    font:             "Source Code Pro 11";
+    background-color: @arclight;
+    // settings
+}
+
+#window {
+    location:         center;
+    anchor:           center;
+    transparency:     "screenshot";
+    color:            @foreground;
+    background-color: @arclight;
+    children:         [mainbox];
+    orientation:      horizontal;
+    width:            256px;
+}
+
+#mainbox {
+    spacing: 0;
+    children: [ inputbar, listview ];
+}
+
+#inputbar {
+    padding: 11px;
+    border: 2px 2px 2px 2px;
+    border-radius:  15px 15px 0px 0px;
+    border-color: @foreground;
+    color: @foreground;
+    background-color: @arclight;
+}
+#listview {
+    padding: 11px;
+    border: 0px 2px 2px 2px;
+    border-radius:  0px 0px 15px 15px;
+    border-color: @foreground;
+    background-color: @arclight;
+    lines: 3;
+}
+
+#entry,prompt,case-indicator {
+    text-font:  inherit;
+    text-color: inherit;
+}
+
+#element {
+    padding: 3px;
+    vertical-align: 0.5;
+    background-color: transparent;
+    color: @foreground;
+    font: inherit;
+}
+#element selected.normal {
+    background-color: @blue;
+}
+#element normal active {
+    foreground: @lightblue;
+}
+#element normal urgent {
+    foreground: @lightred;
+}
+#element alternate active {
+    foreground: @lightblue;
+}
+#element alternate urgent {
+    foreground: @lightred;
+}
+#element selected active {
+    background-color: @lightblue;
+    foreground: @foreground;
+}
+#element selected urgent {
+    background-color: @lightred;
+    foreground: @foreground;
+}

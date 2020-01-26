@@ -1,0 +1,1 @@
+rofi -modi drun,calc,ssh -show drun -config /home/simon/.config/rofi/normal.rasi

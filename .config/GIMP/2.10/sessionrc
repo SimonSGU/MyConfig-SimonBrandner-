@@ -11,8 +11,8 @@
     (size 620 200))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 26)
-    (size 1910 1044)
+    (position 0 24)
+    (size 1910 1046)
     (open-on-exit)
     (aux-info
         (left-docks-width "232")
@@ -43,7 +43,7 @@
                 (tab-style automatic)
                 (aux-info
                     (edit-active "true")
-                    (current-data "2. Hardness 075")))
+                    (current-data "Clipboard Mask")))
             (dockable "gimp-palette-list"
                 (tab-style automatic)
                 (aux-info
@@ -57,9 +57,9 @@
                 (aux-info
                     (show-button-bar "true")
                     (edit-active "true")
-                    (current-data "Custom"))))
+                    (current-data "Tube Red"))))
         (book
-            (position 730)
+            (position 783)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
@@ -73,7 +73,7 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 118 0)
+    (position 227 150)
     (size 778 750))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
@@ -83,11 +83,11 @@
     (position 495 465))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 375 0)
+    (position 653 230)
     (size 778 750))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 0 0)
+    (position 164 181)
     (size 778 750))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
@@ -98,7 +98,7 @@
     (size 952 701))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 503 225))
+    (position 498 220))
 (session-info "toplevel"
     (factory-entry "gimp-rotate-tool-dialog")
     (position 458 149))
@@ -110,21 +110,21 @@
     (position 244 0))
 (session-info "toplevel"
     (factory-entry "gimp-brightness-contrast-tool-dialog")
-    (position 244 24))
+    (position 239 19))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 27 241)
-    (size 419 527))
+    (position 17 231)
+    (size 419 553))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
     (position 695 56)
     (size 786 899))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 1219 468))
+    (position 1169 418))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 46 263)
+    (position 0 151)
     (size 396 533))
 (session-info "toplevel"
     (factory-entry "gimp-text-tool-dialog")

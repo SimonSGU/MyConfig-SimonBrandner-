@@ -3576,6 +3576,102 @@
         (proc-arg 4 "filename" "The name of the file to load")
         (proc-arg 4 "raw-filename" "The name entered")
         (proc-arg 13 "image" "Output image")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dds/file-dds" 1572183574
+    (proc-def "file-dds-load" 1
+         "Loads files in DDS image format"
+         "Loads files in DDS image format"
+         "Shawn Kirst"
+         "Shawn Kirst"
+         "2008"
+         "DDS image"
+         0
+        (icon icon-name -1 "")
+        (load-proc
+            (extensions "dds")
+            (magics "0,string,DDS")
+            (mime-types "image/dds"))
+         ""
+         5 1
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")
+        (proc-arg 4 "filename" "The name of the file to load")
+        (proc-arg 4 "raw-filename" "The name entered")
+        (proc-arg 0 "load-mipmaps" "Load mipmaps if present")
+        (proc-arg 0 "decode-images" "Decode YCoCg/AExp images when detected")
+        (proc-arg 13 "image" "Output image"))
+    (proc-def "file-dds-save" 1
+         "Saves files in DDS image format"
+         "Saves files in DDS image format"
+         "Shawn Kirst"
+         "Shawn Kirst"
+         "2008"
+         "DDS image"
+         0
+        (icon icon-name -1 "")
+        (save-proc
+            (extensions "dds")
+            (mime-types "image/dds"))
+         "INDEXED, GRAY, RGB"
+         18 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save")
+        (proc-arg 4 "filename" "The name of the file to save the image as")
+        (proc-arg 4 "raw-filename" "The name entered")
+        (proc-arg 0 "compression-format" "Compression format (0 = None, 1 = BC1/DXT1, 2 = BC2/DXT3, 3 = BC3/DXT5, 4 = BC3n/DXT5nm, 5 = BC4/ATI1N, 6 = BC5/ATI2N, 7 = RXGB (DXT5), 8 = Alpha Exponent (DXT5), 9 = YCoCg (DXT5), 10 = YCoCg scaled (DXT5))")
+        (proc-arg 0 "mipmaps" "How to handle mipmaps (0 = No mipmaps, 1 = Generate mipmaps, 2 = Use existing mipmaps (layers)")
+        (proc-arg 0 "savetype" "How to save the image (0 = selected layer, 1 = cube map, 2 = volume map, 3 = texture array")
+        (proc-arg 0 "format" "Custom pixel format (0 = default, 1 = R5G6B5, 2 = RGBA4, 3 = RGB5A1, 4 = RGB10A2)")
+        (proc-arg 0 "transparent-index" "Index of transparent color or -1 to disable (for indexed images only).")
+        (proc-arg 0 "mipmap-filter" "Filtering to use when generating mipmaps (0 = default, 1 = nearest, 2 = box, 3 = triangle, 4 = quadratic, 5 = bspline, 6 = mitchell, 7 = lanczos, 8 = kaiser)")
+        (proc-arg 0 "mipmap-wrap" "Wrap mode to use when generating mipmaps (0 = default, 1 = mirror, 2 = repeat, 3 = clamp)")
+        (proc-arg 0 "gamma-correct" "Use gamma correct mipmap filtering")
+        (proc-arg 0 "srgb" "Use sRGB colorspace for gamma correction")
+        (proc-arg 3 "gamma" "Gamma value to use for gamma correction (i.e. 2.2)")
+        (proc-arg 0 "perceptual-metric" "Use a perceptual error metric during compression")
+        (proc-arg 0 "preserve-alpha-coverage" "Preserve alpha test converage for alpha channel maps")
+        (proc-arg 3 "alpha-test-threshold" "Alpha test threshold value for which alpha test converage should be preserved"))
+    (proc-def "color-decode-ycocg" 1
+         "Converts YCoCg encoded pixels to RGB"
+         "Converts YCoCg encoded pixels to RGB"
+         "Shawn Kirst"
+         "Shawn Kirst"
+         "2008"
+         "Decode YCoCg"
+         0
+        (icon icon-name -1 "")
+         "RGBA"
+         3 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save"))
+    (proc-def "color-decode-ycocg-scaled" 1
+         "Converts YCoCg (scaled) encoded pixels to RGB"
+         "Converts YCoCg (scaled) encoded pixels to RGB"
+         "Shawn Kirst"
+         "Shawn Kirst"
+         "2008"
+         "Decode YCoCg (scaled)"
+         0
+        (icon icon-name -1 "")
+         "RGBA"
+         3 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save"))
+    (proc-def "color-decode-alpha-exp" 1
+         "Converts alpha exponent encoded pixels to RGB"
+         "Converts alpha exponent encoded pixels to RGB"
+         "Shawn Kirst"
+         "Shawn Kirst"
+         "2008"
+         "Decode Alpha exponent"
+         0
+        (icon icon-name -1 "")
+         "RGBA"
+         3 0
+        (proc-arg 0 "run-mode" "Interactive, non-interactive")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/file-darktable/file-darktable" 1572183574
     (has-init))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/file-csource/file-csource" 1572183574
@@ -4337,102 +4433,6 @@
         (proc-arg 0 "num-segments" "Number of segments in blinds")
         (proc-arg 0 "orientation" "The orientation { ORIENTATION-HORIZONTAL (0), ORIENTATION-VERTICAL (1) }")
         (proc-arg 0 "bg-transparent" "Background transparent { FALSE, TRUE }")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-dds/file-dds" 1572183574
-    (proc-def "file-dds-load" 1
-         "Loads files in DDS image format"
-         "Loads files in DDS image format"
-         "Shawn Kirst"
-         "Shawn Kirst"
-         "2008"
-         "DDS image"
-         0
-        (icon icon-name -1 "")
-        (load-proc
-            (extensions "dds")
-            (magics "0,string,DDS")
-            (mime-types "image/dds"))
-         ""
-         5 1
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")
-        (proc-arg 4 "filename" "The name of the file to load")
-        (proc-arg 4 "raw-filename" "The name entered")
-        (proc-arg 0 "load-mipmaps" "Load mipmaps if present")
-        (proc-arg 0 "decode-images" "Decode YCoCg/AExp images when detected")
-        (proc-arg 13 "image" "Output image"))
-    (proc-def "file-dds-save" 1
-         "Saves files in DDS image format"
-         "Saves files in DDS image format"
-         "Shawn Kirst"
-         "Shawn Kirst"
-         "2008"
-         "DDS image"
-         0
-        (icon icon-name -1 "")
-        (save-proc
-            (extensions "dds")
-            (mime-types "image/dds"))
-         "INDEXED, GRAY, RGB"
-         18 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")
-        (proc-arg 13 "image" "Input image")
-        (proc-arg 16 "drawable" "Drawable to save")
-        (proc-arg 4 "filename" "The name of the file to save the image as")
-        (proc-arg 4 "raw-filename" "The name entered")
-        (proc-arg 0 "compression-format" "Compression format (0 = None, 1 = BC1/DXT1, 2 = BC2/DXT3, 3 = BC3/DXT5, 4 = BC3n/DXT5nm, 5 = BC4/ATI1N, 6 = BC5/ATI2N, 7 = RXGB (DXT5), 8 = Alpha Exponent (DXT5), 9 = YCoCg (DXT5), 10 = YCoCg scaled (DXT5))")
-        (proc-arg 0 "mipmaps" "How to handle mipmaps (0 = No mipmaps, 1 = Generate mipmaps, 2 = Use existing mipmaps (layers)")
-        (proc-arg 0 "savetype" "How to save the image (0 = selected layer, 1 = cube map, 2 = volume map, 3 = texture array")
-        (proc-arg 0 "format" "Custom pixel format (0 = default, 1 = R5G6B5, 2 = RGBA4, 3 = RGB5A1, 4 = RGB10A2)")
-        (proc-arg 0 "transparent-index" "Index of transparent color or -1 to disable (for indexed images only).")
-        (proc-arg 0 "mipmap-filter" "Filtering to use when generating mipmaps (0 = default, 1 = nearest, 2 = box, 3 = triangle, 4 = quadratic, 5 = bspline, 6 = mitchell, 7 = lanczos, 8 = kaiser)")
-        (proc-arg 0 "mipmap-wrap" "Wrap mode to use when generating mipmaps (0 = default, 1 = mirror, 2 = repeat, 3 = clamp)")
-        (proc-arg 0 "gamma-correct" "Use gamma correct mipmap filtering")
-        (proc-arg 0 "srgb" "Use sRGB colorspace for gamma correction")
-        (proc-arg 3 "gamma" "Gamma value to use for gamma correction (i.e. 2.2)")
-        (proc-arg 0 "perceptual-metric" "Use a perceptual error metric during compression")
-        (proc-arg 0 "preserve-alpha-coverage" "Preserve alpha test converage for alpha channel maps")
-        (proc-arg 3 "alpha-test-threshold" "Alpha test threshold value for which alpha test converage should be preserved"))
-    (proc-def "color-decode-ycocg" 1
-         "Converts YCoCg encoded pixels to RGB"
-         "Converts YCoCg encoded pixels to RGB"
-         "Shawn Kirst"
-         "Shawn Kirst"
-         "2008"
-         "Decode YCoCg"
-         0
-        (icon icon-name -1 "")
-         "RGBA"
-         3 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")
-        (proc-arg 13 "image" "Input image")
-        (proc-arg 16 "drawable" "Drawable to save"))
-    (proc-def "color-decode-ycocg-scaled" 1
-         "Converts YCoCg (scaled) encoded pixels to RGB"
-         "Converts YCoCg (scaled) encoded pixels to RGB"
-         "Shawn Kirst"
-         "Shawn Kirst"
-         "2008"
-         "Decode YCoCg (scaled)"
-         0
-        (icon icon-name -1 "")
-         "RGBA"
-         3 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")
-        (proc-arg 13 "image" "Input image")
-        (proc-arg 16 "drawable" "Drawable to save"))
-    (proc-def "color-decode-alpha-exp" 1
-         "Converts alpha exponent encoded pixels to RGB"
-         "Converts alpha exponent encoded pixels to RGB"
-         "Shawn Kirst"
-         "Shawn Kirst"
-         "2008"
-         "Decode Alpha exponent"
-         0
-        (icon icon-name -1 "")
-         "RGBA"
-         3 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")
-        (proc-arg 13 "image" "Input image")
-        (proc-arg 16 "drawable" "Drawable to save")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/animation-play/animation-play" 1572183574
     (proc-def "plug-in-animationplay" 1
          "Preview a GIMP layer-based animation"
@@ -4553,33 +4553,6 @@
          ""
          1
         (menu-path "<Image>/File/Create/Acquire/Scanning (iscan)...")
-        (icon icon-name -1 "")
-         ""
-         1 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/xsane" 1564139638
-    (proc-def "xsane" 2
-         "Front-end to the SANE interface"
-         "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
-         "Oliver Rauch"
-         "Oliver Rauch"
-         "1998-2013"
-         ""
-         1
-        (menu-path "<Image>/File/Create/Acquire/XSane/Device dialog...")
-        (icon icon-name -1 "")
-         ""
-         1 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive"))
-    (proc-def "xsane-hpaio-3a--2f-net-2f-deskjet-5f-3830-5f-series-3f-ip-3d-10-2e-0-2e-0-2e-33-26-queue-3d-false" 2
-         "Front-end to the SANE interface"
-         "This function provides access to scanners and other image acquisition devices through the SANE (Scanner Access Now Easy) interface."
-         "Oliver Rauch"
-         "Oliver Rauch"
-         "1998-2013"
-         ""
-         1
-        (menu-path "<Image>/File/Create/Acquire/XSane/hpaio:'net'deskjet_3830_series?ip=10.0.0.33&queue=false")
         (icon icon-name -1 "")
          ""
          1 0

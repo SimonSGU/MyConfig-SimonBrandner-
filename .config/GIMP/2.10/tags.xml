@@ -418,7 +418,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Legacy/3dgreen.pat" checksum="00052731f14a5bc614daece969b368bc">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="c88e15cfec13722f47eac5fde891647e">
+  <resource identifier="gimp-gradient-custom" checksum="8d037d252cf2a4fcb4f0e345e6371e96">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="f3a21fae99695a8feac84cee0ddd716a">
@@ -652,7 +652,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="722d5ff9cf75eba9f3945a2c212a0058">
+  <resource identifier="gimp-palette-color-history" checksum="77336d645194f5332090c652643012d2">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/Test.gpl" checksum="5cba3bf1ecda4862716cfde5d0a405ec">
@@ -782,6 +782,15 @@
   </resource>
 
   <resource identifier="all-the-icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Allura" checksum="(null)">
+  </resource>
+
+  <resource identifier="Amatic SC" checksum="(null)">
+  </resource>
+
+  <resource identifier="Amatic SC Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Andale Mono" checksum="(null)">
@@ -944,6 +953,15 @@
   </resource>
 
   <resource identifier="Century Schoolbook L Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cinzel Heavy" checksum="(null)">
   </resource>
 
   <resource identifier="cmex10" checksum="(null)">
@@ -1135,6 +1153,114 @@
   <resource identifier="eufm10" checksum="(null)">
   </resource>
 
+  <resource identifier="Exo" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo weight=255" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo weight=255 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo weight=280" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo weight=280 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2," checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 weight=255" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 weight=255 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 weight=280" checksum="(null)">
+  </resource>
+
+  <resource identifier="Exo 2 weight=280 Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="file-icons" checksum="(null)">
   </resource>
 
@@ -1262,6 +1388,60 @@
   </resource>
 
   <resource identifier="Impact Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Inter Ultra-Light Italic" checksum="(null)">
   </resource>
 
   <resource identifier="IPAexGothic" checksum="(null)">
@@ -1684,6 +1864,42 @@
   <resource identifier="Loma Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="Mali" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali weight=280" checksum="(null)">
+  </resource>
+
+  <resource identifier="Mali weight=280 Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Material Icons" checksum="(null)">
   </resource>
 
@@ -1759,6 +1975,9 @@
   <resource identifier="MathJax_WinIE6" checksum="(null)">
   </resource>
 
+  <resource identifier="Meslo LG S DZ for Powerline" checksum="(null)">
+  </resource>
+
   <resource identifier="Monospace" checksum="(null)">
   </resource>
 
@@ -1769,6 +1988,60 @@
   </resource>
 
   <resource identifier="Monospace Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat weight=255" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat weight=255 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat weight=280" checksum="(null)">
+  </resource>
+
+  <resource identifier="Montserrat weight=280 Italic" checksum="(null)">
   </resource>
 
   <resource identifier="msam10" checksum="(null)">
@@ -7600,7 +7873,19 @@
   <resource identifier="Noto Serif Ultra-Light Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Open Sans Condensed, Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Condensed, Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Open Sans Condensed, Light Italic Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="OpenSymbol" checksum="(null)">
+  </resource>
+
+  <resource identifier="Over the Rainbow" checksum="(null)">
   </resource>
 
   <resource identifier="Padauk" checksum="(null)">
@@ -7657,6 +7942,9 @@
   <resource identifier="Quicksand Medium, Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Reenie Beanie Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Roboto" checksum="(null)">
   </resource>
 
@@ -7709,18 +7997,6 @@
   </resource>
 
   <resource identifier="Roboto Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Roboto Slab" checksum="(null)">
-  </resource>
-
-  <resource identifier="Roboto Slab Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Roboto Slab Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Roboto Slab weight=255" checksum="(null)">
   </resource>
 
   <resource identifier="Roboto weight=255" checksum="(null)">
@@ -7943,6 +8219,39 @@
   </resource>
 
   <resource identifier="Times New Roman, Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web weight=280" checksum="(null)">
+  </resource>
+
+  <resource identifier="Titillium Web weight=280 Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Tlwg Mono" checksum="(null)">
