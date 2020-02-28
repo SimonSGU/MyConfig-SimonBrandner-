@@ -6,12 +6,12 @@ configuration {
 	sidebar-mode: true;
 }
 * {
-	// normal
-	arclight: rgba(51, 56, 66, 0.75);
-	arcmiddle: rgba(40, 44, 52, 0.75);
+	// colors
+	arclight: rgba(51, 56, 66, 0.90);
+	arcmiddle: rgba(40, 44, 52, 0.90);
 	transparent: rgba(0, 0, 0, 0);
-	foreground: #e4e4e4;
-	// normal
+	foreground: rgba(228, 228, 228, 1);
+	// colors
 
 	// indicator
 	lightred: #cc5533;
@@ -20,7 +20,6 @@ configuration {
 	// indicator
 
 	// settings
-	highlight: underline bold #ffffff;
 	font: "Source Code Pro 11";
 	background-color: @transparent;
 	// settings
@@ -29,9 +28,7 @@ configuration {
 #window {
 	location: center;
 	anchor: center;
-	transparency: "screenshot";
 	color: @foreground;
-	background-color: @arclight;
 	children: [mainbox];
 	orientation: horizontal;
 }
@@ -68,7 +65,7 @@ configuration {
 	border-color: @foreground;
 	border: 0px 2px 2px 2px;
 	border-radius: 0px 0px 15px 15px;
-	background-color: transparent;
+	background-color: @transparent;
 }
 
 #entry,
@@ -110,21 +107,6 @@ case-indicator {
 	foreground: @foreground;
 }
 
-#vertb {
-	expand: false;
-	children: [ dummy0, mode-switcher, dummy1 ];
-}
-#dummy0,
-dummy1 {
-	expand: true;
-}
-
-#mode-switcher {
-	expand: false;
-	orientation: vertical;
-	spacing: 0px;
-	border: 0px 0px 0px 0px;
-}
 #button {
 	font: inherit;
 	padding: 6px;
@@ -137,12 +119,4 @@ dummy1 {
 	color: @foreground;
 	background-color: @blue;
 	border-color: @foreground;
-}
-
-////////////////////////////////////
-#textbox-prompt-colon {
-	expand: false;
-	str: ":";
-	margin: 0px 0.3em 0em 0em;
-	text-color: @foreground;
 }

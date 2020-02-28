@@ -652,7 +652,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="77336d645194f5332090c652643012d2">
+  <resource identifier="gimp-palette-color-history" checksum="f40a507475707e1b8f15b6d8712c9330">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/Test.gpl" checksum="5cba3bf1ecda4862716cfde5d0a405ec">
@@ -779,6 +779,9 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
+  </resource>
+
+  <resource identifier="Abril Fatface" checksum="(null)">
   </resource>
 
   <resource identifier="all-the-icons" checksum="(null)">
@@ -1138,6 +1141,9 @@
   <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Didact Gothic" checksum="(null)">
+  </resource>
+
   <resource identifier="Dingbats" checksum="(null)">
   </resource>
 
@@ -1370,6 +1376,21 @@
   </resource>
 
   <resource identifier="GFS Porson" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gill Sans Std" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gill Sans Std Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gill Sans Std Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gill Sans Std Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Gill Sans Std Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="github-octicons" checksum="(null)">
@@ -2185,6 +2206,27 @@
   <resource identifier="Noto Kufi Arabic Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Kufi Arabic Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Kufi Arabic Ultra-Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Mono" checksum="(null)">
   </resource>
 
@@ -2230,7 +2272,7 @@
   <resource identifier="Noto Sans Arabic Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Bold Semi-Condensed" checksum="(null)">
@@ -2239,7 +2281,7 @@
   <resource identifier="Noto Sans Arabic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Heavy" checksum="(null)">
@@ -2248,7 +2290,7 @@
   <resource identifier="Noto Sans Arabic Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Heavy Semi-Condensed" checksum="(null)">
@@ -2260,7 +2302,7 @@
   <resource identifier="Noto Sans Arabic Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Light Semi-Condensed" checksum="(null)">
@@ -2272,7 +2314,7 @@
   <resource identifier="Noto Sans Arabic Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Medium Semi-Condensed" checksum="(null)">
@@ -2284,7 +2326,7 @@
   <resource identifier="Noto Sans Arabic Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Semi-Bold Semi-Condensed" checksum="(null)">
@@ -2299,7 +2341,7 @@
   <resource identifier="Noto Sans Arabic Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Thin Semi-Condensed" checksum="(null)">
@@ -2314,7 +2356,7 @@
   <resource identifier="Noto Sans Arabic UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Bold Semi-Condensed" checksum="(null)">
@@ -2323,7 +2365,7 @@
   <resource identifier="Noto Sans Arabic UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Heavy" checksum="(null)">
@@ -2332,7 +2374,7 @@
   <resource identifier="Noto Sans Arabic UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Heavy Semi-Condensed" checksum="(null)">
@@ -2344,7 +2386,7 @@
   <resource identifier="Noto Sans Arabic UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Light Semi-Condensed" checksum="(null)">
@@ -2356,7 +2398,7 @@
   <resource identifier="Noto Sans Arabic UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Medium Semi-Condensed" checksum="(null)">
@@ -2368,7 +2410,7 @@
   <resource identifier="Noto Sans Arabic UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -2383,7 +2425,7 @@
   <resource identifier="Noto Sans Arabic UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Thin Semi-Condensed" checksum="(null)">
@@ -2395,7 +2437,7 @@
   <resource identifier="Noto Sans Arabic UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -2407,7 +2449,7 @@
   <resource identifier="Noto Sans Arabic UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -2419,7 +2461,7 @@
   <resource identifier="Noto Sans Arabic Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -2431,7 +2473,7 @@
   <resource identifier="Noto Sans Arabic Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Arabic Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Arabic Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Arabic Ultra-Light Semi-Condensed" checksum="(null)">
@@ -2446,7 +2488,7 @@
   <resource identifier="Noto Sans Armenian Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Bold Semi-Condensed" checksum="(null)">
@@ -2455,7 +2497,7 @@
   <resource identifier="Noto Sans Armenian Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Heavy" checksum="(null)">
@@ -2464,7 +2506,7 @@
   <resource identifier="Noto Sans Armenian Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Heavy Semi-Condensed" checksum="(null)">
@@ -2476,7 +2518,7 @@
   <resource identifier="Noto Sans Armenian Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Light Semi-Condensed" checksum="(null)">
@@ -2488,7 +2530,7 @@
   <resource identifier="Noto Sans Armenian Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Medium Semi-Condensed" checksum="(null)">
@@ -2500,7 +2542,7 @@
   <resource identifier="Noto Sans Armenian Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Semi-Bold Semi-Condensed" checksum="(null)">
@@ -2515,7 +2557,7 @@
   <resource identifier="Noto Sans Armenian Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Thin Semi-Condensed" checksum="(null)">
@@ -2527,7 +2569,7 @@
   <resource identifier="Noto Sans Armenian Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -2539,7 +2581,7 @@
   <resource identifier="Noto Sans Armenian Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Armenian Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Armenian Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Armenian Ultra-Light Semi-Condensed" checksum="(null)">
@@ -2566,7 +2608,7 @@
   <resource identifier="Noto Sans Bengali Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Bengali Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Bengali Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Bengali Heavy" checksum="(null)">
@@ -2596,7 +2638,7 @@
   <resource identifier="Noto Sans Bengali UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Bengali UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Bengali UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Bengali UI Heavy" checksum="(null)">
@@ -2638,7 +2680,7 @@
   <resource identifier="Noto Sans Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Bold Italic" checksum="(null)">
@@ -2647,7 +2689,7 @@
   <resource identifier="Noto Sans Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Bold Italic Semi-Condensed" checksum="(null)">
@@ -2801,9 +2843,6 @@
   </resource>
 
   <resource identifier="Noto Sans CJK TC Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Condensed" checksum="(null)">
@@ -3046,7 +3085,7 @@
   <resource identifier="Noto Sans Display Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Bold Italic" checksum="(null)">
@@ -3055,7 +3094,7 @@
   <resource identifier="Noto Sans Display Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Bold Italic Semi-Condensed" checksum="(null)">
@@ -3067,7 +3106,7 @@
   <resource identifier="Noto Sans Display Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Heavy" checksum="(null)">
@@ -3076,7 +3115,7 @@
   <resource identifier="Noto Sans Display Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Heavy Italic" checksum="(null)">
@@ -3085,7 +3124,7 @@
   <resource identifier="Noto Sans Display Heavy Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Heavy Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Heavy Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Heavy Italic Semi-Condensed" checksum="(null)">
@@ -3100,7 +3139,7 @@
   <resource identifier="Noto Sans Display Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Italic Semi-Condensed" checksum="(null)">
@@ -3112,7 +3151,7 @@
   <resource identifier="Noto Sans Display Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Light Italic" checksum="(null)">
@@ -3121,7 +3160,7 @@
   <resource identifier="Noto Sans Display Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Light Italic Semi-Condensed" checksum="(null)">
@@ -3136,7 +3175,7 @@
   <resource identifier="Noto Sans Display Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Medium Italic" checksum="(null)">
@@ -3145,7 +3184,7 @@
   <resource identifier="Noto Sans Display Medium Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Medium Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Medium Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Medium Italic Semi-Condensed" checksum="(null)">
@@ -3160,7 +3199,7 @@
   <resource identifier="Noto Sans Display Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Semi-Bold Italic" checksum="(null)">
@@ -3169,7 +3208,7 @@
   <resource identifier="Noto Sans Display Semi-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Semi-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Semi-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Semi-Bold Italic Semi-Condensed" checksum="(null)">
@@ -3187,7 +3226,7 @@
   <resource identifier="Noto Sans Display Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Thin Italic" checksum="(null)">
@@ -3196,7 +3235,7 @@
   <resource identifier="Noto Sans Display Thin Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Thin Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Thin Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Thin Italic Semi-Condensed" checksum="(null)">
@@ -3211,7 +3250,7 @@
   <resource identifier="Noto Sans Display Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Ultra-Bold Italic" checksum="(null)">
@@ -3220,7 +3259,7 @@
   <resource identifier="Noto Sans Display Ultra-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Ultra-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Ultra-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Ultra-Bold Italic Semi-Condensed" checksum="(null)">
@@ -3235,7 +3274,7 @@
   <resource identifier="Noto Sans Display Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Ultra-Light Italic" checksum="(null)">
@@ -3244,7 +3283,7 @@
   <resource identifier="Noto Sans Display Ultra-Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Display Ultra-Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Display Ultra-Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Display Ultra-Light Italic Semi-Condensed" checksum="(null)">
@@ -3271,7 +3310,7 @@
   <resource identifier="Noto Sans Ethiopic Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Bold Semi-Condensed" checksum="(null)">
@@ -3280,7 +3319,7 @@
   <resource identifier="Noto Sans Ethiopic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Heavy" checksum="(null)">
@@ -3289,7 +3328,7 @@
   <resource identifier="Noto Sans Ethiopic Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Heavy Semi-Condensed" checksum="(null)">
@@ -3301,7 +3340,7 @@
   <resource identifier="Noto Sans Ethiopic Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Light Semi-Condensed" checksum="(null)">
@@ -3313,7 +3352,7 @@
   <resource identifier="Noto Sans Ethiopic Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Medium Semi-Condensed" checksum="(null)">
@@ -3325,7 +3364,7 @@
   <resource identifier="Noto Sans Ethiopic Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Semi-Bold Semi-Condensed" checksum="(null)">
@@ -3340,7 +3379,7 @@
   <resource identifier="Noto Sans Ethiopic Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Thin Semi-Condensed" checksum="(null)">
@@ -3352,7 +3391,7 @@
   <resource identifier="Noto Sans Ethiopic Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -3364,10 +3403,13 @@
   <resource identifier="Noto Sans Ethiopic Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ethiopic Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ethiopic Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ethiopic Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian" checksum="(null)">
@@ -3379,7 +3421,7 @@
   <resource identifier="Noto Sans Georgian Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Bold Semi-Condensed" checksum="(null)">
@@ -3388,7 +3430,7 @@
   <resource identifier="Noto Sans Georgian Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Heavy" checksum="(null)">
@@ -3397,7 +3439,7 @@
   <resource identifier="Noto Sans Georgian Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Heavy Semi-Condensed" checksum="(null)">
@@ -3409,7 +3451,7 @@
   <resource identifier="Noto Sans Georgian Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Light Semi-Condensed" checksum="(null)">
@@ -3421,7 +3463,7 @@
   <resource identifier="Noto Sans Georgian Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Medium Semi-Condensed" checksum="(null)">
@@ -3433,7 +3475,7 @@
   <resource identifier="Noto Sans Georgian Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Semi-Bold Semi-Condensed" checksum="(null)">
@@ -3448,7 +3490,7 @@
   <resource identifier="Noto Sans Georgian Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Thin Semi-Condensed" checksum="(null)">
@@ -3460,7 +3502,7 @@
   <resource identifier="Noto Sans Georgian Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -3472,7 +3514,7 @@
   <resource identifier="Noto Sans Georgian Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Georgian Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Georgian Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Georgian Ultra-Light Semi-Condensed" checksum="(null)">
@@ -3499,16 +3541,226 @@
   <resource identifier="Noto Sans Gujarati UI Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Gunjala Gondi" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Gurmukhi" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Gurmukhi Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Gurmukhi Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Gurmukhi UI" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Gurmukhi UI Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi UI Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Gurmukhi Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Hanifi Rohingya" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hanunoo" checksum="(null)">
@@ -3523,7 +3775,7 @@
   <resource identifier="Noto Sans Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Heavy Italic" checksum="(null)">
@@ -3532,7 +3784,7 @@
   <resource identifier="Noto Sans Heavy Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Heavy Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Heavy Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Heavy Italic Semi-Condensed" checksum="(null)">
@@ -3550,7 +3802,7 @@
   <resource identifier="Noto Sans Hebrew Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Bold Semi-Condensed" checksum="(null)">
@@ -3559,7 +3811,7 @@
   <resource identifier="Noto Sans Hebrew Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Heavy" checksum="(null)">
@@ -3568,7 +3820,7 @@
   <resource identifier="Noto Sans Hebrew Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Heavy Semi-Condensed" checksum="(null)">
@@ -3580,7 +3832,7 @@
   <resource identifier="Noto Sans Hebrew Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Light Semi-Condensed" checksum="(null)">
@@ -3592,7 +3844,7 @@
   <resource identifier="Noto Sans Hebrew Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Medium Semi-Condensed" checksum="(null)">
@@ -3604,7 +3856,7 @@
   <resource identifier="Noto Sans Hebrew Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Semi-Bold Semi-Condensed" checksum="(null)">
@@ -3619,7 +3871,7 @@
   <resource identifier="Noto Sans Hebrew Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Thin Semi-Condensed" checksum="(null)">
@@ -3631,7 +3883,7 @@
   <resource identifier="Noto Sans Hebrew Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -3643,7 +3895,7 @@
   <resource identifier="Noto Sans Hebrew Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Hebrew Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Hebrew Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Hebrew Ultra-Light Semi-Condensed" checksum="(null)">
@@ -3709,6 +3961,9 @@
   <resource identifier="Noto Sans Imperial Aramaic" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Indic Siyaq Numbers" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Inscriptional Pahlavi" checksum="(null)">
   </resource>
 
@@ -3721,7 +3976,7 @@
   <resource identifier="Noto Sans Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Italic Semi-Condensed" checksum="(null)">
@@ -3745,7 +4000,7 @@
   <resource identifier="Noto Sans Kannada Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Bold Semi-Condensed" checksum="(null)">
@@ -3754,7 +4009,7 @@
   <resource identifier="Noto Sans Kannada Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Heavy" checksum="(null)">
@@ -3763,7 +4018,7 @@
   <resource identifier="Noto Sans Kannada Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Heavy Semi-Condensed" checksum="(null)">
@@ -3775,7 +4030,7 @@
   <resource identifier="Noto Sans Kannada Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Light Semi-Condensed" checksum="(null)">
@@ -3787,7 +4042,7 @@
   <resource identifier="Noto Sans Kannada Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Medium Semi-Condensed" checksum="(null)">
@@ -3799,7 +4054,7 @@
   <resource identifier="Noto Sans Kannada Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Semi-Bold Semi-Condensed" checksum="(null)">
@@ -3814,7 +4069,7 @@
   <resource identifier="Noto Sans Kannada Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Thin Semi-Condensed" checksum="(null)">
@@ -3829,7 +4084,7 @@
   <resource identifier="Noto Sans Kannada UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Bold Semi-Condensed" checksum="(null)">
@@ -3838,7 +4093,7 @@
   <resource identifier="Noto Sans Kannada UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Heavy" checksum="(null)">
@@ -3847,7 +4102,7 @@
   <resource identifier="Noto Sans Kannada UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Heavy Semi-Condensed" checksum="(null)">
@@ -3859,7 +4114,7 @@
   <resource identifier="Noto Sans Kannada UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Light Semi-Condensed" checksum="(null)">
@@ -3871,7 +4126,7 @@
   <resource identifier="Noto Sans Kannada UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Medium Semi-Condensed" checksum="(null)">
@@ -3883,7 +4138,7 @@
   <resource identifier="Noto Sans Kannada UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -3898,7 +4153,7 @@
   <resource identifier="Noto Sans Kannada UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Thin Semi-Condensed" checksum="(null)">
@@ -3910,7 +4165,7 @@
   <resource identifier="Noto Sans Kannada UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -3922,7 +4177,7 @@
   <resource identifier="Noto Sans Kannada UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -3934,7 +4189,7 @@
   <resource identifier="Noto Sans Kannada Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -3946,7 +4201,7 @@
   <resource identifier="Noto Sans Kannada Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Kannada Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Kannada Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Kannada Ultra-Light Semi-Condensed" checksum="(null)">
@@ -3967,7 +4222,7 @@
   <resource identifier="Noto Sans Khmer Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Bold Semi-Condensed" checksum="(null)">
@@ -3976,7 +4231,7 @@
   <resource identifier="Noto Sans Khmer Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Heavy" checksum="(null)">
@@ -3985,7 +4240,7 @@
   <resource identifier="Noto Sans Khmer Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Heavy Semi-Condensed" checksum="(null)">
@@ -3997,7 +4252,7 @@
   <resource identifier="Noto Sans Khmer Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Light Semi-Condensed" checksum="(null)">
@@ -4009,7 +4264,7 @@
   <resource identifier="Noto Sans Khmer Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Medium Semi-Condensed" checksum="(null)">
@@ -4021,7 +4276,7 @@
   <resource identifier="Noto Sans Khmer Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4036,7 +4291,7 @@
   <resource identifier="Noto Sans Khmer Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Thin Semi-Condensed" checksum="(null)">
@@ -4051,7 +4306,7 @@
   <resource identifier="Noto Sans Khmer UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Bold Semi-Condensed" checksum="(null)">
@@ -4060,7 +4315,7 @@
   <resource identifier="Noto Sans Khmer UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Heavy" checksum="(null)">
@@ -4069,7 +4324,7 @@
   <resource identifier="Noto Sans Khmer UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Heavy Semi-Condensed" checksum="(null)">
@@ -4081,7 +4336,7 @@
   <resource identifier="Noto Sans Khmer UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Light Semi-Condensed" checksum="(null)">
@@ -4093,7 +4348,7 @@
   <resource identifier="Noto Sans Khmer UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Medium Semi-Condensed" checksum="(null)">
@@ -4105,7 +4360,7 @@
   <resource identifier="Noto Sans Khmer UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4120,7 +4375,7 @@
   <resource identifier="Noto Sans Khmer UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Thin Semi-Condensed" checksum="(null)">
@@ -4132,7 +4387,7 @@
   <resource identifier="Noto Sans Khmer UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -4144,7 +4399,7 @@
   <resource identifier="Noto Sans Khmer UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -4156,7 +4411,7 @@
   <resource identifier="Noto Sans Khmer Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -4168,7 +4423,7 @@
   <resource identifier="Noto Sans Khmer Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Khmer Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Khmer Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Khmer Ultra-Light Semi-Condensed" checksum="(null)">
@@ -4189,7 +4444,7 @@
   <resource identifier="Noto Sans Lao Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Bold Semi-Condensed" checksum="(null)">
@@ -4198,7 +4453,7 @@
   <resource identifier="Noto Sans Lao Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Heavy" checksum="(null)">
@@ -4207,7 +4462,7 @@
   <resource identifier="Noto Sans Lao Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Heavy Semi-Condensed" checksum="(null)">
@@ -4219,7 +4474,7 @@
   <resource identifier="Noto Sans Lao Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Light Semi-Condensed" checksum="(null)">
@@ -4231,7 +4486,7 @@
   <resource identifier="Noto Sans Lao Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Medium Semi-Condensed" checksum="(null)">
@@ -4243,7 +4498,7 @@
   <resource identifier="Noto Sans Lao Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4258,7 +4513,7 @@
   <resource identifier="Noto Sans Lao Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Thin Semi-Condensed" checksum="(null)">
@@ -4273,7 +4528,7 @@
   <resource identifier="Noto Sans Lao UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Bold Semi-Condensed" checksum="(null)">
@@ -4282,7 +4537,7 @@
   <resource identifier="Noto Sans Lao UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Heavy" checksum="(null)">
@@ -4291,7 +4546,7 @@
   <resource identifier="Noto Sans Lao UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Heavy Semi-Condensed" checksum="(null)">
@@ -4303,7 +4558,7 @@
   <resource identifier="Noto Sans Lao UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Light Semi-Condensed" checksum="(null)">
@@ -4315,7 +4570,7 @@
   <resource identifier="Noto Sans Lao UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Medium Semi-Condensed" checksum="(null)">
@@ -4327,7 +4582,7 @@
   <resource identifier="Noto Sans Lao UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4342,7 +4597,7 @@
   <resource identifier="Noto Sans Lao UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Thin Semi-Condensed" checksum="(null)">
@@ -4354,7 +4609,7 @@
   <resource identifier="Noto Sans Lao UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -4366,7 +4621,7 @@
   <resource identifier="Noto Sans Lao UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -4378,7 +4633,7 @@
   <resource identifier="Noto Sans Lao Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -4390,7 +4645,7 @@
   <resource identifier="Noto Sans Lao Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Lao Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Lao Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lao Ultra-Light Semi-Condensed" checksum="(null)">
@@ -4405,7 +4660,7 @@
   <resource identifier="Noto Sans Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Light Italic" checksum="(null)">
@@ -4414,7 +4669,7 @@
   <resource identifier="Noto Sans Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Light Italic Semi-Condensed" checksum="(null)">
@@ -4433,6 +4688,15 @@
   </resource>
 
   <resource identifier="Noto Sans Lisu" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Lisu Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Lisu Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Lisu Semi-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Lycian" checksum="(null)">
@@ -4669,7 +4933,13 @@
   <resource identifier="Noto Sans Marchen" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Masaram Gondi" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Mayan Numerals" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Medium" checksum="(null)">
@@ -4678,7 +4948,7 @@
   <resource identifier="Noto Sans Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Medium Italic" checksum="(null)">
@@ -4687,7 +4957,7 @@
   <resource identifier="Noto Sans Medium Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Medium Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Medium Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Medium Italic Semi-Condensed" checksum="(null)">
@@ -4723,7 +4993,7 @@
   <resource identifier="Noto Sans Mono Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Bold Semi-Condensed" checksum="(null)">
@@ -4762,7 +5032,7 @@
   <resource identifier="Noto Sans Mono Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Heavy" checksum="(null)">
@@ -4771,7 +5041,7 @@
   <resource identifier="Noto Sans Mono Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Heavy Semi-Condensed" checksum="(null)">
@@ -4783,7 +5053,7 @@
   <resource identifier="Noto Sans Mono Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Light Semi-Condensed" checksum="(null)">
@@ -4795,7 +5065,7 @@
   <resource identifier="Noto Sans Mono Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Medium Semi-Condensed" checksum="(null)">
@@ -4807,7 +5077,7 @@
   <resource identifier="Noto Sans Mono Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4822,7 +5092,7 @@
   <resource identifier="Noto Sans Mono Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Thin Semi-Condensed" checksum="(null)">
@@ -4834,7 +5104,7 @@
   <resource identifier="Noto Sans Mono Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -4846,7 +5116,7 @@
   <resource identifier="Noto Sans Mono Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Mono Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Mono Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Mono Ultra-Light Semi-Condensed" checksum="(null)">
@@ -4867,7 +5137,7 @@
   <resource identifier="Noto Sans Myanmar Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Bold Semi-Condensed" checksum="(null)">
@@ -4876,7 +5146,7 @@
   <resource identifier="Noto Sans Myanmar Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Heavy" checksum="(null)">
@@ -4885,7 +5155,7 @@
   <resource identifier="Noto Sans Myanmar Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Heavy Semi-Condensed" checksum="(null)">
@@ -4897,7 +5167,7 @@
   <resource identifier="Noto Sans Myanmar Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Light Semi-Condensed" checksum="(null)">
@@ -4909,7 +5179,7 @@
   <resource identifier="Noto Sans Myanmar Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Medium Semi-Condensed" checksum="(null)">
@@ -4921,7 +5191,7 @@
   <resource identifier="Noto Sans Myanmar Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Semi-Bold Semi-Condensed" checksum="(null)">
@@ -4936,7 +5206,7 @@
   <resource identifier="Noto Sans Myanmar Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Thin Semi-Condensed" checksum="(null)">
@@ -4951,7 +5221,7 @@
   <resource identifier="Noto Sans Myanmar UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Bold Semi-Condensed" checksum="(null)">
@@ -4960,7 +5230,7 @@
   <resource identifier="Noto Sans Myanmar UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Heavy" checksum="(null)">
@@ -4969,7 +5239,7 @@
   <resource identifier="Noto Sans Myanmar UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Heavy Semi-Condensed" checksum="(null)">
@@ -4981,7 +5251,7 @@
   <resource identifier="Noto Sans Myanmar UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Light Semi-Condensed" checksum="(null)">
@@ -4993,7 +5263,7 @@
   <resource identifier="Noto Sans Myanmar UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Medium Semi-Condensed" checksum="(null)">
@@ -5005,7 +5275,7 @@
   <resource identifier="Noto Sans Myanmar UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5020,7 +5290,7 @@
   <resource identifier="Noto Sans Myanmar UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Thin Semi-Condensed" checksum="(null)">
@@ -5032,7 +5302,7 @@
   <resource identifier="Noto Sans Myanmar UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5044,7 +5314,7 @@
   <resource identifier="Noto Sans Myanmar UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5056,7 +5326,7 @@
   <resource identifier="Noto Sans Myanmar Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5068,7 +5338,7 @@
   <resource identifier="Noto Sans Myanmar Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Myanmar Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Myanmar Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Myanmar Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5104,6 +5374,9 @@
   <resource identifier="Noto Sans Old Persian" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Old Sogdian" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Old South Arabian" checksum="(null)">
   </resource>
 
@@ -5111,6 +5384,15 @@
   </resource>
 
   <resource identifier="Noto Sans Ol Chiki" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ol Chiki Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ol Chiki Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ol Chiki Semi-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Oriya" checksum="(null)">
@@ -5167,7 +5449,7 @@
   <resource identifier="Noto Sans Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Semi-Bold Italic" checksum="(null)">
@@ -5176,7 +5458,7 @@
   <resource identifier="Noto Sans Semi-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Semi-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Semi-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Semi-Bold Italic Semi-Condensed" checksum="(null)">
@@ -5194,6 +5476,9 @@
   <resource identifier="Noto Sans Shavian" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Siddham" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Sinhala" checksum="(null)">
   </resource>
 
@@ -5203,7 +5488,7 @@
   <resource identifier="Noto Sans Sinhala Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Bold Semi-Condensed" checksum="(null)">
@@ -5212,7 +5497,7 @@
   <resource identifier="Noto Sans Sinhala Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Heavy" checksum="(null)">
@@ -5221,7 +5506,7 @@
   <resource identifier="Noto Sans Sinhala Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Heavy Semi-Condensed" checksum="(null)">
@@ -5233,7 +5518,7 @@
   <resource identifier="Noto Sans Sinhala Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Light Semi-Condensed" checksum="(null)">
@@ -5245,7 +5530,7 @@
   <resource identifier="Noto Sans Sinhala Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Medium Semi-Condensed" checksum="(null)">
@@ -5257,7 +5542,7 @@
   <resource identifier="Noto Sans Sinhala Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5272,7 +5557,7 @@
   <resource identifier="Noto Sans Sinhala Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Thin Semi-Condensed" checksum="(null)">
@@ -5287,7 +5572,7 @@
   <resource identifier="Noto Sans Sinhala UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Bold Semi-Condensed" checksum="(null)">
@@ -5296,7 +5581,7 @@
   <resource identifier="Noto Sans Sinhala UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Heavy" checksum="(null)">
@@ -5305,7 +5590,7 @@
   <resource identifier="Noto Sans Sinhala UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Heavy Semi-Condensed" checksum="(null)">
@@ -5317,7 +5602,7 @@
   <resource identifier="Noto Sans Sinhala UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Light Semi-Condensed" checksum="(null)">
@@ -5329,7 +5614,7 @@
   <resource identifier="Noto Sans Sinhala UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Medium Semi-Condensed" checksum="(null)">
@@ -5341,7 +5626,7 @@
   <resource identifier="Noto Sans Sinhala UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5356,7 +5641,7 @@
   <resource identifier="Noto Sans Sinhala UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Thin Semi-Condensed" checksum="(null)">
@@ -5368,7 +5653,7 @@
   <resource identifier="Noto Sans Sinhala UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5380,7 +5665,7 @@
   <resource identifier="Noto Sans Sinhala UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5392,7 +5677,7 @@
   <resource identifier="Noto Sans Sinhala Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5404,13 +5689,19 @@
   <resource identifier="Noto Sans Sinhala Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Sinhala Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Sinhala Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sinhala Ultra-Light Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Sogdian" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Sora Sompeng" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Soyombo" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Sundanese" checksum="(null)">
@@ -5446,25 +5737,16 @@
   <resource identifier="Noto Sans Symbols Ultra-Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Symbols2 Ultra-Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Symbols2" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Syriac" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Syriac Eastern" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Syriac Estrangela" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Syriac Heavy" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Syriac Thin" checksum="(null)">
-  </resource>
-
-  <resource identifier="Noto Sans Syriac Western" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tagalog" checksum="(null)">
@@ -5494,7 +5776,7 @@
   <resource identifier="Noto Sans Tamil Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Bold Semi-Condensed" checksum="(null)">
@@ -5503,7 +5785,7 @@
   <resource identifier="Noto Sans Tamil Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Heavy" checksum="(null)">
@@ -5512,7 +5794,7 @@
   <resource identifier="Noto Sans Tamil Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Heavy Semi-Condensed" checksum="(null)">
@@ -5524,7 +5806,7 @@
   <resource identifier="Noto Sans Tamil Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Light Semi-Condensed" checksum="(null)">
@@ -5536,7 +5818,7 @@
   <resource identifier="Noto Sans Tamil Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Medium Semi-Condensed" checksum="(null)">
@@ -5548,7 +5830,7 @@
   <resource identifier="Noto Sans Tamil Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5557,13 +5839,16 @@
   <resource identifier="Noto Sans Tamil Semi-Condensed" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Tamil Supplement" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Tamil Thin" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Thin Semi-Condensed" checksum="(null)">
@@ -5578,7 +5863,7 @@
   <resource identifier="Noto Sans Tamil UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Bold Semi-Condensed" checksum="(null)">
@@ -5587,7 +5872,7 @@
   <resource identifier="Noto Sans Tamil UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Heavy" checksum="(null)">
@@ -5596,7 +5881,7 @@
   <resource identifier="Noto Sans Tamil UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Heavy Semi-Condensed" checksum="(null)">
@@ -5608,7 +5893,7 @@
   <resource identifier="Noto Sans Tamil UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Light Semi-Condensed" checksum="(null)">
@@ -5620,7 +5905,7 @@
   <resource identifier="Noto Sans Tamil UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Medium Semi-Condensed" checksum="(null)">
@@ -5632,7 +5917,7 @@
   <resource identifier="Noto Sans Tamil UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5647,7 +5932,7 @@
   <resource identifier="Noto Sans Tamil UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Thin Semi-Condensed" checksum="(null)">
@@ -5659,7 +5944,7 @@
   <resource identifier="Noto Sans Tamil UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5671,7 +5956,7 @@
   <resource identifier="Noto Sans Tamil UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5683,7 +5968,7 @@
   <resource identifier="Noto Sans Tamil Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5695,7 +5980,7 @@
   <resource identifier="Noto Sans Tamil Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Tamil Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Tamil Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Tamil Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5707,16 +5992,241 @@
   <resource identifier="Noto Sans Telugu Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Telugu Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Telugu UI" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Telugu UI Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Telugu UI Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu UI Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Telugu Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Thaana" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thaana Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Thaana Ultra-Light" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai" checksum="(null)">
@@ -5728,7 +6238,7 @@
   <resource identifier="Noto Sans Thai Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Bold Semi-Condensed" checksum="(null)">
@@ -5737,7 +6247,7 @@
   <resource identifier="Noto Sans Thai Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Heavy" checksum="(null)">
@@ -5746,7 +6256,7 @@
   <resource identifier="Noto Sans Thai Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Heavy Semi-Condensed" checksum="(null)">
@@ -5758,7 +6268,7 @@
   <resource identifier="Noto Sans Thai Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Light Semi-Condensed" checksum="(null)">
@@ -5770,7 +6280,7 @@
   <resource identifier="Noto Sans Thai Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Medium Semi-Condensed" checksum="(null)">
@@ -5782,7 +6292,7 @@
   <resource identifier="Noto Sans Thai Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5797,7 +6307,7 @@
   <resource identifier="Noto Sans Thai Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Thin Semi-Condensed" checksum="(null)">
@@ -5812,7 +6322,7 @@
   <resource identifier="Noto Sans Thai UI Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Bold Semi-Condensed" checksum="(null)">
@@ -5821,7 +6331,7 @@
   <resource identifier="Noto Sans Thai UI Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Heavy" checksum="(null)">
@@ -5830,7 +6340,7 @@
   <resource identifier="Noto Sans Thai UI Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Heavy Semi-Condensed" checksum="(null)">
@@ -5842,7 +6352,7 @@
   <resource identifier="Noto Sans Thai UI Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Light Semi-Condensed" checksum="(null)">
@@ -5854,7 +6364,7 @@
   <resource identifier="Noto Sans Thai UI Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Medium Semi-Condensed" checksum="(null)">
@@ -5866,7 +6376,7 @@
   <resource identifier="Noto Sans Thai UI Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Semi-Bold Semi-Condensed" checksum="(null)">
@@ -5881,7 +6391,7 @@
   <resource identifier="Noto Sans Thai UI Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Thin Semi-Condensed" checksum="(null)">
@@ -5893,7 +6403,7 @@
   <resource identifier="Noto Sans Thai UI Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5905,7 +6415,7 @@
   <resource identifier="Noto Sans Thai UI Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai UI Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai UI Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai UI Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5917,7 +6427,7 @@
   <resource identifier="Noto Sans Thai Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -5929,7 +6439,7 @@
   <resource identifier="Noto Sans Thai Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thai Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thai Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thai Ultra-Light Semi-Condensed" checksum="(null)">
@@ -5941,7 +6451,7 @@
   <resource identifier="Noto Sans Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thin Italic" checksum="(null)">
@@ -5950,7 +6460,7 @@
   <resource identifier="Noto Sans Thin Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Thin Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Thin Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Thin Italic Semi-Condensed" checksum="(null)">
@@ -5980,7 +6490,7 @@
   <resource identifier="Noto Sans Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ultra-Bold Italic" checksum="(null)">
@@ -5989,7 +6499,7 @@
   <resource identifier="Noto Sans Ultra-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ultra-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ultra-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ultra-Bold Italic Semi-Condensed" checksum="(null)">
@@ -6004,7 +6514,7 @@
   <resource identifier="Noto Sans Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ultra-Light Italic" checksum="(null)">
@@ -6013,7 +6523,7 @@
   <resource identifier="Noto Sans Ultra-Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Sans Ultra-Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Sans Ultra-Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Ultra-Light Italic Semi-Condensed" checksum="(null)">
@@ -6025,10 +6535,16 @@
   <resource identifier="Noto Sans Vai" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Sans Wancho" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Sans Warang Citi" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Yi" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Zanabazar Square" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif" checksum="(null)">
@@ -6046,7 +6562,7 @@
   <resource identifier="Noto Serif Armenian Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Bold Semi-Condensed" checksum="(null)">
@@ -6055,7 +6571,7 @@
   <resource identifier="Noto Serif Armenian Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Heavy" checksum="(null)">
@@ -6064,7 +6580,7 @@
   <resource identifier="Noto Serif Armenian Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Heavy Semi-Condensed" checksum="(null)">
@@ -6076,7 +6592,7 @@
   <resource identifier="Noto Serif Armenian Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Light Semi-Condensed" checksum="(null)">
@@ -6088,7 +6604,7 @@
   <resource identifier="Noto Serif Armenian Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Medium Semi-Condensed" checksum="(null)">
@@ -6100,7 +6616,7 @@
   <resource identifier="Noto Serif Armenian Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Semi-Bold Semi-Condensed" checksum="(null)">
@@ -6115,7 +6631,7 @@
   <resource identifier="Noto Serif Armenian Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Thin Semi-Condensed" checksum="(null)">
@@ -6127,7 +6643,7 @@
   <resource identifier="Noto Serif Armenian Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -6139,7 +6655,7 @@
   <resource identifier="Noto Serif Armenian Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Armenian Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Armenian Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Armenian Ultra-Light Semi-Condensed" checksum="(null)">
@@ -6154,13 +6670,115 @@
   <resource identifier="Noto Serif Bengali Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Serif Bengali Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Bengali Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Serif Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Bold Italic" checksum="(null)">
@@ -6169,7 +6787,7 @@
   <resource identifier="Noto Serif Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Bold Italic Semi-Condensed" checksum="(null)">
@@ -6265,13 +6883,112 @@
   <resource identifier="Noto Serif Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Condensed" checksum="(null)">
-  </resource>
-
   <resource identifier="Noto Serif Devanagari" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Devanagari Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Heavy Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Medium Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Semi-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Thin Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Bold Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Light Extra-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Devanagari Ultra-Light Semi-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display" checksum="(null)">
@@ -6283,7 +7000,7 @@
   <resource identifier="Noto Serif Display Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Bold Italic" checksum="(null)">
@@ -6292,7 +7009,7 @@
   <resource identifier="Noto Serif Display Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Bold Italic Semi-Condensed" checksum="(null)">
@@ -6304,7 +7021,7 @@
   <resource identifier="Noto Serif Display Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Heavy" checksum="(null)">
@@ -6313,7 +7030,7 @@
   <resource identifier="Noto Serif Display Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Heavy Italic" checksum="(null)">
@@ -6322,7 +7039,7 @@
   <resource identifier="Noto Serif Display Heavy Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Heavy Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Heavy Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Heavy Italic Semi-Condensed" checksum="(null)">
@@ -6337,7 +7054,7 @@
   <resource identifier="Noto Serif Display Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Italic Semi-Condensed" checksum="(null)">
@@ -6349,7 +7066,7 @@
   <resource identifier="Noto Serif Display Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Light Italic" checksum="(null)">
@@ -6358,7 +7075,7 @@
   <resource identifier="Noto Serif Display Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Light Italic Semi-Condensed" checksum="(null)">
@@ -6373,7 +7090,7 @@
   <resource identifier="Noto Serif Display Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Medium Italic" checksum="(null)">
@@ -6382,7 +7099,7 @@
   <resource identifier="Noto Serif Display Medium Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Medium Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Medium Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Medium Italic Semi-Condensed" checksum="(null)">
@@ -6397,7 +7114,7 @@
   <resource identifier="Noto Serif Display Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Semi-Bold Italic" checksum="(null)">
@@ -6406,7 +7123,7 @@
   <resource identifier="Noto Serif Display Semi-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Semi-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Semi-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Semi-Bold Italic Semi-Condensed" checksum="(null)">
@@ -6424,7 +7141,7 @@
   <resource identifier="Noto Serif Display Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Thin Italic" checksum="(null)">
@@ -6433,7 +7150,7 @@
   <resource identifier="Noto Serif Display Thin Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Thin Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Thin Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Thin Italic Semi-Condensed" checksum="(null)">
@@ -6448,7 +7165,7 @@
   <resource identifier="Noto Serif Display Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Ultra-Bold Italic" checksum="(null)">
@@ -6457,7 +7174,7 @@
   <resource identifier="Noto Serif Display Ultra-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Ultra-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Ultra-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Ultra-Bold Italic Semi-Condensed" checksum="(null)">
@@ -6472,7 +7189,7 @@
   <resource identifier="Noto Serif Display Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Ultra-Light Italic" checksum="(null)">
@@ -6481,13 +7198,16 @@
   <resource identifier="Noto Serif Display Ultra-Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Display Ultra-Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Display Ultra-Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Ultra-Light Italic Semi-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Display Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Dogra" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic" checksum="(null)">
@@ -6499,7 +7219,7 @@
   <resource identifier="Noto Serif Ethiopic Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Bold Semi-Condensed" checksum="(null)">
@@ -6508,7 +7228,7 @@
   <resource identifier="Noto Serif Ethiopic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Heavy" checksum="(null)">
@@ -6517,7 +7237,7 @@
   <resource identifier="Noto Serif Ethiopic Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Heavy Semi-Condensed" checksum="(null)">
@@ -6529,7 +7249,7 @@
   <resource identifier="Noto Serif Ethiopic Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Light Semi-Condensed" checksum="(null)">
@@ -6541,7 +7261,7 @@
   <resource identifier="Noto Serif Ethiopic Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Medium Semi-Condensed" checksum="(null)">
@@ -6553,7 +7273,7 @@
   <resource identifier="Noto Serif Ethiopic Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Semi-Bold Semi-Condensed" checksum="(null)">
@@ -6568,7 +7288,7 @@
   <resource identifier="Noto Serif Ethiopic Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Thin Semi-Condensed" checksum="(null)">
@@ -6580,7 +7300,7 @@
   <resource identifier="Noto Serif Ethiopic Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -6592,10 +7312,13 @@
   <resource identifier="Noto Serif Ethiopic Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ethiopic Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ethiopic Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ethiopic Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian" checksum="(null)">
@@ -6607,7 +7330,7 @@
   <resource identifier="Noto Serif Georgian Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Bold Semi-Condensed" checksum="(null)">
@@ -6616,7 +7339,7 @@
   <resource identifier="Noto Serif Georgian Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Heavy" checksum="(null)">
@@ -6625,7 +7348,7 @@
   <resource identifier="Noto Serif Georgian Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Heavy Semi-Condensed" checksum="(null)">
@@ -6637,7 +7360,7 @@
   <resource identifier="Noto Serif Georgian Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Light Semi-Condensed" checksum="(null)">
@@ -6649,7 +7372,7 @@
   <resource identifier="Noto Serif Georgian Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Medium Semi-Condensed" checksum="(null)">
@@ -6661,7 +7384,7 @@
   <resource identifier="Noto Serif Georgian Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Semi-Bold Semi-Condensed" checksum="(null)">
@@ -6676,7 +7399,7 @@
   <resource identifier="Noto Serif Georgian Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Thin Semi-Condensed" checksum="(null)">
@@ -6688,7 +7411,7 @@
   <resource identifier="Noto Serif Georgian Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -6700,7 +7423,7 @@
   <resource identifier="Noto Serif Georgian Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Georgian Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Georgian Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Georgian Ultra-Light Semi-Condensed" checksum="(null)">
@@ -6766,7 +7489,7 @@
   <resource identifier="Noto Serif Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Heavy Italic" checksum="(null)">
@@ -6775,7 +7498,7 @@
   <resource identifier="Noto Serif Heavy Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Heavy Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Heavy Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Heavy Italic Semi-Condensed" checksum="(null)">
@@ -6793,7 +7516,7 @@
   <resource identifier="Noto Serif Hebrew Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Bold Semi-Condensed" checksum="(null)">
@@ -6802,7 +7525,7 @@
   <resource identifier="Noto Serif Hebrew Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Heavy" checksum="(null)">
@@ -6811,7 +7534,7 @@
   <resource identifier="Noto Serif Hebrew Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Heavy Semi-Condensed" checksum="(null)">
@@ -6823,7 +7546,7 @@
   <resource identifier="Noto Serif Hebrew Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Light Semi-Condensed" checksum="(null)">
@@ -6835,7 +7558,7 @@
   <resource identifier="Noto Serif Hebrew Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Medium Semi-Condensed" checksum="(null)">
@@ -6847,7 +7570,7 @@
   <resource identifier="Noto Serif Hebrew Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Semi-Bold Semi-Condensed" checksum="(null)">
@@ -6862,7 +7585,7 @@
   <resource identifier="Noto Serif Hebrew Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Thin Semi-Condensed" checksum="(null)">
@@ -6874,7 +7597,7 @@
   <resource identifier="Noto Serif Hebrew Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -6886,7 +7609,7 @@
   <resource identifier="Noto Serif Hebrew Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Hebrew Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Hebrew Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Hebrew Ultra-Light Semi-Condensed" checksum="(null)">
@@ -6898,7 +7621,7 @@
   <resource identifier="Noto Serif Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Italic Semi-Condensed" checksum="(null)">
@@ -6940,7 +7663,7 @@
   <resource identifier="Noto Serif Khmer Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Bold Semi-Condensed" checksum="(null)">
@@ -6949,7 +7672,7 @@
   <resource identifier="Noto Serif Khmer Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Heavy" checksum="(null)">
@@ -6958,7 +7681,7 @@
   <resource identifier="Noto Serif Khmer Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Heavy Semi-Condensed" checksum="(null)">
@@ -6970,7 +7693,7 @@
   <resource identifier="Noto Serif Khmer Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Light Semi-Condensed" checksum="(null)">
@@ -6982,7 +7705,7 @@
   <resource identifier="Noto Serif Khmer Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Medium Semi-Condensed" checksum="(null)">
@@ -6994,7 +7717,7 @@
   <resource identifier="Noto Serif Khmer Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7009,7 +7732,7 @@
   <resource identifier="Noto Serif Khmer Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Thin Semi-Condensed" checksum="(null)">
@@ -7021,7 +7744,7 @@
   <resource identifier="Noto Serif Khmer Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7033,7 +7756,7 @@
   <resource identifier="Noto Serif Khmer Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Khmer Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Khmer Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Khmer Ultra-Light Semi-Condensed" checksum="(null)">
@@ -7048,7 +7771,7 @@
   <resource identifier="Noto Serif Lao Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Bold Semi-Condensed" checksum="(null)">
@@ -7057,7 +7780,7 @@
   <resource identifier="Noto Serif Lao Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Heavy" checksum="(null)">
@@ -7066,7 +7789,7 @@
   <resource identifier="Noto Serif Lao Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Heavy Semi-Condensed" checksum="(null)">
@@ -7078,7 +7801,7 @@
   <resource identifier="Noto Serif Lao Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Light Semi-Condensed" checksum="(null)">
@@ -7090,7 +7813,7 @@
   <resource identifier="Noto Serif Lao Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Medium Semi-Condensed" checksum="(null)">
@@ -7102,7 +7825,7 @@
   <resource identifier="Noto Serif Lao Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7117,7 +7840,7 @@
   <resource identifier="Noto Serif Lao Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Thin Semi-Condensed" checksum="(null)">
@@ -7129,7 +7852,7 @@
   <resource identifier="Noto Serif Lao Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7141,7 +7864,7 @@
   <resource identifier="Noto Serif Lao Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Lao Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Lao Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Lao Ultra-Light Semi-Condensed" checksum="(null)">
@@ -7153,7 +7876,7 @@
   <resource identifier="Noto Serif Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Light Italic" checksum="(null)">
@@ -7162,7 +7885,7 @@
   <resource identifier="Noto Serif Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Light Italic Semi-Condensed" checksum="(null)">
@@ -7177,13 +7900,34 @@
   <resource identifier="Noto Serif Malayalam Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="Noto Serif Malayalam Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Malayalam Ultra-Light" checksum="(null)">
+  </resource>
+
   <resource identifier="Noto Serif Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Medium Italic" checksum="(null)">
@@ -7192,7 +7936,7 @@
   <resource identifier="Noto Serif Medium Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Medium Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Medium Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Medium Italic Semi-Condensed" checksum="(null)">
@@ -7315,7 +8059,7 @@
   <resource identifier="Noto Serif Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Semi-Bold Italic" checksum="(null)">
@@ -7324,7 +8068,7 @@
   <resource identifier="Noto Serif Semi-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Semi-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Semi-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Semi-Bold Italic Semi-Condensed" checksum="(null)">
@@ -7345,7 +8089,7 @@
   <resource identifier="Noto Serif Sinhala Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Bold Semi-Condensed" checksum="(null)">
@@ -7354,7 +8098,7 @@
   <resource identifier="Noto Serif Sinhala Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Heavy" checksum="(null)">
@@ -7363,7 +8107,7 @@
   <resource identifier="Noto Serif Sinhala Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Heavy Semi-Condensed" checksum="(null)">
@@ -7375,7 +8119,7 @@
   <resource identifier="Noto Serif Sinhala Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Light Semi-Condensed" checksum="(null)">
@@ -7387,7 +8131,7 @@
   <resource identifier="Noto Serif Sinhala Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Medium Semi-Condensed" checksum="(null)">
@@ -7399,7 +8143,7 @@
   <resource identifier="Noto Serif Sinhala Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7414,7 +8158,7 @@
   <resource identifier="Noto Serif Sinhala Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Thin Semi-Condensed" checksum="(null)">
@@ -7426,7 +8170,7 @@
   <resource identifier="Noto Serif Sinhala Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7438,7 +8182,7 @@
   <resource identifier="Noto Serif Sinhala Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Sinhala Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Sinhala Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Sinhala Ultra-Light Semi-Condensed" checksum="(null)">
@@ -7453,7 +8197,7 @@
   <resource identifier="Noto Serif Tamil Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Bold Semi-Condensed" checksum="(null)">
@@ -7462,7 +8206,7 @@
   <resource identifier="Noto Serif Tamil Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Heavy" checksum="(null)">
@@ -7471,7 +8215,7 @@
   <resource identifier="Noto Serif Tamil Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Heavy Semi-Condensed" checksum="(null)">
@@ -7483,7 +8227,7 @@
   <resource identifier="Noto Serif Tamil Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Light Semi-Condensed" checksum="(null)">
@@ -7495,7 +8239,7 @@
   <resource identifier="Noto Serif Tamil Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Medium Semi-Condensed" checksum="(null)">
@@ -7507,7 +8251,7 @@
   <resource identifier="Noto Serif Tamil Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7525,7 +8269,7 @@
   <resource identifier="Noto Serif Tamil Slanted Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Bold Semi-Condensed" checksum="(null)">
@@ -7534,7 +8278,7 @@
   <resource identifier="Noto Serif Tamil Slanted Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Heavy" checksum="(null)">
@@ -7543,7 +8287,7 @@
   <resource identifier="Noto Serif Tamil Slanted Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Heavy Semi-Condensed" checksum="(null)">
@@ -7555,7 +8299,7 @@
   <resource identifier="Noto Serif Tamil Slanted Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Light Semi-Condensed" checksum="(null)">
@@ -7567,7 +8311,7 @@
   <resource identifier="Noto Serif Tamil Slanted Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Medium Semi-Condensed" checksum="(null)">
@@ -7579,7 +8323,7 @@
   <resource identifier="Noto Serif Tamil Slanted Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7594,7 +8338,7 @@
   <resource identifier="Noto Serif Tamil Slanted Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Thin Semi-Condensed" checksum="(null)">
@@ -7606,7 +8350,7 @@
   <resource identifier="Noto Serif Tamil Slanted Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7618,7 +8362,7 @@
   <resource identifier="Noto Serif Tamil Slanted Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Slanted Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Slanted Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Slanted Ultra-Light Semi-Condensed" checksum="(null)">
@@ -7630,7 +8374,7 @@
   <resource identifier="Noto Serif Tamil Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Thin Semi-Condensed" checksum="(null)">
@@ -7642,7 +8386,7 @@
   <resource identifier="Noto Serif Tamil Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7654,16 +8398,40 @@
   <resource identifier="Noto Serif Tamil Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Tamil Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Tamil Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Tamil Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Tangut" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Telugu" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Telugu Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Serif Telugu Ultra-Light" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai" checksum="(null)">
@@ -7675,7 +8443,7 @@
   <resource identifier="Noto Serif Thai Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Bold Semi-Condensed" checksum="(null)">
@@ -7684,7 +8452,7 @@
   <resource identifier="Noto Serif Thai Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Heavy" checksum="(null)">
@@ -7693,7 +8461,7 @@
   <resource identifier="Noto Serif Thai Heavy Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Heavy Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Heavy Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Heavy Semi-Condensed" checksum="(null)">
@@ -7705,7 +8473,7 @@
   <resource identifier="Noto Serif Thai Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Light Semi-Condensed" checksum="(null)">
@@ -7717,7 +8485,7 @@
   <resource identifier="Noto Serif Thai Medium Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Medium Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Medium Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Medium Semi-Condensed" checksum="(null)">
@@ -7729,7 +8497,7 @@
   <resource identifier="Noto Serif Thai Semi-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Semi-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Semi-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Semi-Bold Semi-Condensed" checksum="(null)">
@@ -7744,7 +8512,7 @@
   <resource identifier="Noto Serif Thai Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Thin Semi-Condensed" checksum="(null)">
@@ -7756,7 +8524,7 @@
   <resource identifier="Noto Serif Thai Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Ultra-Bold Semi-Condensed" checksum="(null)">
@@ -7768,7 +8536,7 @@
   <resource identifier="Noto Serif Thai Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thai Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thai Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thai Ultra-Light Semi-Condensed" checksum="(null)">
@@ -7780,7 +8548,7 @@
   <resource identifier="Noto Serif Thin Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thin Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thin Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thin Italic" checksum="(null)">
@@ -7789,7 +8557,7 @@
   <resource identifier="Noto Serif Thin Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Thin Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Thin Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Thin Italic Semi-Condensed" checksum="(null)">
@@ -7831,7 +8599,7 @@
   <resource identifier="Noto Serif Ultra-Bold Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ultra-Bold Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ultra-Bold Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ultra-Bold Italic" checksum="(null)">
@@ -7840,7 +8608,7 @@
   <resource identifier="Noto Serif Ultra-Bold Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ultra-Bold Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ultra-Bold Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ultra-Bold Italic Semi-Condensed" checksum="(null)">
@@ -7855,7 +8623,7 @@
   <resource identifier="Noto Serif Ultra-Light Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ultra-Light Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ultra-Light Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ultra-Light Italic" checksum="(null)">
@@ -7864,7 +8632,7 @@
   <resource identifier="Noto Serif Ultra-Light Italic Condensed" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Serif Ultra-Light Italic Condensed" checksum="(null)">
+  <resource identifier="Noto Serif Ultra-Light Italic Extra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Serif Ultra-Light Italic Semi-Condensed" checksum="(null)">
@@ -7898,6 +8666,9 @@
   </resource>
 
   <resource identifier="Padauk Book, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Poiret One" checksum="(null)">
   </resource>
 
   <resource identifier="PowerlineSymbols Medium" checksum="(null)">
@@ -8090,6 +8861,9 @@
   </resource>
 
   <resource identifier="Standard Symbols PS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Stint Ultra Condensed, Ultra-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="stmary10" checksum="(null)">

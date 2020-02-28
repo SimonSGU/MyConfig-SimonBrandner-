@@ -1,94 +1,92 @@
 configuration {
 	display-drun: "Activate";
-	display-run:  "Execute";
-	show-icons:   true;	
-    sidebar-mode: true;
+	display-run: "Execute";
+	show-icons: true;
+	sidebar-mode: true;
 }
 * {
-    // normal
-    arclight:         rgba(51,56,66,0.5);
-    foreground:       #e4e4e4;
-    // normal
+	// colors
+	arclight: rgba(51, 56, 66, 0.90);
+	arcmiddle: rgba(40, 44, 52, 0.90);
+	transparent: rgba(0, 0, 0, 0);
+	foreground: rgba(228, 228, 228, 1);
+	// colors
 
-    // indicator
-    lightred:         #cc5533;
-    blue:             #6495ed;
-    lightblue:        #87ceeb;
-    // indicator
+	// indicator
+	blue: #6495ed;
+	// indicator
 
-    // settings
-    highlight:        underline bold #ffffff;
-    transparent:      rgba(0,0,0,0);
-    font:             "Source Code Pro 11";
-    background-color: @arclight;
-    // settings
+	// settings
+	font: "Source Code Pro 11";
+	background-color: @transparent;
+	// settings
 }
 
 #window {
-    location:         center;
-    anchor:           center;
-    transparency:     "screenshot";
-    color:            @foreground;
-    background-color: @arclight;
-    children:         [mainbox];
-    orientation:      horizontal;
-    width:            256px;
+	location: center;
+	anchor: center;
+	color: @foreground;
+	children: [mainbox];
+	orientation: horizontal;
+	width: 256px;
 }
 
 #mainbox {
-    spacing: 0;
-    children: [ inputbar, listview ];
+	spacing: 0;
+	children: [ inputbar, listview ];
 }
 
 #inputbar {
-    padding: 11px;
-    border: 2px 2px 2px 2px;
-    border-radius:  15px 15px 0px 0px;
-    border-color: @foreground;
-    color: @foreground;
-    background-color: @arclight;
+	padding: 11px;
+	border: 2px 2px 2px 2px;
+	border-radius: 15px 15px 0px 0px;
+	border-color: @foreground;
+	color: @foreground;
+	background-color: @arclight;
 }
 #listview {
-    padding: 11px;
-    border: 0px 2px 2px 2px;
-    border-radius:  0px 0px 15px 15px;
-    border-color: @foreground;
-    background-color: @arclight;
-    lines: 3;
+	padding: 11px;
+	border: 0px 2px 2px 2px;
+	border-radius: 0px 0px 15px 15px;
+	border-color: @foreground;
+	background-color: @arclight;
+	lines: 3;
 }
 
-#entry,prompt,case-indicator {
-    text-font:  inherit;
-    text-color: inherit;
+#entry,
+prompt,
+case-indicator {
+	text-font: inherit;
+	text-color: inherit;
 }
 
 #element {
-    padding: 3px;
-    vertical-align: 0.5;
-    background-color: transparent;
-    color: @foreground;
-    font: inherit;
+	padding: 3px;
+	vertical-align: 0.5;
+	background-color: transparent;
+	color: @foreground;
+	font: inherit;
 }
 #element selected.normal {
-    background-color: @blue;
+	background-color: @blue;
 }
 #element normal active {
-    foreground: @lightblue;
+	foreground: @lightblue;
 }
 #element normal urgent {
-    foreground: @lightred;
+	foreground: @lightred;
 }
 #element alternate active {
-    foreground: @lightblue;
+	foreground: @lightblue;
 }
 #element alternate urgent {
-    foreground: @lightred;
+	foreground: @lightred;
 }
 #element selected active {
-    background-color: @lightblue;
-    foreground: @foreground;
+	background-color: @lightblue;
+	foreground: @foreground;
 }
 #element selected urgent {
-    background-color: @lightred;
-    foreground: @foreground;
+	background-color: @lightred;
+	foreground: @foreground;
 }

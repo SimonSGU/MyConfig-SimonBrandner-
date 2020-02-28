@@ -4,7 +4,7 @@
 # It is NOT supposed to be edited manually. Edit your personal
 # gtkrc file instead (/home/simon/.config/GIMP/2.10/gtkrc).
 
-include "/home/simon/.config/GIMP/2.10/themes/PsIcons/gtkrc"
+include "/home/simon/.config/GIMP/2.10/themes/Gimp-Arc-Dark-Theme/gtkrc"
 include "/etc/gimp/2.0/gtkrc"
 include "/home/simon/.config/GIMP/2.10/gtkrc"
 

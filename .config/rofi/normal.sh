@@ -1,1 +1,1 @@
-rofi -modi drun,calc,ssh -show drun -config /home/simon/.config/rofi/normal.rasi
+rofi -modi calc,drun,ssh -show drun -config /home/simon/.config/rofi/normal.rasi -disable-history

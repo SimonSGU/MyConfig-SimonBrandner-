@@ -1,4 +1,3 @@
-
 /* The module to use. A module is a set of shaders used to produce
    the visualizer. The structure for a module is the following:
    

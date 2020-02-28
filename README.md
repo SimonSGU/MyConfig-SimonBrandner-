@@ -1,4 +1,5 @@
 <h1>MyConfig(SimonBrandner)</h1>
+
 + Distro: Debian 11 Bullseye
 + Distro: Debian 10 Buster
 + DE: KDE Plasma

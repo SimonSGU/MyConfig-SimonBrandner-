@@ -44,10 +44,10 @@ bindsym $mod+w layout toggle splith splitv tabbed
 # Change container layout (tabbed tabbed and splith)
 
 # Toggle tiling / floating
-# bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
 
 # Change focus between tiling / floating windows
-# bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
 
 
 
@@ -147,9 +147,9 @@ bindsym $mod+x exec "qmenu_hud"
 bindsym $mod+d exec sh /home/simon/.config/rofi/normal.sh # Start Rofi 
 bindsym $mod+s exec /home/simon/.config/rofi/power.sh # Power menu
 bindsym $mod+a exec atom # Start Atom
-bindsym $mod+q exec /home/simon/MediaLink/Linux-HDD-Data/PortableApps/Qt/Tools/QtCreator/bin/qtcreator # Start Qt Creator
+bindsym $mod+q exec qtcreator # Start Qt Creator
 bindsym $mod+k exec krusader # Start Krusader
-bindsym $mod+i exec chromium # Start Browser
+bindsym $mod+i exec firefox # Start Browser
 
 bindsym $mod+c exec code # VS Code
 
@@ -211,7 +211,7 @@ assign [class="Spotify"] 0
 assign [class="Discord"] 0
 assign [class="whatsdesk"] 0
 assign [class="android-messages-nativefier"] 0
-assign [class="Todoist"] 0
+assign [class="todoist-nativefier-9983d8"] 0
 assign [class="Thunderbird"] 0
 ########################################################################
 # Assign programs to workspaces
@@ -222,9 +222,9 @@ assign [class="Thunderbird"] 0
 ################################
 
 # Set colors
-set $focused_border_color #1E5D5E
-set $unfocused_border_color  #212325
-set $unfocused_switch_to_color #29363C
+set $focused_border_color #484f5d
+set $unfocused_border_color #21252b
+set $unfocused_switch_to_color #3b414d
 set $urgent_border_color #854044
 set $indicator_color #7E8488
 # Set colors

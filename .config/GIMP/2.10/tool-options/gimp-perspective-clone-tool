@@ -1,6 +1,6 @@
 # GIMP gimp-perspective-clone-tool options
 
-(foreground (color-rgb 0.125744 0.291684 0.389971))
+(foreground (color-rgb 1.000000 1.000000 1.000000))
 (background (color-rgb 0.772549 0.176471 0.176471))
 (brush "Clipboard Mask")
 (dynamics "Dynamics Off")

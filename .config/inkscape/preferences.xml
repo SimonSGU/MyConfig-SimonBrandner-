@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="545.482"
-         height="975.807"
+         width="955.659"
+         height="113.758"
          rx="0"
          ry="0" />
       <eventcontext
@@ -356,8 +356,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="387.486"
-       y="429.497"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -569,16 +569,53 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="352"
+       h="439"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="352"
+       h="439"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="334"
+       h="393"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="xml"
        panel_size="1"
@@ -588,8 +625,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="346"
-       h="266"
+       w="352"
+       h="439"
        visible="0"
        state="2"
        placement="1" />
@@ -638,9 +675,22 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="352"
+       h="439"
+       visible="1"
+       state="2"
+       placement="5">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
     </group>
@@ -660,7 +710,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/simon/BakcUpLink/Obrázky/" />
+       path="/home/simon/" />
     <group
        id="import"
        enable_preview="1"
@@ -701,9 +751,9 @@
        panel_border="0"
        x="0"
        y="0"
-       w="234"
-       h="182"
-       visible="1"
+       w="354"
+       h="180"
+       visible="0"
        state="2"
        placement="1" />
     <group
@@ -1016,12 +1066,12 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#00ff00">
+     style="line-height:1.25;fill:none;stroke:#ff0000;stroke-opacity:1;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none">
     <group
-       width="1910"
-       height="1044"
-       x="0"
-       y="26"
+       width="930"
+       height="1014"
+       x="964"
+       y="40"
        fullscreen="0"
        id="geometry"
        maximized="0" />
