@@ -4,15 +4,14 @@
 + Distro: Debian 10 Buster
 + DE: KDE Plasma
 + Window Manager: Rounded i3-gaps
-+ Workspace Theme:
-    + Look And Feel: Arc Dark
-    + Desktop theme: Maia Transparent
-    + Mouse Cursor Theme: Breeze
-+ Color: Arc Dark
-+ Icon Theme: Numix-Circle
++ Global theme: Arc Dark
++ Plasma style: Maia Transparent
 + Application Style:
     + Widget Style: Breeze
     + GTK theme(s): Breeze Dark
++ Color: Arc Dark
++ Icon Theme: Numix-Circle
++ Cursors: Breeze
 + Compositor: compton-kawase-blur
 + Terminal: Konsole
 + App launcher: rofi
