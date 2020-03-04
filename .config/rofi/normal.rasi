@@ -3,8 +3,8 @@ configuration {
 	display-ssh: "SSH to: ";
 	display-calc: "Calculate: ";
 	show-icons: true;
-	sidebar-mode: true;
 }
+
 * {
 	// colors
 	arclight: rgba(51, 56, 66, 0.90);
@@ -35,7 +35,7 @@ configuration {
 
 #mainbox {
 	spacing: 0;
-	children: [inputbar, message, listview, sidebar];
+	children: [inputbar, message, listview];
 }
 
 #inputbar {
@@ -56,11 +56,14 @@ configuration {
 
 #listview {
 	padding: 11px;
-	border: 0px 2px 0px 2px;
+	border: 0px 2px 2px 2px;
+	border-radius: 0px 0px 15px 15px;
 	border-color: @foreground;
 	background-color: @arclight;
 	lines: 16;
+	children: [ entry ];
 }
+
 #sidebar {
 	border-color: @foreground;
 	border: 0px 2px 2px 2px;
@@ -115,6 +118,7 @@ case-indicator {
 	border-color: @foreground;
 	background-color: @arcmiddle;
 }
+
 #button selected normal {
 	color: @foreground;
 	background-color: @blue;
