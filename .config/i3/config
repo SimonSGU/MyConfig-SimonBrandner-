@@ -16,19 +16,38 @@ floating_modifier $mod
 #####################################
 
 # Basic
-bindsym $mod+Return exec konsole # Start a terminal
-bindsym $mod+Shift+q kill # Kill focused window
-bindsym $mod+f fullscreen toggle # Enter fullscreen mode for the focused container
-bindsym $mod+w layout toggle splith splitv tabbed # Change container layout (tabbed tabbed and splith)
-bindsym $mod+Shift+space floating toggle # Toggle tiling / floating
-bindsym $mod+space focus mode_toggle # Change focus between tiling / floating windows
-bindsym $mod+Shift+r exec "i3-msg restart" # Restart i3
+# Start a terminal
+bindsym $mod+Return exec konsole
 
-#bindsym $mod+l exec "i3lock -i /home/simon/GIT/dotfiles/Wallpaper/SPACE/9.png" # Lock screen
+# Kill focused window
+bindsym $mod+Shift+q kill 
+
+# Enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle 
+
+# Change container layout (tabbed tabbed and splith)
+bindsym $mod+w layout toggle splith splitv tabbed 
+
+# Toggle tiling / floating
+bindsym $mod+Shift+space floating toggle 
+
+# Change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle 
+
+# Restart i3
+bindsym $mod+Shift+r exec "i3-msg restart" 
+
+# Lock screen
+#bindsym $mod+l exec "i3lock -i /home/simon/GIT/dotfiles/Wallpaper/SPACE/9.png"
+
+# A global menu replacement
 #bindsym $mod+x exec "qmenu_hud"
 
-bindsym $mod+h split h # Split in horizontal orientation
-bindsym $mod+v split v # Split in vertical orientation
+# Split in horizontal orientation
+bindsym $mod+h split h 
+
+# Split in vertical orientation
+bindsym $mod+v split v 
 # Basic
 
 # Change focus
@@ -266,7 +285,9 @@ font pango:Terminus 11px
 no_focus [class=”plasmashell”]
 no_focus [class=”latte-dock"]
 no_focus [window_type="notification"]
-no_focus [id="0x2a0001e"] # Volume controls
+
+# Volume controls
+no_focus [id="0x2a0001e"] 
 # Avoid focusing on Plasma from Plasma
 
 # Avoid tiling popups, dropdown windows from Plasma
@@ -289,8 +310,12 @@ for_window [window_type="menu"] floating enable
 
 # Other rules
 for_window [class="Toolkit"] sticky
-for_window [class="net-technicpack-launcher-LauncherMain"] floating enable # Make Technic Launcher float
-for_window [title="Desktop - Plasma"] kill; floating enable; # Try to kill the wallpaper set by Plasma
+
+# Make Technic Launcher float
+for_window [class="net-technicpack-launcher-LauncherMain"] floating enable 
+
+# Try to kill the wallpaper set by Plasma
+for_window [title="Desktop - Plasma"] kill; floating enable; 
 # Other rules
 
 ############################################################
