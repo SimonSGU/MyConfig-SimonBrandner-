@@ -9,6 +9,7 @@ SETUVAR _fish_abbr_l:ls\x20\x2dla
 SETUVAR _fish_abbr_la:ls\x20\x2da
 SETUVAR _fish_abbr_ll:ls\x20\x2dl
 SETUVAR _fish_abbr_sizeof:du\x20\x2dsh
+SETUVAR _fish_abbr_x11vncUnencrypted:x11vnc\x20\x2dauth\x20guess\x20\x2dforever\x20\x2dloop\x20\x2dnoxdamage\x20\x2drepeat\x20\x2drfbauth\x20/home/simon/\x2evnc/passwd\x20\x2drfbport\x205900\x20\x2dshared
 SETUVAR fish_color_autosuggestion:555
 SETUVAR fish_color_cancel:normal
 SETUVAR fish_color_command:005fd7

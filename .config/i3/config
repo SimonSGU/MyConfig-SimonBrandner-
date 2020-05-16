@@ -10,11 +10,26 @@ floating_modifier $mod
 #####################################
 # Basic
 
-# Start a terminal
-bindsym $mod+Return exec konsole
 
-# Kill focused window
-bindsym $mod+Shift+q kill
+
+# Keys
+#####################################
+
+# Basic
+bindsym $mod+Return exec konsole # Start a terminal
+bindsym $mod+Shift+q kill # Kill focused window
+bindsym $mod+f fullscreen toggle # Enter fullscreen mode for the focused container
+bindsym $mod+w layout toggle splith splitv tabbed # Change container layout (tabbed tabbed and splith)
+bindsym $mod+Shift+space floating toggle # Toggle tiling / floating
+bindsym $mod+space focus mode_toggle # Change focus between tiling / floating windows
+bindsym $mod+Shift+r exec "i3-msg restart" # Restart i3
+
+#bindsym $mod+l exec "i3lock -i /home/simon/GIT/dotfiles/Wallpaper/SPACE/9.png" # Lock screen
+#bindsym $mod+x exec "qmenu_hud"
+
+bindsym $mod+h split h # Split in horizontal orientation
+bindsym $mod+v split v # Split in vertical orientation
+# Basic
 
 # Change focus
 bindsym $mod+Left focus left
@@ -29,27 +44,6 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 # Move focused window
-
-# Split in horizontal orientation
-bindsym $mod+h split h
-
-# Split in vertical orientation
-bindsym $mod+v split v
-
-# Enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
-
-# Change container layout (tabbed tabbed and splith)
-bindsym $mod+w layout toggle splith splitv tabbed
-# Change container layout (tabbed tabbed and splith)
-
-# Toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
-
-# Change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
-
-
 
 # Switch to workspace
 bindsym $mod+semicolon workspace $ws0
@@ -79,8 +73,21 @@ bindsym $mod+Shift+iacute move container to workspace $ws9
 bindsym $mod+Shift+eacute move container to workspace $ws10
 # Move focused container to workspace
 
-# Restart i3
-bindsym $mod+Shift+r exec "i3-msg restart"
+# Start programs
+bindsym $mod+d exec sh /home/simon/.config/rofi/normal.sh # Start Rofi 
+bindsym $mod+s exec /home/simon/.config/rofi/power.sh # Power menu
+bindsym $mod+a exec atom # Start Atom
+bindsym $mod+q exec qtcreator # Start Qt Creator
+bindsym $mod+k exec krusader # Start Krusader
+bindsym $mod+i exec firefox # Start Browser
+bindsym $mod+c exec code # VS Code
+# Start programs
+
+# Volume controls
+#bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
+#bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
+#bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
+# Volume controls
 
 # Gaps shortcut
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -137,36 +144,22 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-# Resize
 bindsym $mod+r mode "resize"
-
-
-bindsym $mod+x exec "qmenu_hud"
-
-# Start programs
-bindsym $mod+d exec sh /home/simon/.config/rofi/normal.sh # Start Rofi 
-bindsym $mod+s exec /home/simon/.config/rofi/power.sh # Power menu
-bindsym $mod+a exec atom # Start Atom
-bindsym $mod+q exec qtcreator # Start Qt Creator
-bindsym $mod+k exec krusader # Start Krusader
-bindsym $mod+i exec firefox # Start Browser
-
-bindsym $mod+c exec code # VS Code
-
-#bindsym $mod+l exec "i3lock -i /home/simon/GITLink/dotfiles/Wallpaper/SPACE/9.png"
-# Start programs
-
-# Volume controls
-#bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
-#bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
-#bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
-# Volume controls
+# Resize
 
 #########################################
 # Keys
 
-exec_always --no-startup-id "/home/simon/.config/i3/exec_always.fish" # Run exec_always script
-exec --no-startup-id "/home/simon/.config/i3/exec.fish" # Run exec script
+
+
+# Exec
+#########################################
+exec --no-startup-id "~/.config/i3/exec.fish" # Run exec script
+exec_always --no-startup-id "~/.config/i3/exec_always.fish" # Run exec_always script
+#########################################
+# Exec
+
+
 
 # Workspaces
 #############################################
@@ -209,7 +202,6 @@ workspace 10 output DP-0
 assign [class="ViberPC"] 0
 assign [class="Spotify"] 0
 assign [class="Discord"] 0
-assign [class="whatsdesk"] 0
 assign [class="android-messages-nativefier"] 0
 assign [class="todoist-nativefier-9983d8"] 0
 assign [class="Thunderbird"] 0
@@ -222,7 +214,7 @@ assign [class="Thunderbird"] 0
 ################################
 
 # Set colors
-set $focused_border_color #484f5d
+set $focused_border_color #1f7676
 set $unfocused_border_color #21252b
 set $unfocused_switch_to_color #3b414d
 set $urgent_border_color #854044
@@ -240,7 +232,7 @@ client.urgent           $urgent-bg-color   $urgent_border_color       $text-colo
 
 default_border pixel 5
 
-border_radius 5
+# border_radius 5
 
 default_floating_border pixel 5
 
@@ -256,15 +248,28 @@ smart_gaps on
 
 
 
-# Plasma Integration
+# Fonts
+##############################################################
+font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+font pango:DejaVu Sans Mono 10
+font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
+font pango:Terminus 11px
+##############################################################
+# Fonts
+
+
+
+# Window rules
 ###############################################################
+
+# Avoid focusing on Plasma from Plasma
 no_focus [class=”plasmashell”]
+no_focus [class=”latte-dock"]
+no_focus [window_type="notification"]
+no_focus [id="0x2a0001e"] # Volume controls
+# Avoid focusing on Plasma from Plasma
 
-# Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everything)
-exec_always "/home/simon/GITLink/dotfiles/desktop.sh"
-for_window [title="Desktop - Plasma"] kill; floating enable;
-
-# Avoid tiling popups, dropdown windows from plasma
+# Avoid tiling popups, dropdown windows from Plasma
 for_window [class="plasmashell"] floating enable no_focus
 for_window [class="Plasma"] floating enable
 for_window [class="krunner"] floating enable
@@ -272,10 +277,7 @@ for_window [class="Kmix"] floating enable
 for_window [class="Klipper"] floating enable
 for_window [class="Plasmoidviewer"] floating enable
 for_window [class="latte-dock"] floating enable
-for_window [class="lattedock"] floating enable
-
-# >>> Window Rules <<<
-# >>> Avoid tiling for non-Plasma stuff <<<
+for_window [class="lattedock"] floating enable 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
 for_window [window_role="task_dialog"] floating enable
@@ -283,8 +285,13 @@ for_window [window_role="Preferences"] floating enable
 for_window [window_role="About"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
+# Avoid tiling popups, dropdown windows from Plasma
 
-
+# Other rules
+for_window [class="Toolkit"] sticky
+for_window [class="net-technicpack-launcher-LauncherMain"] floating enable # Make Technic Launcher float
+for_window [title="Desktop - Plasma"] kill; floating enable; # Try to kill the wallpaper set by Plasma
+# Other rules
 
 ############################################################
 # Plasma Integration

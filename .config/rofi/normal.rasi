@@ -50,8 +50,9 @@ configuration {
 #message {
 	border: 0px 2px 2px 2px;
 	padding: 11px;
-	background-color: @arclight;
 	border-color: @foreground;
+	color: @foreground;
+	background-color: @arclight;
 }
 
 #listview {

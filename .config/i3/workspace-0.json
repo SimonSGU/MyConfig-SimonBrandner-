@@ -74,16 +74,16 @@
                "x": 5,
                "y": 42
             },
-            "name": "WhatsDesk",
+            "name": "Android messages",
             "percent": 0.2,
             "swallows": [
                {
-                   "class": "^whatsdesk$"
+                   "class": "^android-messages$"
                }
             ],
             "type": "con"
-        },
-        {
+		},
+		{
             "border": "pixel",
             "current_border_width": 5,
             "floating": "auto_off",
@@ -93,11 +93,11 @@
                "x": 5,
                "y": 42
             },
-            "name": "Android messages",
+            "name": "What's desk",
             "percent": 0.2,
             "swallows": [
                {
-                   "class": "^android-messages$"
+                   "class": "^whatsdesk$"
                }
             ],
             "type": "con"
@@ -120,7 +120,7 @@
                }
             ],
             "type": "con"
-        },
+		},
         {
             "border": "pixel",
             "current_border_width": 5,
@@ -136,6 +136,25 @@
             "swallows": [
                {
                    "class": "^thunderbird$"
+               }
+            ],
+            "type": "con"
+		},
+		{
+            "border": "pixel",
+            "current_border_width": 5,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1044,
+               "width": 950,
+               "x": 0,
+               "y": 0
+            },
+            "name": "MS Teams",
+            "percent": 0.2,
+            "swallows": [
+               {
+                   "class": "^microsoft teams - preview$"
                }
             ],
             "type": "con"

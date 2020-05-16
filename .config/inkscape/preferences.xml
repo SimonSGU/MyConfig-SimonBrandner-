@@ -168,11 +168,11 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="0"
+         end="359.871"
          start="0"
          usecurrent="1"
-         rx="225.264"
-         ry="240.416" />
+         rx="414.291"
+         ry="746.078" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -356,8 +356,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="2126.07"
+       y="2545.43"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -405,7 +405,8 @@
        selcue="1"
        gradientdrag="1"
        pick="1"
-       setalpha="1" />
+       setalpha="1"
+       onetimepick="0" />
     <eventcontext
        id="select"
        selcue="1"
@@ -429,7 +430,7 @@
        precision="2"
        scale="100"
        offset="5"
-       unit="mm"
+       unit="px"
        measure-start="0,0"
        measure-end="0,0" />
   </group>
@@ -575,14 +576,14 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="2"
        x="0"
        y="0"
-       w="352"
-       h="439"
+       w="382"
+       h="453"
        visible="1"
        state="2"
-       placement="5" />
+       placement="2" />
     <group
        id="filtereffects" />
     <group
@@ -625,8 +626,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="352"
-       h="439"
+       w="380"
+       h="351"
        visible="0"
        state="2"
        placement="1" />
@@ -666,7 +667,17 @@
        placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="23"
+       x="590"
+       y="232"
+       w="740"
+       h="615" />
     <group
        id="gradienteditor" />
     <group
@@ -683,14 +694,14 @@
        panel_border="0"
        x="0"
        y="0"
-       w="352"
-       h="439"
-       visible="1"
+       w="382"
+       h="441"
+       visible="0"
        state="2"
-       placement="5">
+       placement="1">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi" />
     </group>
@@ -751,9 +762,9 @@
        panel_border="0"
        x="0"
        y="0"
-       w="354"
-       h="180"
-       visible="0"
+       w="382"
+       h="382"
+       visible="1"
        state="2"
        placement="1" />
     <group
@@ -1066,12 +1077,12 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:none;stroke:#ff0000;stroke-opacity:1;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none">
+     style="line-height:1.25;fill:#1a1a1a;stroke:#032bff;stroke-opacity:1;stroke-width:102.38740157;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;opacity:1">
     <group
-       width="930"
-       height="1014"
-       x="964"
-       y="40"
+       width="1910"
+       height="1046"
+       x="0"
+       y="24"
        fullscreen="0"
        id="geometry"
        maximized="0" />
@@ -1170,5 +1181,5 @@
   </group>
   <group
      id="ui"
-     language="" />
+     language="en" />
 </inkscape>

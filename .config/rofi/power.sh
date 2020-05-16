@@ -6,7 +6,7 @@ OPTIONS="Reboot\nPower-off\nLog-out"
 if [ -f $HOME/.config/rofi-power/config ]; then
   source $HOME/.config/rofi-power/config
 else
-    LAUNCHER="rofi -opacity 10 -config /home/simon/.config/rofi/power.rasi -dmenu -i -p power:"
+    LAUNCHER="rofi -opacity 10 -config /home/simon/.config/rofi/power.rasi -dmenu -i -p Power: "
   USE_LOCKER="false"
   LOCKER="i3lock"
 fi

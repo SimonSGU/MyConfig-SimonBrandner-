@@ -1,7 +1,7 @@
-Rozšíření "Win32 Vector Print" se nepodařilo nahrát kvůli toto rozšíření je vytvořeno jen pro Windows.  Toto je způsobeno nesprávným souborem .inx pro toto rozšíření. Nesprávný soubor .inx může být způsoben špatnou instalací Inkscape.
-Rozšíření "Sketch Input" se nepodařilo nahrát kvůli závislost nebyla splněna.
-Závislost:
-  typ: executable
-  umístění: křivka
-  řetězec: skconvert
+Extension "Win32 Vector Print" failed to load because the extension is designed for Windows only.  This is caused by an improper .inx file for this extension.  An improper .inx file could have been caused by a faulty installation of Inkscape.
+Extension "Sketch Input" failed to load because a dependency was not met.
+Dependency:
+  type: executable
+  location: path
+  string: skconvert
 
