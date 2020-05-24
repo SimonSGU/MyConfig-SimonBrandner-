@@ -248,7 +248,6 @@ client.focused_inactive $inactive-bg-color $unfocused_switch_to_color $inactive-
 client.urgent           $urgent-bg-color   $urgent_border_color       $text-color          $indicator_color
 # Window colors
 
-
 default_border pixel 5
 
 # border_radius 5
@@ -282,12 +281,9 @@ font pango:Terminus 11px
 ###############################################################
 
 # Avoid focusing on Plasma from Plasma
-no_focus [class=”plasmashell”]
-no_focus [class=”latte-dock"]
+no_focus [class="plasmashell"]
+no_focus [class="latte-dock"]
 no_focus [window_type="notification"]
-
-# Volume controls
-no_focus [id="0x2a0001e"] 
 # Avoid focusing on Plasma from Plasma
 
 # Avoid tiling popups, dropdown windows from Plasma
