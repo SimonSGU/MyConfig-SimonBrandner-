@@ -1,7 +1,7 @@
 # GIMP gimp-rect-select-tool options
 
-(aspect-denominator 3.000000)
-(aspect-numerator 4.000000)
+(aspect-denominator 3)
+(aspect-numerator 4)
 (overridden-fixed-aspect yes)
 
 # end of gimp-rect-select-tool options

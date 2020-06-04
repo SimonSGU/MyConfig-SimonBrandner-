@@ -6,21 +6,21 @@
 # This file will be entirely rewritten each time you exit.
 
 (unit-info "centimeters"
-    (factor 2.540000)
+    (factor 2.54)
     (digits 2)
     (symbol "cm")
     (abbreviation "cm")
     (singular "centimeter")
     (plural "centimeters"))
 (unit-info "meters"
-    (factor 0.025400)
+    (factor 0.025399999999999999)
     (digits 4)
     (symbol "m")
     (abbreviation "m")
     (singular "meter")
     (plural "meters"))
 (unit-info "typogr. points"
-    (factor 72.270000)
+    (factor 72.269999999999996)
     (digits 0)
     (symbol "tpt")
     (abbreviation "tpt")

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 OPTIONS="Reboot\nPower-off\nLog-out"
 

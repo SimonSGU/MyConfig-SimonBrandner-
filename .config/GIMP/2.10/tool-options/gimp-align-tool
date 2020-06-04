@@ -1,7 +1,7 @@
 # GIMP gimp-align-tool options
 
 (align-reference image)
-(offset-x 245.000000)
-(offset-y 273.000000)
+(offset-x 245)
+(offset-y 273)
 
 # end of gimp-align-tool options
