@@ -3,6 +3,7 @@ configuration {
 	display-ssh: "SSH to: ";
 	display-calc: "Calculate: ";
 	show-icons: true;
+	icon-theme: "Numix-Circle";
 }
 
 * {

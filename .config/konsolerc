@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=Profil 1.profile
+DefaultProfile=Profile 2.profile
 
 [DownloadDialog Settings]
 Height 1080=494
@@ -16,10 +16,12 @@ Height 1080=1046
 Height 480=470
 Height 576=1012
 Height 720=710
+Height 900=858
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA6IAAAP0AAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABjYAAANmAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1270
+Width 1600=770
 Width 1920=1910
 Width 720=710
 
