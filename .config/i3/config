@@ -254,6 +254,9 @@ for_window [window_role="PictureInPicture"] sticky enable
 # Make Technic Launcher float
 for_window [class="net-technicpack-launcher-LauncherMain"] floating enable 
 
+# Stop Elite Dangerous from floating
+for_window [class="steam_app_359320"] floating disable
+
 # Try to kill the wallpaper set by Plasma
 for_window [title="Desktop — Plasma"] kill; floating enable; 
 # Other rules
