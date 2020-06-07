@@ -6,10 +6,6 @@ bash /home/simon/.config/conky/conky.sh & # Start Conky
 sleep 5
 megasync & # Start MEGASync
 
-fish ./background.fish # Set background &
-
-#davmail & # Start Davmail
-bash /home/simon/.config/i3/davmail.sh & # Start davmail and remove ~/davmail.log*
 rm ~/core # Remove the core file
 #barrier" # Start Barrier
 
