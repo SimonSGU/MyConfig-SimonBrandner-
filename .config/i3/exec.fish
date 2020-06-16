@@ -5,6 +5,7 @@ latte-dock & # Start latte-dock
 bash /home/simon/.config/conky/conky.sh & # Start Conky
 sleep 5
 megasync & # Start MEGASync
+ulauncher & # Start MEGASync
 
 rm ~/core # Remove the core file
 #barrier" # Start Barrier

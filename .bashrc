@@ -136,7 +136,8 @@ export VISUAL=code
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
-
+export PATH="/usr/games/:$PATH"
+export PATH="/usr/local/games/:$PATH"
 # Path
 
 # Locale

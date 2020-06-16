@@ -52,8 +52,8 @@ configuration {
 	border: 0px 2px 2px 2px;
 	padding: 11px;
 	border-color: @foreground;
-	color: @foreground;
 	background-color: @arclight;
+	text-color: inherit;
 }
 
 #listview {
@@ -76,7 +76,6 @@ configuration {
 #entry,
 prompt,
 case-indicator {
-	text-font: inherit;
 	text-color: inherit;
 }
 
@@ -86,7 +85,6 @@ case-indicator {
 	background-color: transparent;
 	color: @foreground;
 	text-color: @foreground;
-	font: inherit;
 }
 #element selected.normal {
 	background-color: @blue;

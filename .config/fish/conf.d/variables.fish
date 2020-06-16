@@ -14,6 +14,8 @@ set -x XDG_DATA_HOME $HOME/.local/share
 set fish_user_paths '/usr/local/bin/' $fish_user_paths
 set fish_user_paths '/snap/bin' $fish_user_paths
 set fish_user_paths '/snap/bin' $fish_user_paths
+set fish_user_paths '/usr/games' $fish_user_paths
+set fish_user_paths '/usr/local/games' $fish_user_paths
 # Env varibles
 
 # Locale

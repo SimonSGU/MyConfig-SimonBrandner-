@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=One Dark
-Font=Hack,13,-1,7,50,0,0,0,0,0
+Font=Hack,13,-1,5,50,0,0,0,0,0
 
 [Cursor Options]
 CursorShape=1
