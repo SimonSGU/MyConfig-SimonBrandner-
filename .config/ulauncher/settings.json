@@ -5,6 +5,6 @@
     "render-on-screen": "mouse-pointer-monitor",
     "show-indicator-icon": true,
     "show-recent-apps": false,
-    "terminal-command": "",
+    "terminal-command": "konsole -e ",
     "theme-name": "arc-dark"
 }

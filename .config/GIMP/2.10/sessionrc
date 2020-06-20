@@ -57,7 +57,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 768)
+            (position 765)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
@@ -71,8 +71,8 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 331 242)
-    (size 914 680))
+    (position 326 237)
+    (size 914 730))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
     (position 464 463))

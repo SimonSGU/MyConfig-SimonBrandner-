@@ -17,7 +17,7 @@ i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json' & # 
 #bash -lic 'LD_PRELOAD=/home/simon/GIT/NotMine/spotifywm/spotifywm.so /usr/bin/spotify' & # Start Spotify with wrapper
 spotify & # Start Spotify without wrapper
 discord & # Start Discord
-whatsdesk & # Start Whatsdesk
+whatsdesk --no-sandbox & # Start Whatsdesk
 bash -lic 'LD_PRELOAD=/home/simon/GIT/NotMine/android-messageswm/android-messageswm /home/simon/PortableApps/AndroidMessages/android-messages' & # Start Android Messages
 /home/simon/PortableApps/nativefier-apps/todoist-linux-x64/todoist --no-sandbox & # Start Todoist
 teams & # Start MS Teams

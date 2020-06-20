@@ -778,6 +778,7 @@
 	"terminal.integrated.cursorStyle": "line",
 	"workbench.iconTheme": "material-icon-theme",
 	"todo-tree.highlights.enabled": true,
+	  "editor.mouseWheelZoom": true,
 	"cSpell.enabledLanguageIds": [
 		"asciidoc",
 		"bibtex",
@@ -850,5 +851,6 @@
 	"editor.defaultFormatter": "remimarsal.prettier-now",
 	"latex-workshop.bibtex-format.tab": "4 spaces",
 	"editor.formatOnPaste": true,
-	"cmake.configureOnOpen": true
+	"cmake.configureOnOpen": true,
+	"editor.renameOnType": true
 }
