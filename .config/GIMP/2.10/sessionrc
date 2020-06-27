@@ -16,7 +16,7 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "44")
-        (right-docks-width "295")
+        (right-docks-width "215")
         (maximized "no"))
     (gimp-toolbox
         (side left))
@@ -57,7 +57,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 765)
+            (position 733)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)

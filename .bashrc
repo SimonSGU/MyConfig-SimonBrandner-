@@ -138,6 +138,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/usr/games/:$PATH"
 export PATH="/usr/local/games/:$PATH"
+export PATH="/var/lib/flatpak/runtime/com.valvesoftware.Steam.Utility.MangoHud/x86_64/stable/active/files/bin/mangohud:$PATH"
 # Path
 
 # Locale
