@@ -14,8 +14,7 @@ rm ~/core # Remove the core file
 # Workspace 0
 i3-msg 'workspace 0; append_layout /home/simon/.config/i3/workspace-0.json' & # Set layout workspace 0
 /opt/viber/Viber %u & # Start Viber
-#bash -lic 'LD_PRELOAD=/home/simon/GIT/NotMine/spotifywm/spotifywm.so /usr/bin/spotify' & # Start Spotify with wrapper
-spotify & # Start Spotify without wrapper
+spotify & # Start Spotify
 discord & # Start Discord
 whatsdesk --no-sandbox & # Start Whatsdesk
 bash -lic 'LD_PRELOAD=/home/simon/GIT/NotMine/android-messageswm/android-messageswm /home/simon/PortableApps/AndroidMessages/android-messages' & # Start Android Messages

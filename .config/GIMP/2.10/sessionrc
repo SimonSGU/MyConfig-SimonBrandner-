@@ -92,11 +92,11 @@
     (position 0 0))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 318 104)
+    (position 330 174)
     (size 952 701))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 483 205))
+    (position 478 200))
 (session-info "toplevel"
     (factory-entry "gimp-rotate-tool-dialog")
     (position 458 149))

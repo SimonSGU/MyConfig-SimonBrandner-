@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="955.659"
-         height="113.758"
+         width="401.592"
+         height="188.869"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="414.291"
-         ry="746.078" />
+         rx="1020.62"
+         ry="1020.62" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -339,8 +339,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -427,14 +427,14 @@
        offset="0"
        offsetunits="mm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
-       offset="5"
-       unit="px"
+       measure-end="0,0"
        measure-start="0,0"
-       measure-end="0,0" />
+       unit="px"
+       offset="5"
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -582,7 +582,7 @@
        x="0"
        y="0"
        w="324"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="2" />
@@ -626,13 +626,14 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="0"
-       y="0"
-       w="380"
-       h="351"
+       x="501"
+       y="336"
+       w="697"
+       h="563"
        visible="0"
-       state="2"
-       placement="1" />
+       state="1"
+       placement="1"
+       panedpos="135" />
     <group
        id="find"
        panel_size="1"
@@ -661,10 +662,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1586"
-       y="610"
-       w="906"
-       h="946"
+       x="680"
+       y="510"
+       w="200"
+       h="200"
        visible="0"
        placement="1" />
     <group
@@ -675,11 +676,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="24"
+       page="37"
        x="590"
        y="244"
-       w="740"
-       h="615"
+       w="992"
+       h="733"
        visible="0"
        placement="1" />
     <group
@@ -786,10 +787,10 @@
     <group
        id="undo-history" />
     <group
-       id="transparency"
-       on-focus="1.0"
+       animate-time="100"
        on-blur="0.50"
-       animate-time="100" />
+       on-focus="1.0"
+       id="transparency" />
   </group>
   <group
      id="printing">
@@ -933,8 +934,8 @@
        id="dialogsskiptaskbar"
        value="1" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
        id="arenatilescachesize"
        value="8192" />
@@ -992,14 +993,14 @@
        id="outlinemode"
        value="0" />
     <group
-       id="ocalurl"
-       str="openclipart.org" />
+       str="openclipart.org"
+       id="ocalurl" />
     <group
-       id="ocalusername"
-       str="" />
+       str=""
+       id="ocalusername" />
     <group
-       id="ocalpassword"
-       str="" />
+       str=""
+       id="ocalpassword" />
     <group
        id="wireframecolors"
        onlight="255"
@@ -1088,7 +1089,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#1a1a1a;stroke:#032bff;stroke-opacity:1;stroke-width:102.38740157;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;opacity:1">
+     style="line-height:1.25;stroke-width:3.77952756;fill-rule:evenodd;fill:none;stroke:#032bff">
     <group
        width="1910"
        height="1046"
@@ -1120,7 +1121,7 @@
     <group
        id="tools"
        icononly="1"
-       small="2" />
+       small="0" />
   </group>
   <group
      id="iconpreview"
@@ -1194,15 +1195,15 @@
      id="ui"
      language="en" />
   <group
-     preferDarkTheme="1"
-     darkTheme="1"
-     menuIcons_objects="0"
-     menuIcons_layers="0"
-     menuIcons_canvas="0"
-     iconTheme="Numix-Circle"
-     gtkTheme="Breeze-Dark"
-     defaultIconTheme="Numix-Circle"
-     defaultTheme="Breeze-Dark"
+     menuIcons="1"
      id="theme"
-     menuIcons="1" />
+     defaultTheme="Breeze-Dark"
+     defaultIconTheme="Numix-Circle"
+     gtkTheme="Breeze-Dark"
+     iconTheme="Numix-Circle"
+     menuIcons_canvas="1"
+     menuIcons_layers="1"
+     menuIcons_objects="1"
+     darkTheme="1"
+     preferDarkTheme="1" />
 </inkscape>
