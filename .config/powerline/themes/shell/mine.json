@@ -11,41 +11,26 @@
                 "exclude_domain": false,
                 "only_if_ssh": false
             	}
-	 	    },
-		    {
-				"function": "powerline.segments.shell.cwd",
-				"priority": 10
-			}
+	 	    }, 	  
+ 	   		{
+ 	   			"function": "powerline.segments.shell.cwd"
+ 	    	},
+   			{
+	            "function": "powerline.segments.common.vcs.branch",
+	            "args":
+                {
+	                "status_colors": false
+   				}
+   			},
+   			{
+  				"function": "powerline.segments.common.vcs.stash"
+   			}
 		],
 		"right":
 		[
 			{
-				"function": "powerline.segments.common.vcs.stash",
-				"priority": 50
-			},
-			{
-                "function": "powerline.segments.common.vcs.branch",
-                "args":
-                {
-                    "status_colors": false
-				}
-			},
-            {
-                "function": "powerline.segments.shell.jobnum"
-            },
-			{
-				"function": "powerline.segments.common.env.user",
-				"priority": 30
-			},
-            {
-	            "function": "powerline.segments.common.time.date",
-	            "name": "time",
-	            "args":
-                {
-	              "format": "%H:%M:%S",
-	              "istime": true
-	            }
-			}
+	            "function": "powerline.segments.shell.jobnum"
+            }
 		]
 	}
 }

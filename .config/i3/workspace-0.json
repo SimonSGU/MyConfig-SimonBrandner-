@@ -82,42 +82,6 @@
 			"current_border_width": 5,
 			"floating": "auto_off",
 			"geometry": {
-				"height": 1033,
-				"width": 1910,
-				"x": 5,
-				"y": 42
-			},
-			"name": "What's desk",
-			"swallows": [
-				{
-					"class": "^whatsdesk$"
-				}
-			],
-			"type": "con"
-		},
-		{
-			"border": "pixel",
-			"current_border_width": 5,
-			"floating": "auto_off",
-			"geometry": {
-				"height": 1044,
-				"width": 950,
-				"x": 0,
-				"y": 0
-			},
-			"name": "MS Teams",
-			"swallows": [
-				{
-					"class": "^Microsoft Teams - Preview$"
-				}
-			],
-			"type": "con"
-		},
-		{
-			"border": "pixel",
-			"current_border_width": 5,
-			"floating": "auto_off",
-			"geometry": {
 				"height": 1044,
 				"width": 950,
 				"x": 0,
