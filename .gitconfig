@@ -1,2 +1,5 @@
 [credential]
 	helper = store
+[user]
+	name = Šimon Brandner
+	email = simon.bra.ag@gmail.com
