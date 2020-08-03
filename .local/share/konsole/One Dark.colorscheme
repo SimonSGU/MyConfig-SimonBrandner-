@@ -90,6 +90,7 @@ Color=255,255,255
 
 [General]
 Blur=true
+ColorRandomization=false
 Description=ArcDark
-Opacity=0.65
+Opacity=0.8
 Wallpaper=

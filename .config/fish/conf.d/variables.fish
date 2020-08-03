@@ -34,3 +34,7 @@ export LC_MEASUREMENT=cs_CZ.utf8
 export LC_IDENTIFICATION=cs_CZ.utf8
 export LC_TIME=en_ISO.utf8
 # Locale
+
+# Tab size
+tabs 4
+# Tab size
