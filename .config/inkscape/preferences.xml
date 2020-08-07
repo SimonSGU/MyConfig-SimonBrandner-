@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="401.592"
-         height="188.869"
+         width="1517.83"
+         height="713.836"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,16 +171,17 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="1020.62"
-         ry="1020.62" />
+         rx="3857.46"
+         ry="3857.46" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="4"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.5"
          rounded="0"
-         randomized="0" />
+         randomized="0"
+         isflatsided="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -327,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -339,8 +340,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -357,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="2126.07"
-       y="2545.43"
+       x="1218.26"
+       y="386.037"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -427,14 +428,14 @@
        offset="0"
        offsetunits="mm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
-       offset="5"
-       unit="px"
+       measure-end="0,0"
        measure-start="0,0"
-       measure-end="0,0" />
+       unit="px"
+       offset="5"
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -578,11 +579,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="1"
        x="0"
        y="0"
-       w="324"
-       h="502"
+       w="397"
+       h="487"
        visible="1"
        state="2"
        placement="2" />
@@ -662,8 +663,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="680"
-       y="510"
+       x="911"
+       y="517"
        w="200"
        h="200"
        visible="0"
@@ -676,7 +677,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="37"
+       page="44"
        x="590"
        y="244"
        w="992"
@@ -699,16 +700,17 @@
        panel_border="0"
        x="0"
        y="0"
-       w="382"
-       h="441"
-       visible="0"
+       w="397"
+       h="483"
+       visible="1"
        state="2"
-       placement="1">
+       placement="5">
       <group
          id="exportarea"
          value="drawing" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="95" />
     </group>
     <group
        id="save_as"
@@ -726,7 +728,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/simon/" />
+       path="/home/simon/GIT/Other/dotfiles/Wallpaper/Abstract/" />
     <group
        id="import"
        enable_preview="1"
@@ -768,11 +770,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="324"
-       h="257"
+       w="397"
+       h="483"
        visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="extensioneditor" />
     <group
@@ -787,10 +789,10 @@
     <group
        id="undo-history" />
     <group
-       id="transparency"
-       on-focus="1.0"
+       animate-time="100"
        on-blur="0.50"
-       animate-time="100" />
+       on-focus="1.0"
+       id="transparency" />
   </group>
   <group
      id="printing">
@@ -934,8 +936,8 @@
        id="dialogsskiptaskbar"
        value="1" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
        id="arenatilescachesize"
        value="8192" />
@@ -993,14 +995,14 @@
        id="outlinemode"
        value="0" />
     <group
-       id="ocalurl"
-       str="openclipart.org" />
+       str="openclipart.org"
+       id="ocalurl" />
     <group
-       id="ocalusername"
-       str="" />
+       str=""
+       id="ocalusername" />
     <group
-       id="ocalpassword"
-       str="" />
+       str=""
+       id="ocalpassword" />
     <group
        id="wireframecolors"
        onlight="255"
@@ -1089,7 +1091,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;stroke-width:3.77952756;fill-rule:evenodd;fill:none;stroke:#032bff">
+     style="line-height:1.25;stroke-width:0;fill-rule:evenodd;fill:#212121">
     <group
        width="1910"
        height="1046"
@@ -1195,15 +1197,15 @@
      id="ui"
      language="en" />
   <group
-     preferDarkTheme="1"
-     darkTheme="1"
-     menuIcons_objects="1"
-     menuIcons_layers="1"
-     menuIcons_canvas="1"
-     iconTheme="Numix-Circle"
-     gtkTheme="Breeze-Dark"
-     defaultIconTheme="Numix-Circle"
-     defaultTheme="Breeze-Dark"
+     menuIcons="1"
      id="theme"
-     menuIcons="1" />
+     defaultTheme="Breeze-Dark"
+     defaultIconTheme="Numix-Circle"
+     gtkTheme="Breeze-Dark"
+     iconTheme="Numix-Circle"
+     menuIcons_canvas="1"
+     menuIcons_layers="1"
+     menuIcons_objects="1"
+     darkTheme="1"
+     preferDarkTheme="1" />
 </inkscape>

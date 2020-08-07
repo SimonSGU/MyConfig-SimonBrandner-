@@ -71,7 +71,7 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 326 237)
+    (position 316 227)
     (size 914 730))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
@@ -92,7 +92,7 @@
     (position 0 0))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 330 174)
+    (position 325 169)
     (size 952 701))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")

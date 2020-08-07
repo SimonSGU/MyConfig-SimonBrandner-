@@ -96,6 +96,12 @@ bindsym $win+Shift+iacute move container to workspace $ws9
 bindsym $win+Shift+eacute move container to workspace $ws10
 # Move focused container to workspace
 
+# Volume controls
+#bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
+#bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
+#bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
+# Volume controls
+
 # Start programs
 bindsym $win+Tab exec konsole # Start Konsole
 bindsym $win+Shift+k exec krusader # Start Krusader
@@ -104,13 +110,6 @@ bindsym $win+Shift+i exec gwenview # Start Gwenview
 bindsym $win+Shift+e exec code # Start VS Code
 bindsym $win+Shift+c exec systemsettings5 # Start Plasma settings
 # Start programs
-
-# Volume controls
-#bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
-#bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
-#bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
-# Volume controls
-
 #########################################
 # Keys
 
@@ -250,6 +249,9 @@ for_window [window_type="menu"] floating enable
 
 # Make Firefox PictureInPicture sticky
 for_window [window_role="PictureInPicture"] sticky enable
+
+# Make ViberPC sticky
+for_window [class="ViberPC" window_type="_NET_WM_WINDOW_TYPE_UTILITY"] sticky enable
 
 # Make Technic Launcher float
 for_window [class="net-technicpack-launcher-LauncherMain"] floating enable 
