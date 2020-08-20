@@ -16,6 +16,7 @@ set fish_user_paths '/snap/bin' $fish_user_paths
 set fish_user_paths '/snap/bin' $fish_user_paths
 set fish_user_paths '/usr/games' $fish_user_paths
 set fish_user_paths '/usr/local/games' $fish_user_paths
+set fish_user_paths '/home/simon/GIT/Frameworks/flutter/bin' $fish_user_paths
 # Env varibles
 
 # Locale

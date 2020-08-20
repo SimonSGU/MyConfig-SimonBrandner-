@@ -1,36 +1,47 @@
 {
-	"segments":
-    {
-	    "left":
-        [
+	"segments": {
+		"above": [
 			{
-			    "function": "powerline.segments.common.net.hostname",
-			    "priority": 10,
-            	"args":
-				{
-                "exclude_domain": false,
-                "only_if_ssh": false
-            	}
-	 	    }, 	  
- 	   		{
- 	   			"function": "powerline.segments.shell.cwd"
- 	    	},
-   			{
-	            "function": "powerline.segments.common.vcs.branch",
-	            "args":
-                {
-	                "status_colors": false
-   				}
-   			},
-   			{
-  				"function": "powerline.segments.common.vcs.stash"
-   			}
+				"left": [
+					{
+						"priority": 50,
+						"function": "powerline.segments.common.net.hostname",
+						"args": {
+							"exclude_domain": false,
+							"only_if_ssh": false
+						}
+					},
+					{
+						"priority": 30,
+						"function": "powerline.segments.common.env.user"
+					},
+					{
+						"priority": 10,
+						"function": "powerline.segments.shell.cwd",
+						"use_path_separator": true
+					},
+					{
+						"priority": 20,
+						"function": "powerline.segments.common.vcs.branch"
+					},
+					{
+						"priority": 20,
+						"function": "powerline.segments.common.env.virtualenv"
+					},
+					{
+						"priority": 60,
+						"function": "powerline.segments.shell.jobnum"
+					}
+				]
+			}
 		],
-		"right":
-		[
+		"left": [
 			{
-	            "function": "powerline.segments.shell.jobnum"
-            }
+				"function": "powerline.segments.common.time.date",
+				"args": {
+					"format": "$"
+				}
+			}
 		]
 	}
 }

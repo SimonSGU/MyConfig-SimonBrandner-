@@ -1,5 +1,6 @@
 # GIMP gimp-eraser-tool options
 
+(foreground (color-rgb 1 1 1))
 (background (color-rgb 0.77254900000000004 0.17647099999999999 0.17647099999999999))
 (brush "Clipboard Mask")
 (dynamics "Dynamics Off")

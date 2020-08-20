@@ -1,8 +1,9 @@
 # GIMP gimp-text-tool options
 
+(foreground (color-rgb 1 1 1))
 (palette "Untitled")
 (font "Noto Sans Armenian Light")
-(font-size 65)
+(font-size 20)
 (justify center)
 (box-mode fixed)
 
