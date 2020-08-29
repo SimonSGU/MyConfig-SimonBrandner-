@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0
+ArtColorSel.Light=0.5061028322637129
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0
-ArtColorSel.SelColorS=0
-ArtColorSel.SelColorX=0
+ArtColorSel.SelColorH=0.002435300404611039
+ArtColorSel.SelColorS=1
+ArtColorSel.SelColorX=0.5061028322637129
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -30,7 +30,7 @@ ColorManagement/UseSystemMonitorProfile=false
 ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param type="internal" name="baseline">true</param>\n <param type="internal" name="exif">true</param>\n <param type="string" name="filters"><![CDATA[]]></param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="iptc">true</param>\n <param type="internal" name="optimize">true</param>\n <param type="internal" name="progressive">false</param>\n <param type="internal" name="quality">80</param>\n <param type="internal" name="saveProfile">true</param>\n <param type="internal" name="smoothing">0</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="internal" name="subsampling">0</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" b="1" space="sRGB-elle-V2-g10.icc" r="1"/>\n</color>\n]]></param>\n <param type="internal" name="xmp">true</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">3</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" b="1" space="sRGB-elle-V2-g10.icc" g="1"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">3</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" b="1" space="sRGB-elle-V2-g10.icc"/>\n</color>\n]]></param>\n</params>\n
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
 KineticScrollingGesture=0
@@ -47,8 +47,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" b="1" g="1"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" b="0" g="0"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" r="1" b="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.129411771893501" r="1" b="0.00784313771873713" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
 LastPreset=c)_Pencil-2
 LastPreset_-1=c)_Pencil-2
 LastPreset_0=b)_Basic-5_Size
@@ -64,6 +64,7 @@ LineSmoothingType=1
 LineSmoothingUseDelayDistance=true
 NumberOfLayersForNewImage=2
 OpenGLFilterMode=3
+PinnedFonts=Noto Sans
 ShowOutlineWhilePainting=true
 ShowRootLayer=false
 SpecificColorSelector/UsePercentage=false
@@ -247,12 +248,12 @@ workingColorSpace=RGBA
 
 [File Dialogs]
 DontUseNativeFileDialog=false
-OpenDocument=/home/simon/BackUp/School/BIO/2019-2020
-SaveAs=/home/simon/BackUp/School/AJ/2019-2020/MyPersonalityImage
+OpenDocument=/home/simon/BackUp/Pictures/Screenshots
+SaveAs=/home/simon/BackUp/Pictures/Screenshots
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/BackUp/School/AJ/2019-2020/MyPersonalityImage/Main.kra,file:$HOME/BackUp/School/AJ/2019-2020/MyPersonalityImage/Main.png,file:$HOME/BackUp/School/BIO/2019-2020/ZápadníČR.kra,file:$HOME/BackUp/People/Stanisla Kocour/Voda.png,file:$HOME/BackUp/School/VYV/2019-2020/StreetArt/Main.kra
-Recent URLs[$e]=file:$HOME/BackUp/School/AJ/2019-2020/MyPersonalityImage/
+Recent Files[$e]=file:$HOME/BackUp/People/Stanisla Kocour/Voda.png,file:$HOME/BackUp/Pictures/Screenshots/Screenshot_20200827_212403.png
+Recent URLs[$e]=file:$HOME/BackUp/Pictures/Screenshots/
 listViewIconSize=0
 
 [KisShortcutsDialog Settings]
@@ -610,18 +611,10 @@ xPosition=2
 yPosition=30
 
 [RecentFiles]
-File1[$e]=$HOME/BackUp/School/CEJ/2019-2020/COVID4 - VV/67-3.jpg
-File2[$e]=$HOME/BackUp/School/VYV/2019-2020/StreetArt/3fc3df276ac52424dcb085297526b778.jpg
-File3[$e]=$HOME/BackUp/School/VYV/2019-2020/StreetArt/Main.kra
-File4[$e]=$HOME/BackUp/People/Stanisla Kocour/Voda.png
-File5[$e]=$HOME/BackUp/School/BIO/2019-2020/ZápadníČR.kra
-File6[$e]=$HOME/BackUp/School/AJ/2019-2020/MyPersonalityImage/Main.kra
-Name1[$e]=67-3.jpg
-Name2[$e]=3fc3df276ac52424dcb085297526b778.jpg
-Name3[$e]=Main.kra
-Name4[$e]=Voda.png
-Name5[$e]=ZápadníČR.kra
-Name6[$e]=Main.kra
+File1[$e]=$HOME/BackUp/People/Stanisla Kocour/Voda.png
+File2[$e]=$HOME/BackUp/Pictures/Screenshots/Screenshot_20200827_212403.png
+Name1[$e]=Voda.png
+Name2[$e]=Screenshot_20200827_212403.png
 
 [SelectedTags]
 kis_paintoppresets=Mine
@@ -633,7 +626,7 @@ HideSplashAfterStartup=true
 currentCollection=0
 
 [SvgTextTool]
-Geometry=AdnQywADAAAAAAJhAAABAQAAB2oAAAPaAAACZgAAAQYAAAdlAAAD1QAAAAAAAAAAB4AAAAJmAAABBgAAB2UAAAPV
+Geometry=AdnQywADAAD///+UAAAAfwAABJ0AAANY////mQAAAIQAAASYAAADUwAAAAAAAAAAB4D///+ZAAAAhAAABJgAAANT
 windowState=AAAA/wAAAAD9AAAAAAAABQAAAAJUAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAYAGYAbwBuAHQAUwBlAHQAdABpAG4AZwBzAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABQAZgBvAHIAbQBhAHQAdABpAG4AZwEAAAAA/////wAAAAAAAAAA
 
 [advancedColorSelector]
