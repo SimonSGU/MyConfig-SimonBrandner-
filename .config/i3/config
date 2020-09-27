@@ -117,8 +117,8 @@ bindsym $win+Shift+c exec systemsettings5 # Start Plasma settings
 
 # Exec
 #########################################
-exec --no-startup-id "~/.config/i3/exec.fish" # Run exec script
-exec_always --no-startup-id "~/.config/i3/exec_always.fish" # Run exec_always script
+exec --no-startup-id "~/GIT/Other/dotfiles/exec.fish" # Run exec script
+exec_always --no-startup-id "~/GIT/Other/dotfiles/exec_always.fish" # Run exec_always script
 #########################################
 # Exec
 

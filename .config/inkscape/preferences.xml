@@ -171,8 +171,8 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="3857.46"
-         ry="3857.46" />
+         rx="22.7068"
+         ry="8.85141" />
       <eventcontext
          id="star"
          magnitude="4"
@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="1218.26"
-       y="386.037"
+       x="1040.65"
+       y="98.1547"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -579,7 +579,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="1"
+       page="0"
        x="0"
        y="0"
        w="397"
@@ -615,11 +615,12 @@
        panel_border="0"
        x="0"
        y="0"
-       w="334"
-       h="393"
-       visible="0"
+       w="397"
+       h="483"
+       visible="1"
        state="2"
-       placement="1" />
+       placement="5"
+       align-to="4" />
     <group
        id="xml"
        panel_size="1"
@@ -663,10 +664,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="911"
-       y="517"
-       w="200"
-       h="200"
+       x="486"
+       y="284"
+       w="636"
+       h="656"
        visible="0"
        placement="1" />
     <group
@@ -737,7 +738,8 @@
        ask_svg="1"
        link="embed"
        scale="auto"
-       forcexdpi="0" />
+       forcexdpi="0"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -1086,20 +1088,23 @@
     <group
        id="dash"
        scale="1" />
+    <group
+       unitType="2"
+       id="font" />
   </group>
   <group
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;stroke-width:0;fill-rule:evenodd;fill:#212121">
+     style="line-height:1.25;stroke-width:7.55905512;fill-rule:evenodd;fill:none">
     <group
-       width="1910"
-       height="1046"
-       x="0"
-       y="24"
+       width="930"
+       height="1014"
+       x="964"
+       y="40"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group

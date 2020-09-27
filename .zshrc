@@ -2,11 +2,17 @@
 autoload -Uz promptinit
 promptinit
 prompt adam1
-
 setopt histignorealldups sharehistory
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Prompt
+
+# Plugins
+source ~/GIT/Other/powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh-antigen/antigen.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Plugins
 
 # History
 HISTSIZE=10000
@@ -81,14 +87,11 @@ export LC_IDENTIFICATION=cs_CZ.utf8
 export LC_TIME=en_ISO.utf8
 # Locale
 
-# Plugins
-source ~/GIT/Other/powerlevel10k/powerlevel10k.zsh-theme
-source /usr/share/zsh-antigen/antigen.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Plugins
-
 # Keybindings
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 # Keybindings
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

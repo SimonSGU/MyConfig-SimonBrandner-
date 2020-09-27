@@ -60,6 +60,7 @@
     (padding-mode default)
     (padding-color (color-rgb 0.42745100000000003 0.42745100000000003 0.42745100000000003))
     (padding-in-show-all no))
+(move-tool-changes-active yes)
 (toolbox-wilber no)
 (theme "Gimp-Arc-Dark-Theme")
 (icon-theme "Color")

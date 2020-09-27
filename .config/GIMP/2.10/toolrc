@@ -4,13 +4,41 @@
 
 (GimpToolGroup "tool group"
     (visible yes)
-    (active-tool "gimp-move-tool")
+    (active-tool "gimp-scale-tool")
     (children
         (GimpToolInfo "gimp-move-tool"
             (icon-name "gimp-tool-move")
             (visible yes))
+        (GimpToolInfo "gimp-unified-transform-tool"
+            (icon-name "gimp-tool-unified-transform")
+            (visible yes))
+        (GimpToolInfo "gimp-rotate-tool"
+            (icon-name "gimp-tool-rotate")
+            (visible yes))
+        (GimpToolInfo "gimp-scale-tool"
+            (icon-name "gimp-tool-scale")
+            (visible yes))))
+(GimpToolGroup "tool group"
+    (visible yes)
+    (active-tool "gimp-align-tool")
+    (children
         (GimpToolInfo "gimp-align-tool"
             (icon-name "gimp-tool-align")
+            (visible yes))
+        (GimpToolInfo "gimp-shear-tool"
+            (icon-name "gimp-tool-shear")
+            (visible yes))
+        (GimpToolInfo "gimp-flip-tool"
+            (icon-name "gimp-tool-flip")
+            (visible yes))
+        (GimpToolInfo "gimp-perspective-tool"
+            (icon-name "gimp-tool-perspective")
+            (visible yes))
+        (GimpToolInfo "gimp-transform-3d-tool"
+            (icon-name "gimp-tool-transform-3d")
+            (visible yes))
+        (GimpToolInfo "gimp-handle-transform-tool"
+            (icon-name "gimp-tool-handle-transform")
             (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
@@ -48,34 +76,6 @@
 (GimpToolInfo "gimp-crop-tool"
     (icon-name "gimp-tool-crop")
     (visible yes))
-(GimpToolGroup "tool group"
-    (visible yes)
-    (active-tool "gimp-scale-tool")
-    (children
-        (GimpToolInfo "gimp-unified-transform-tool"
-            (icon-name "gimp-tool-unified-transform")
-            (visible yes))
-        (GimpToolInfo "gimp-rotate-tool"
-            (icon-name "gimp-tool-rotate")
-            (visible yes))
-        (GimpToolInfo "gimp-scale-tool"
-            (icon-name "gimp-tool-scale")
-            (visible yes))
-        (GimpToolInfo "gimp-shear-tool"
-            (icon-name "gimp-tool-shear")
-            (visible yes))
-        (GimpToolInfo "gimp-flip-tool"
-            (icon-name "gimp-tool-flip")
-            (visible yes))
-        (GimpToolInfo "gimp-perspective-tool"
-            (icon-name "gimp-tool-perspective")
-            (visible yes))
-        (GimpToolInfo "gimp-transform-3d-tool"
-            (icon-name "gimp-tool-transform-3d")
-            (visible yes))
-        (GimpToolInfo "gimp-handle-transform-tool"
-            (icon-name "gimp-tool-handle-transform")
-            (visible yes))))
 (GimpToolGroup "tool group"
     (visible yes)
     (active-tool "gimp-warp-tool")
