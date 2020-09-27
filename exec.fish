@@ -21,4 +21,5 @@ bash -lic 'LD_PRELOAD=/home/simon/GIT/NotMine/android-messageswm/android-message
 /home/simon/PortableApps/nativefier-apps/todoist-linux-x64/todoist --no-sandbox & # Start Todoist
 teams & # Start MS Teams
 evolution & # Start Evolution
+variety &
 # Workspace 0  
