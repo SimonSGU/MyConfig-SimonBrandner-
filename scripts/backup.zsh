@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/zsh
 
 currentDate=$(date +%x-%X)
 

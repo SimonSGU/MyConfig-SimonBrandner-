@@ -32,7 +32,7 @@ bindsym $win+space focus mode_toggle
 bindsym $win+r exec "i3-msg restart" 
 
 # Lock screen
-#bindsym $win+l exec "i3lock -i /home/simon/GIT/dotfiles/Wallpaper/SPACE/9.png"
+#bindsym $win+l exec "i3lock -i ~/GIT/dotfiles/Wallpaper/SPACE/9.png"
 
 # Split in horizontal orientation
 bindsym $win+h split h 
@@ -47,10 +47,10 @@ bindsym $win+g gaps inner current set 8; gaps outer current set 8
 bindsym $win+Shift+g gaps inner current set 0; gaps outer current set 0
 
 # Open app launcher
-#bindsym $win+e exec /home/simon/.config/rofi/normal.sh # Start Rofi 
+#bindsym $win+e exec ~/.config/rofi/normal.sh # Start Rofi 
 
 # Open power menu
-#bindsym $win+Escape exec /home/simon/.config/rofi/power.sh # Power menu
+#bindsym $win+Escape exec ~/.config/rofi/power.sh # Power menu
 
 
 
@@ -117,8 +117,8 @@ bindsym $win+Shift+c exec systemsettings5 # Start Plasma settings
 
 # Exec
 #########################################
-exec --no-startup-id "~/GIT/Other/dotfiles/exec.fish" # Run exec script
-exec_always --no-startup-id "~/GIT/Other/dotfiles/exec_always.fish" # Run exec_always script
+exec --no-startup-id "~/GIT/Other/dotfiles/scripts/exec.zsh" # Run exec script
+exec_always --no-startup-id "~/GIT/Other/dotfiles/scripts/exec_always.zsh" # Run exec_always script
 #########################################
 # Exec
 

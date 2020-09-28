@@ -6,7 +6,7 @@ Font=MesloLGS Nerd Font,13,-1,5,50,0,0,0,0,0
 CursorShape=1
 
 [General]
-Command=/usr/bin/zsh
+Command=
 Name=Main
 Parent=FALLBACK/
 

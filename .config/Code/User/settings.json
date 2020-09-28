@@ -1053,6 +1053,7 @@
 		"peripheral",
 		"personality",
 		"pf",
+		"pgrep",
 		"pictl",
 		"pismo",
 		"pkt",
