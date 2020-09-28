@@ -223,7 +223,7 @@ font pango:Terminus 11px
 # Window rules
 ###############################################################
 
-# Avoid focusing on Plasma from Plasma
+# Avoid focusing on Plasma
 no_focus [class="plasmashell"]
 no_focus [class="latte-dock"]
 no_focus [window_type="notification"]
@@ -251,7 +251,7 @@ for_window [window_type="menu"] floating enable
 for_window [window_role="PictureInPicture"] sticky enable
 
 # Make ViberPC sticky
-for_window [class="ViberPC" window_type="_NET_WM_WINDOW_TYPE_UTILITY"] sticky enable
+for_window [class="ViberPC" window_type="utility"] sticky enable
 
 # Make Technic Launcher float
 for_window [class="net-technicpack-launcher-LauncherMain"] floating enable 
@@ -260,7 +260,7 @@ for_window [class="net-technicpack-launcher-LauncherMain"] floating enable
 for_window [class="steam_app_359320"] floating disable
 
 # Try to kill the wallpaper set by Plasma
-for_window [title="Desktop — Plasma"] kill; floating enable; 
+for_window [title="Desktop — Plasma"] move scratchpad; floating enable; 
 # Other rules
 
 ############################################################
