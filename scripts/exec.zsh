@@ -1,5 +1,6 @@
 #!/usr/bin/zsh
 
+#source ~/GIT/Other/dotfiles/scripts/zsh/locale.zsh # Locale
 #loginctl lock-session # Lock screen
 
 # Setup background apps
