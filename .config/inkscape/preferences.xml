@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1517.83"
-         height="713.836"
+         width="340.157"
+         height="94.4882"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,7 +171,7 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="22.7068"
+         rx="85.821"
          ry="8.85141" />
       <eventcontext
          id="star"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="1040.65"
-       y="98.1547"
+       x="3793.07"
+       y="2429.27"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -628,8 +628,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="501"
-       y="336"
+       x="467"
+       y="340"
        w="697"
        h="563"
        visible="0"
@@ -664,8 +664,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="486"
-       y="284"
+       x="725"
+       y="242"
        w="636"
        h="656"
        visible="0"
@@ -708,7 +708,7 @@
        placement="5">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="95" />
@@ -729,7 +729,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/simon/GIT/Other/dotfiles/Wallpaper/Abstract/" />
+       path="/home/simon/Downloads/" />
     <group
        id="import"
        enable_preview="1"
@@ -795,6 +795,19 @@
        on-blur="0.50"
        on-focus="1.0"
        id="transparency" />
+    <group
+       id="objectattr"
+       y="0"
+       w="430"
+       h="160"
+       x="0"
+       visible="1"
+       state="2"
+       placement="1">
+      <group
+         id=""
+         x="0" />
+    </group>
   </group>
   <group
      id="printing">
@@ -807,7 +820,8 @@
   <group
      id="options"
      dpifixbackup="1"
-     dpiupdatemethod="0">
+     dpiupdatemethod="0"
+     onimport="0">
     <group
        id="renderingcache"
        size="64" />
@@ -954,7 +968,7 @@
        value="0" />
     <group
        id="stickyzoom"
-       value="0" />
+       value="1" />
     <group
        id="selcue"
        value="2" />
@@ -1096,7 +1110,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;stroke-width:7.55905512;fill-rule:evenodd;fill:none">
+     style="line-height:1.25;stroke-width:1.93133858;fill-rule:evenodd;fill:#02027e">
     <group
        width="930"
        height="1014"
@@ -1104,7 +1118,7 @@
        y="40"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group
@@ -1204,7 +1218,7 @@
   <group
      menuIcons="1"
      id="theme"
-     defaultTheme="Breeze-Dark"
+     defaultTheme="Arc-Dark"
      defaultIconTheme="Numix-Circle"
      gtkTheme="Breeze-Dark"
      iconTheme="Numix-Circle"

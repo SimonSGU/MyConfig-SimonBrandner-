@@ -6,7 +6,7 @@
 + Shell: ZSH
 + DE: KDE Plasma
 + Window Manager: i3-gaps
-+ Compositor: compton-kawase-blur
++ Compositor: [picom](https://github.com/ibhagwan/picom) (rounded corners and dual_kawase)
 
 ## Theme
 
@@ -18,6 +18,14 @@
 + Color: Arc Dark
 + Icon Theme: Numix-Circle
 + Cursors: Breeze
+
+## Dock
+
++ [i3pager](https://github.com/duvholt/i3-pager)
++ Global menu
++ Spacer
++ System tray
++ Digital clock
 
 ## Apps
 

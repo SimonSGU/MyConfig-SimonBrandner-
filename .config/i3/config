@@ -52,6 +52,12 @@ bindsym $win+Shift+g gaps inner current set 0; gaps outer current set 0
 # Open power menu
 #bindsym $win+Escape exec ~/.config/rofi/power.sh # Power menu
 
+# Move workspace to right output
+bindsym $win+ctrl+d move workspace to output right
+
+# Move workspace to left output
+bindsym $win+ctrl+a move workspace to output left
+
 
 
 # Change focus
@@ -140,20 +146,6 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 # Define names of workspaces
-
-# Workspaces to displays
-workspace 0 output HDMI-0
-workspace 1 output HDMI-0
-workspace 2 output HDMI-0
-workspace 3 output HDMI-0
-workspace 4 output HDMI-0
-workspace 5 output HDMI-0
-workspace 6 output DP-0
-workspace 7 output DP-0
-workspace 8 output DP-0
-workspace 9 output DP-0
-workspace 10 output DP-0
-# Workspace to display
 
 ####################################################
 # Workspaces
@@ -259,7 +251,10 @@ for_window [class="net-technicpack-launcher-LauncherMain"] floating enable
 # Stop Elite Dangerous from floating
 for_window [class="steam_app_359320"] floating disable
 
-# Try to kill the wallpaper set by Plasma
+# Make MS Teams notification float
+for_window [class="microsoft teams - preview" window_type="_NET_WM_WINDOW_TYPE_NOTIFICATION"] floating enable
+
+# Get rid of the wallpaper set by Plasma
 for_window [title="Desktop — Plasma"] move scratchpad; floating enable; 
 # Other rules
 

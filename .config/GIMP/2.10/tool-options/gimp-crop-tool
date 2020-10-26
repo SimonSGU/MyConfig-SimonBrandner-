@@ -4,10 +4,9 @@
 (aspect-numerator 16)
 (desired-fixed-size-height 900)
 (desired-fixed-size-width 1600)
-(fixed-center yes)
 (fixed-rule size)
-(fixed-rule-active yes)
 (overridden-fixed-aspect yes)
 (overridden-fixed-size yes)
+(layer-only yes)
 
 # end of gimp-crop-tool options

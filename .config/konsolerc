@@ -4,10 +4,26 @@ DefaultProfile=Main.profile
 [Favorite Profiles]
 Favorites=
 
+[FileDialogSize]
+Height 1080=660
+Width 1920=980
+
+[KFileDialog Settings]
+listViewIconSize=0
+
 [MainWindow]
+DVI-D-0 HDMI-0 Height 1080=1044
+DVI-D-0 HDMI-0 Width 1920=1910
+DVI-D-0 HDMI-0 XPosition=1925
+DVI-D-0 HDMI-0 YPosition=31
+HDMI-0 DVI-D-0 Height 1080=1044
+HDMI-0 DVI-D-0 Width 1920=1910
+HDMI-0 DVI-D-0 XPosition=1925
+HDMI-0 DVI-D-0 YPosition=151
 Height 1080=1044
+Height 1200=1164
 Height 720=710
-State=AAAA/wAAAAD9AAAAAAAAB3YAAAQTAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB3YAAAP2AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1270
 Width 1920=1910
