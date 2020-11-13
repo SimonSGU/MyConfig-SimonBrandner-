@@ -31,9 +31,6 @@ bindsym $win+space focus mode_toggle
 # Restart i3
 bindsym $win+r exec "i3-msg restart" 
 
-# Lock screen
-#bindsym $win+l exec "i3lock -i ~/GIT/dotfiles/Wallpaper/SPACE/9.png"
-
 # Split in horizontal orientation
 bindsym $win+h split h 
 
@@ -46,75 +43,72 @@ bindsym $win+g gaps inner current set 8; gaps outer current set 8
 # Disable gaps
 bindsym $win+Shift+g gaps inner current set 0; gaps outer current set 0
 
-# Open app launcher
-#bindsym $win+e exec ~/.config/rofi/normal.sh # Start Rofi 
-
-# Open power menu
-#bindsym $win+Escape exec ~/.config/rofi/power.sh # Power menu
-
-# Move workspace to right output
-bindsym $win+ctrl+d move workspace to output right
-
-# Move workspace to left output
-bindsym $win+ctrl+a move workspace to output left
-
 
 
 # Change focus
+bindsym $win+W focus up
 bindsym $win+A focus left
 bindsym $win+S focus down
-bindsym $win+W focus up
 bindsym $win+D focus right
 # Change focus
 
 # Move focused window
+bindsym $win+Shift+W move up
 bindsym $win+Shift+A move left
 bindsym $win+Shift+S move down
-bindsym $win+Shift+W move up
 bindsym $win+Shift+D move right
 # Move focused window
 
+# Move focused workspace
+bindsym $win+ctrl+w move workspace to output above
+bindsym $win+ctrl+a move workspace to output left
+bindsym $win+ctrl+s move workspace to output down
+bindsym $win+ctrl+d move workspace to output right
+# Move focused workspace
+
 # Switch to workspace
-bindsym $win+semicolon workspace $ws0
-bindsym $win+plus workspace $ws1
-bindsym $win+ecaron workspace $ws2
-bindsym $win+scaron workspace $ws3
-bindsym $win+ccaron workspace $ws4
-bindsym $win+rcaron workspace $ws5
-bindsym $win+zcaron workspace $ws6
-bindsym $win+yacute workspace $ws7
-bindsym $win+aacute workspace $ws8
-bindsym $win+iacute workspace $ws9
-bindsym $win+eacute workspace $ws10
+bindsym $win+semicolon	workspace $ws0
+bindsym $win+plus		workspace $ws1
+bindsym $win+ecaron		workspace $ws2
+bindsym $win+scaron		workspace $ws3
+bindsym $win+ccaron		workspace $ws4
+bindsym $win+rcaron		workspace $ws5
+bindsym $win+zcaron		workspace $ws6
+bindsym $win+yacute		workspace $ws7
+bindsym $win+aacute		workspace $ws8
+bindsym $win+iacute		workspace $ws9
+bindsym $win+eacute		workspace $ws10
 # Switch to workspace
 
 # Move focused container to workspace
-bindsym $win+Shift+semicolon move container to workspace $ws0
-bindsym $win+Shift+plus move container to workspace $ws1
-bindsym $win+Shift+ecaron move container to workspace $ws2
-bindsym $win+Shift+scaron move container to workspace $ws3
-bindsym $win+Shift+ccaron move container to workspace $ws4
-bindsym $win+Shift+rcaron move container to workspace $ws5
-bindsym $win+Shift+zcaron move container to workspace $ws6
-bindsym $win+Shift+yacute move container to workspace $ws7
-bindsym $win+Shift+aacute move container to workspace $ws8
-bindsym $win+Shift+iacute move container to workspace $ws9
-bindsym $win+Shift+eacute move container to workspace $ws10
+bindsym $win+Shift+semicolon	move container to workspace $ws0
+bindsym $win+Shift+plus			move container to workspace $ws1
+bindsym $win+Shift+ecaron		move container to workspace $ws2
+bindsym $win+Shift+scaron		move container to workspace $ws3
+bindsym $win+Shift+ccaron		move container to workspace $ws4
+bindsym $win+Shift+rcaron		move container to workspace $ws5
+bindsym $win+Shift+zcaron		move container to workspace $ws6
+bindsym $win+Shift+yacute		move container to workspace $ws7
+bindsym $win+Shift+aacute		move container to workspace $ws8
+bindsym $win+Shift+iacute		move container to workspace $ws9
+bindsym $win+Shift+eacute		move container to workspace $ws10
 # Move focused container to workspace
 
 # Volume controls
-#bindsym XF86AudioRaiseVolume exec amixer set 'Master' 5%+ #increase sound volume
-#bindsym XF86AudioLowerVolume exec amixer set 'Master' 5%- #decrease sound volume
-#bindsym XF86AudioMute exec amixer set 'Master' toggle # mute sound
+#bindsym XF86AudioRaiseVolume	exec amixer set 'Master' 5%+ #increase sound volume
+#bindsym XF86AudioLowerVolume	exec amixer set 'Master' 5%- #decrease sound volume
+#bindsym XF86AudioMute			exec amixer set 'Master' toggle # mute sound
 # Volume controls
 
 # Start programs
-bindsym $win+Tab exec konsole # Start Konsole
-bindsym $win+Shift+k exec krusader # Start Krusader
-bindsym $win+Shift+b exec firefox # Start Browser
-bindsym $win+Shift+i exec gwenview # Start Gwenview
-bindsym $win+Shift+e exec code # Start VS Code
-bindsym $win+Shift+c exec systemsettings5 # Start Plasma settings
+bindsym $win+Tab		exec konsole			# Start Konsole
+bindsym $win+Shift+k	exec krusader			# Start Krusader
+bindsym $win+Shift+q	exec qtcreator			# Start QtCreator
+bindsym $win+Shift+b	exec firefox			# Start Browser
+bindsym $win+Shift+i	exec gwenview			# Start Gwenview
+bindsym $win+Shift+e	exec code				# Start VS Code
+bindsym $win+Shift+c	exec systemsettings5	# Start Plasma settings
+bindsym $win+Shift+o	exec okular				# Start Okular
 # Start programs
 #########################################
 # Keys
@@ -123,8 +117,8 @@ bindsym $win+Shift+c exec systemsettings5 # Start Plasma settings
 
 # Exec
 #########################################
-exec --no-startup-id "~/GIT/Other/dotfiles/scripts/exec.zsh" # Run exec script
-exec_always --no-startup-id "~/GIT/Other/dotfiles/scripts/exec_always.zsh" # Run exec_always script
+exec 		--no-startup-id "~/GIT/Other/dotfiles/scripts/exec.zsh"			# Run exec script
+exec_always	--no-startup-id "~/GIT/Other/dotfiles/scripts/exec_always.zsh"	# Run exec_always script
 #########################################
 # Exec
 
@@ -134,18 +128,22 @@ exec_always --no-startup-id "~/GIT/Other/dotfiles/scripts/exec_always.zsh" # Run
 #############################################
 
 # Define names of workspaces
-set $ws0 "0"
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws0	"0"
+set $ws1	"1"
+set $ws2	"2"
+set $ws3	"3"
+set $ws4	"4"
+set $ws5	"5"
+set $ws6	"6"
+set $ws7	"7"
+set $ws8	"8"
+set $ws9	"9"
+set $ws10	"10"
 # Define names of workspaces
+
+# Set workspace outputs
+workspace "0" output DVI-D-0
+# Set workspace outputs
 
 ####################################################
 # Workspaces
@@ -154,13 +152,13 @@ set $ws10 "10"
 
 # Assign programs to workspaces
 ########################################################################
-assign [class="ViberPC"] 0
-assign [class="Spotify"] 0
-assign [class="Discord"] 0
-assign [class="android-messages-nativefier"] 0
-assign [class="todoist-nativefier-9983d8"] 0
-assign [class="Microsoft Teams - Preview"] 0
-assign [class="Evolution"] 0
+assign [class="ViberPC"]						0
+assign [class="Spotify"]						0
+assign [class="Discord"]						0
+assign [class="android-messages-nativefier"]	0
+assign [class="todoist-nativefier-9983d8"]		0
+assign [class="Microsoft Teams - Preview"]		0
+assign [class="Evolution"]						0
 ########################################################################
 # Assign programs to workspaces
 
@@ -178,18 +176,15 @@ set $indicator_color #7E8488
 # Set colors
 
 # Window colors
-#                       background         border                     text                 indicator
-client.focused          $inactive-bg-color $focused_border_color      $text-color          $indicator_color
-client.unfocused        $inactive-bg-color $unfocused_border_color    $inactive-text-color $indicator_color
-client.focused_inactive $inactive-bg-color $unfocused_switch_to_color $inactive-text-color $indicator_color
-client.urgent           $urgent-bg-color   $urgent_border_color       $text-color          $indicator_color
+#						background			border						text					indicator
+client.focused			$inactive-bg-color	$focused_border_color		$text-color				$indicator_color
+client.unfocused		$inactive-bg-color	$unfocused_border_color		$inactive-text-color	$indicator_color
+client.focused_inactive	$inactive-bg-color	$unfocused_switch_to_color	$inactive-text-color	$indicator_color
+client.urgent			$urgent-bg-color	$urgent_border_color		$text-color				$indicator_color
 # Window colors
 
-default_border pixel 5
-
-# border_radius 5
-
-default_floating_border pixel 5
+default_border pixel 3
+default_floating_border pixel 3
 
 gaps inner 8
 gaps outer 8
@@ -222,21 +217,21 @@ no_focus [window_type="notification"]
 # Avoid focusing on Plasma from Plasma
 
 # Avoid tiling popups, dropdown windows from Plasma
-for_window [class="plasmashell"] floating enable no_focus
-for_window [class="Plasma"] floating enable
-for_window [class="krunner"] floating enable
-for_window [class="Kmix"] floating enable
-for_window [class="Klipper"] floating enable
-for_window [class="Plasmoidviewer"] floating enable
-for_window [class="latte-dock"] floating enable
-for_window [class="lattedock"] floating enable 
-for_window [window_role="pop-up"] floating enable
-for_window [window_role="bubble"] floating enable
-for_window [window_role="task_dialog"] floating enable
-for_window [window_role="Preferences"] floating enable
-for_window [window_role="About"] floating enable
-for_window [window_type="dialog"] floating enable
-for_window [window_type="menu"] floating enable
+for_window [class="plasmashell"]		floating enable no_focus
+for_window [class="Plasma"]				floating enable
+for_window [class="krunner"]			floating enable
+for_window [class="Kmix"]				floating enable
+for_window [class="Klipper"]			floating enable
+for_window [class="Plasmoidviewer"]		floating enable
+for_window [class="latte-dock"]			floating enable
+for_window [class="lattedock"]			floating enable 
+for_window [window_role="pop-up"]		floating enable
+for_window [window_role="bubble"]		floating enable
+for_window [window_role="task_dialog"]	floating enable
+for_window [window_role="Preferences"]	floating enable
+for_window [window_role="About"]		floating enable
+for_window [window_type="dialog"]		floating enable
+for_window [window_type="menu"]			floating enable
 # Avoid tiling popups, dropdown windows from Plasma
 
 # Make Firefox PictureInPicture sticky
@@ -258,5 +253,5 @@ for_window [class="microsoft teams - preview" window_type="_NET_WM_WINDOW_TYPE_N
 for_window [title="Desktop — Plasma"] move scratchpad; floating enable; 
 # Other rules
 
-############################################################
-# Plasma Integration
+###############################################################
+# Window rules

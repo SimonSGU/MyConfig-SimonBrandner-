@@ -2,8 +2,7 @@
 
 (foreground (color-rgb 1 1 1))
 (palette "Untitled")
-(font "Noto Sans Armenian Light")
-(font-size 20)
+(font "Standard Symbols L")
 (justify center)
 (box-mode fixed)
 
