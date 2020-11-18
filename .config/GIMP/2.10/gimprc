@@ -68,7 +68,6 @@
 (user-manual-online yes)
 (image-convert-precision-text-layer-dither-method floyd-steinberg)
 (layer-new-name "DrawableBackground")
-(layer-new-fill-type foreground)
 (fill-options
     (style solid)
     (antialias yes)

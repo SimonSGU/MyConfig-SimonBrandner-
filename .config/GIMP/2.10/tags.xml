@@ -10,10 +10,10 @@
     <tag>round</tag>
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-image" checksum="99cadaf205aa4434fa8afb46f8e5ad4e">
   </resource>
 
-  <resource identifier="gimp-brush-clipboard-mask" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="gimp-brush-clipboard-mask" checksum="ceb75131ee674911942ae0d4105572f2">
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Media/Acrylic-01.gih" checksum="9ec0779f4c84fb3d0844bcdb069c8e0a">
@@ -772,7 +772,7 @@
   <resource identifier="${mypaint_brushes_dir}/deevad/4H_pencil.myb" checksum="2718434e495370fb4d96d217a3c524c2">
   </resource>
 
-  <resource identifier="gimp-pattern-clipboard-image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
+  <resource identifier="gimp-pattern-clipboard-image" checksum="2de42cfc1736bea1b987031fe2b0a933">
   </resource>
 
   <resource identifier="${gimp_data_dir}/patterns/Stone/amethyst.pat" checksum="ac004a0215ba837c01964226611635c0">
@@ -1183,7 +1183,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="a7d10e2b38dea63b052560f9dd672ebb">
+  <resource identifier="gimp-palette-color-history" checksum="1bc4d13cd53f28d6be9e5d2890ab5c2b">
   </resource>
 
   <resource identifier="${gimp_dir}/palettes/Test.gpl" checksum="5cba3bf1ecda4862716cfde5d0a405ec">
