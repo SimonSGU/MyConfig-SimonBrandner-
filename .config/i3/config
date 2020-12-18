@@ -104,7 +104,7 @@ bindsym $win+Shift+eacute		move container to workspace $ws10
 bindsym $win+Tab		exec konsole			# Start Konsole
 bindsym $win+Shift+k	exec krusader			# Start Krusader
 bindsym $win+Shift+q	exec qtcreator			# Start QtCreator
-bindsym $win+Shift+b	exec firefox			# Start Browser
+bindsym $win+Shift+b	exec firefox-esr		# Start Browser
 bindsym $win+Shift+i	exec gwenview			# Start Gwenview
 bindsym $win+Shift+e	exec code				# Start VS Code
 bindsym $win+Shift+c	exec systemsettings5	# Start Plasma settings
@@ -240,6 +240,9 @@ for_window [window_role="PictureInPicture"] sticky enable
 # Make ViberPC sticky
 for_window [class="ViberPC" window_type="utility"] sticky enable
 
+# Make Peek sticky
+for_window [class="Peek"] sticky enable
+
 # Make Technic Launcher float
 for_window [class="net-technicpack-launcher-LauncherMain"] floating enable 
 
@@ -248,6 +251,11 @@ for_window [class="steam_app_359320"] floating disable
 
 # Make MS Teams notification float
 for_window [class="microsoft teams - preview" window_type="_NET_WM_WINDOW_TYPE_NOTIFICATION"] floating enable
+
+# Make KRuler sticky and floating
+for_window [class="kruler"] sticky enable
+for_window [class="kruler"] floating enable
+
 
 # Get rid of the wallpaper set by Plasma
 for_window [title="Desktop — Plasma"] move scratchpad; floating enable; 

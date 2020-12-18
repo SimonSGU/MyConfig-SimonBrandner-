@@ -16,3 +16,5 @@
     cmd = code --wait --diff $LOCAL $REMOTE
 [help]
 	autocorrect = 1
+[color]
+	ui = true

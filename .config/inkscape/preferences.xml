@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="340.157"
-         height="94.4882"
+         width="1285.63"
+         height="357.121"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="85.821"
-         ry="8.85141" />
+         rx="324.363"
+         ry="33.4541" />
       <eventcontext
          id="star"
          magnitude="4"
@@ -328,7 +328,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -708,7 +708,7 @@
        placement="5">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
          value="95" />
@@ -729,7 +729,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/simon/Downloads/" />
+       path="/home/simon/GIT/Matrix/matrix-react-sdk/res/img/" />
     <group
        id="import"
        enable_preview="1"
@@ -1105,6 +1105,9 @@
     <group
        unitType="2"
        id="font" />
+    <group
+       id="middlemousezoom"
+       value="1" />
   </group>
   <group
      id="extensions" />
