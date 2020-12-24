@@ -69,10 +69,10 @@
 				"x": 5,
 				"y": 42
 			},
-			"name": "Microsoft Teams - Preview",
+			"name": "Element",
 			"swallows": [
 				{
-					"class": "^Microsoft Teams - Preview$"
+					"class": "^Element$"
 				}
 			],
 			"type": "con"

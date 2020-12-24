@@ -49,8 +49,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="1" r="1" g="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0" r="0" g="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" g="1" r="1" b="1"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" g="0" r="0" b="0"/>\n</LastForeGroundColor>\n
 LastPreset=c)_Pencil-2
 LastPreset_-1=c)_Pencil-2
 LastPreset_0=b)_Basic-5_Size
@@ -664,7 +664,7 @@ HideSplashAfterStartup=true
 currentCollection=0
 
 [SvgTextTool]
-Geometry=AdnQywADAAAAAAi7AAABSAAADcQAAAQhAAAIwAAAAU0AAA2/AAAEHAAAAAAAAAAAB4AAAAjAAAABTQAADb8AAAQc
+Geometry=AdnQywADAAAAAAjAAAABTQAADcUAAAQiAAAIwwAAAVAAAA3CAAAEHwAAAAAAAAAAB4AAAAjDAAABUAAADcIAAAQf
 windowState=AAAA/wAAAAD9AAAAAAAABQAAAAJUAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAYAGYAbwBuAHQAUwBlAHQAdABpAG4AZwBzAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABQAZgBvAHIAbQBhAHQAdABpAG4AZwEAAAAA/////wAAAAAAAAAA
 
 [advancedColorSelector]

@@ -132,10 +132,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1285.63"
-         height="357.121"
+         width="16"
+         height="1"
          rx="0"
-         ry="0" />
+         ry="0.5" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -664,8 +664,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="725"
-       y="242"
+       x="2562"
+       y="332"
        w="636"
        h="656"
        visible="0"
@@ -718,7 +718,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/media/Linux-HDD-Data/BakcUp/Obrázky/Inkscape"
+       path="/home/simon/GIT/Matrix/matrix-react-sdk/res/img"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -1113,15 +1113,15 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;stroke-width:1.93133858;fill-rule:evenodd;fill:#02027e">
+     style="line-height:1.25;fill-rule:evenodd;fill:#ffffff;stroke-linejoin:round;stroke:#d90000;stroke-width:1.5">
     <group
-       width="930"
-       height="1014"
-       x="964"
-       y="40"
+       width="1914"
+       height="1048"
+       x="1920"
+       y="146"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group
