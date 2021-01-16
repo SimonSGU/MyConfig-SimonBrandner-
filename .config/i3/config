@@ -219,7 +219,7 @@ no_focus [window_type="notification"]
 # Avoid tiling popups, dropdown windows from Plasma
 for_window [class="plasmashell"]		floating enable no_focus
 for_window [class="Plasma"]				floating enable
-for_window [class="krunner"]			floating enable
+for_window [class="krunner"]			floating enable; sticky enable
 for_window [class="Kmix"]				floating enable
 for_window [class="Klipper"]			floating enable
 for_window [class="Plasmoidviewer"]		floating enable

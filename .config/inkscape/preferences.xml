@@ -132,10 +132,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="16"
-         height="1"
+         width="60.4724"
+         height="3.77953"
          rx="0"
-         ry="0.5" />
+         ry="1.88976" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -171,8 +171,8 @@
          end="359.871"
          start="0"
          usecurrent="1"
-         rx="324.363"
-         ry="33.4541" />
+         rx="1225.94"
+         ry="126.441" />
       <eventcontext
          id="star"
          magnitude="4"
@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="3793.07"
-       y="2429.27"
+       x="743.943"
+       y="450.938"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -620,7 +620,8 @@
        visible="1"
        state="2"
        placement="5"
-       align-to="4" />
+       align-to="4"
+       align-nodes-to="1" />
     <group
        id="xml"
        panel_size="1"
@@ -711,14 +712,14 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="95" />
+         value="90" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/simon/GIT/Matrix/matrix-react-sdk/res/img"
+       path="/home/simon/Downloads/Made for Matrix Badges"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -729,7 +730,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/simon/GIT/Matrix/matrix-react-sdk/res/img/" />
+       path="/home/simon/GIT/Matrix/matrix-react-sdk/res/img/element-icons/call/" />
     <group
        id="import"
        enable_preview="1"
@@ -1113,15 +1114,15 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill-rule:evenodd;fill:#ffffff;stroke-linejoin:round;stroke:#d90000;stroke-width:1.5">
+     style="line-height:1.25;fill-rule:evenodd;fill:#00ffff;stroke-linejoin:round;stroke-width:1.5">
     <group
-       width="1914"
-       height="1048"
-       x="1920"
-       y="146"
+       width="934"
+       height="1016"
+       x="2884"
+       y="162"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group
@@ -1221,7 +1222,7 @@
   <group
      menuIcons="1"
      id="theme"
-     defaultTheme="Arc-Dark"
+     defaultTheme="Breeze"
      defaultIconTheme="Numix-Circle"
      gtkTheme="Breeze-Dark"
      iconTheme="Numix-Circle"

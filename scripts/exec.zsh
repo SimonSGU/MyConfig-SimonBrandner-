@@ -11,7 +11,7 @@ picom --experimental-backends & # Start Picom
 #bash /home/simon/.config/conky/conky.sh & # Start Conky
 sleep 5
 megasync & # Start MEGASync
-variety -n & # Start Variety
+#variety -n & # Start Variety
 ############################################################
 # Setup background apps
 
@@ -34,6 +34,6 @@ discord & # Start Discord
 element-desktop & # Start Element Desktop
 evolution & # Start Evolution
 /home/simon/PortableApps/nativefier-apps/todoist-linux-x64/todoist --no-sandbox & # Start Todoist
-#teams & # Start MS Teams
+teams & # Start MS Teams
 ############################################################
 # Setup Workspace 0
